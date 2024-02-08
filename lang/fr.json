@@ -1,0 +1,123 @@
+{
+  "brigandyne": {
+    "sheet": {
+      "updateItem": "Mettre à jour",
+      "deleteItem": "Supprimer"
+    },
+    "allonge": {
+      "aa": "Arme très longue (lances longues et autres piques)",
+      "a": "Arme longue (lances, armes d'hast)",
+      "b": "Arme assez longue (épées longues et bâtardes)",
+      "c": "Arme moyenne (masses, marteaux, sabres, épées larges...)",
+      "d": "Arme assez courte (dagues, hachettes)",
+      "e": "Arme courte (poignards)",
+      "f": "Arme très courte (griffes, mains nues)"
+    },
+    "armure": {
+      "protection": "Protection",
+      "notes": "Notes",
+      "special": "Spécial"
+    },
+    "armeMelee": {
+      "degats": "Dégats",
+      "allonge": "Allonge",
+      "dissimulation": "Dissimulation",
+      "main": "Main",
+      "special": "Spécial"
+    },
+    "armeDistance": {
+      "degats": "Dégats",
+      "portee": "Portée",
+      "dissimulation": "Dissimulation",
+      "main": "Main",
+      "special": "Spécial"
+    },
+    "itemBasics": {
+      "prix": "Prix",
+      "description": "Description"
+    },
+    "dissimulation": {
+      "aa" : "Très facile à dissimuler (une poche fait l'affaire)",
+      "a" : "Facile à dissimuler (sous sa chemise par exemple)",
+      "b" : "Plutôt simple à dissimuler (sous une veste)",
+      "c" : "Assez difficile à dissimuler (sous un long manteau)",
+      "d" : "Difficile à dissimuler (long manteau obligatoire, et on peut la voir dépasser quand même)",
+      "e" : "Impossible à cacher sur soi, il faut la mettre dans un chariot",
+      "f" : "Impossible à cacher, même dans un chariot."
+    },
+    "uniteePrix": {
+      "po": "Pièce d'or",
+      "pa": "Pièce d'argent",
+      "pc": "Pièce de cuivre"
+    },
+    "main": {
+      "a": "Une main",
+      "b": "Deux mains",
+      "c": "Une ou deux mains"
+    },
+    "mainDirectrice": {
+      "droite": "Droitier",
+      "gauche": "Gaucher",
+      "lesDeux": "Ambidextre"
+    },
+    "competence": {
+      "combat": "Combat",
+      "connaissances": "Connaissances",
+      "discretion": "Discrétion",
+      "endurance": "Endurance",
+      "force": "Force",
+      "habilete": "Habileté",
+      "magie": "Magie",
+      "mouvement": "Mouvement",
+      "perception": "Perception",
+      "sociabilite": "Sociabilité",
+      "survie": "Survie",
+      "tir": "Tir",
+      "volonte": "Volonté"
+    },
+    "peuple": {
+      "nain": "Nain",
+      "elfe": "Elfe",
+      "humain": "Humain",
+      "halfelin": "Halfelin"
+    },
+    "archetype": {
+      "aigle": "Aigle",
+      "ane": "Âne",
+      "chat": "Chat",
+      "chien": "Chien",
+      "coq": "Coq",
+      "corbeau": "Corbeau",
+      "fourmi": "Fourmi",
+      "hibou": "Hibou",
+      "lapin": "Lapin",
+      "lion": "Lion",
+      "loup": "Loup",
+      "mouton": "Mouton",
+      "ours": "Ours",
+      "porc": "Porc",
+      "rat": "Rat",
+      "renard": "Renard",
+      "serpent": "Serpent",
+      "singe": "Singe",
+      "souris": "Souris",
+      "taureau": "Taureau",
+      "vautour": "Vautour"
+    },
+    "domaineMagique": {
+      "air": "Air",
+      "eau": "Eau",
+      "feu": "Feu",
+      "terre": "Terre",
+      "divination": "Divination",
+      "enchantement": "Enchantement",
+      "protection": "Protection",
+      "psyche": "Psyché",
+      "alchimie": "Alchimie",
+      "demonisme": "Démonisme",
+      "illusion": "Illusion",
+      "necromancie": "Nécromancie",
+      "animale": "Animale"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+<form class="{{cssClass}}" autocomplete="off">
+  <header class="sheet-header">
+    <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64" />
+    <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name" /></h1>
+  </header>
+  <div class="sheet-content">
+    <h2>Caractéristiques</h2>
+    <table>
+      <tr>
+        <th>{{localize "brigandyne.armure.protection"}}</th>
+        <th>{{localize "brigandyne.armure.notes"}}</th>
+        <th>{{localize "brigandyne.itemBasics.prix"}}</th>
+      </tr>
+      <tr>
+        <td><input name="data.protection" type="text" value="{{data.system.protection}}" data-dtype="Number" /></td>
+        <td>
+          <input name="data.notes" type="text" value="{{data.system.notes}}" />
+        </td>
+        <td class="prix">
+          <input name="data.prix" type="text" value="{{data.system.prix}}" data-dtype="Number" />
+          <select name="data.uniteePrix">
+            {{#select data.system.uniteePrix}}
+            {{#each config.uniteePrix as |name type|}}
+            <option value="{{type}}" title="{{localize name}}">{{loud type}}</option>
+            {{/each}}
+            {{/select}}
+          </select>
+        </td>
+      </tr>
+    </table>
+    <h2>{{localize "brigandyne.armure.special"}}</h2>
+    {{editor data.system.special target="data.special" button=true engine="prosemirror" collaborate=false}}
+    <h2>{{localize "brigandyne.itemBasics.description"}}</h2>
+    {{editor data.system.description target="data.description" button=true engine="prosemirror" collaborate=false}}
+  </div>
+</form>

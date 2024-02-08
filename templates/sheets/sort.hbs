@@ -1,0 +1,38 @@
+<form class="{{cssClass}} sort" autocomplete="off">
+  <header class="sheet-header">
+    <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64" />
+    <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name" /></h1>
+  </header>
+  <div class="sheet-content">
+    <div class="caracteristique">
+      <div class="domaineMagique">
+          <label>Domaine Magique</label>
+          <select name="data.domaineMagique">
+            {{#select data.system.domaineMagique}}
+            {{#each config.domaineMagique as |name type|}}
+            <option value="{{type}}">{{localize name}}</option>
+            {{/each}}
+            {{/select}}
+          </select>
+      </div>
+      <div class="opposition">
+        <label>Opposition</label>
+        <input type="text" name="data.opposition" value="{{data.system.opposition}}" />
+      </div>
+      <div class="duree">
+        <label>Durée</label>
+        <input type="text" name="data.duree" value="{{data.system.duree}}" />
+      </div>
+    </div>
+    <div class="editors">
+      <div class="formuleMagique">
+        <h2>Formule Magique</h2>
+        {{editor data.system.formuleMagique target="data.formuleMagique" button=true engine="prosemirror" collaborate=false}}
+      </div>
+      <div class="description">
+        <h2>Description</h2>
+        {{editor data.system.description target="data.description" button=true engine="prosemirror" collaborate=false}}
+      </div>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,224 @@
+/**********
+ * Acteur *
+ **********/
+.brigandyne.actor .pnj .haut {
+  margin: 10px 0;
+  grid-template-areas: "taille poids main" "description description description";
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.brigandyne.actor .pnj .haut .taille {
+  grid-area: taille;
+}
+.brigandyne.actor .pnj .haut .poids {
+  grid-area: poids;
+}
+.brigandyne.actor .pnj .haut .main {
+  grid-area: main;
+}
+.brigandyne.actor .pnj .haut .description {
+  grid-area: description;
+  width: 100%;
+  justify-content: flex-start;
+}
+.brigandyne.actor .pnj .haut .description input {
+  width: 91%;
+}
+.brigandyne.actor .pnj .middle .competences {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.brigandyne.actor .pnj .middle .competences .modifier {
+  text-align: center;
+}
+.brigandyne.actor .item {
+  display: flex;
+  justify-content: space-around;
+  justify-self: flex-start;
+}
+.brigandyne.actor .item input, .brigandyne.actor .item select, .brigandyne.actor .item .input {
+  width: 95px;
+  height: 22px;
+  margin-left: 5px;
+}
+.brigandyne.actor .title {
+  font-weight: 700;
+}
+.brigandyne.actor .haut {
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr;
+  gap: 10px;
+}
+.brigandyne.actor .haut .informations {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "name name" "peuple archetype" "carriere carriere" "niveau_de_vie religion" "vice_vertus vice_vertus" "motivation motivation";
+}
+.brigandyne.actor .haut .informations .name {
+  grid-area: name;
+  justify-content: flex-start;
+}
+.brigandyne.actor .haut .informations .name input {
+  width: 283px;
+}
+.brigandyne.actor .haut .informations .peuple {
+  grid-area: peuple;
+}
+.brigandyne.actor .haut .informations .archetype {
+  grid-area: archetype;
+}
+.brigandyne.actor .haut .informations .carriere {
+  grid-area: carriere;
+  justify-content: flex-start;
+}
+.brigandyne.actor .haut .informations .carriere input {
+  width: 302px;
+}
+.brigandyne.actor .haut .informations .niveau_de_vie {
+  grid-area: niveau_de_vie;
+}
+.brigandyne.actor .haut .informations .religion {
+  grid-area: religion;
+}
+.brigandyne.actor .haut .informations .religion input {
+  width: 110px;
+}
+.brigandyne.actor .haut .informations .vice_vertus {
+  grid-area: vice_vertus;
+  justify-content: flex-start;
+}
+.brigandyne.actor .haut .informations .vice_vertus input {
+  width: 278px;
+}
+.brigandyne.actor .haut .informations .motivation {
+  grid-area: motivation;
+  justify-content: flex-start;
+}
+.brigandyne.actor .haut .informations .motivation input {
+  width: 303px;
+}
+.brigandyne.actor .haut .caracteristiques {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "age sexe cheveux yeux" "taille poids pays main" "description description description description" "langues_parlees langues_parlees langues_parlees langues_parlees";
+}
+.brigandyne.actor .haut .caracteristiques .age {
+  grid-area: age;
+}
+.brigandyne.actor .haut .caracteristiques .sexe {
+  grid-area: sexe;
+}
+.brigandyne.actor .haut .caracteristiques .cheveux {
+  grid-area: cheveux;
+}
+.brigandyne.actor .haut .caracteristiques .yeux {
+  grid-area: yeux;
+}
+.brigandyne.actor .haut .caracteristiques .taille {
+  grid-area: taille;
+}
+.brigandyne.actor .haut .caracteristiques .poids {
+  grid-area: poids;
+}
+.brigandyne.actor .haut .caracteristiques .pays {
+  grid-area: pays;
+}
+.brigandyne.actor .haut .caracteristiques .main {
+  grid-area: main;
+}
+.brigandyne.actor .haut .caracteristiques .description {
+  grid-area: description;
+  justify-content: flex-start;
+}
+.brigandyne.actor .haut .caracteristiques .description input {
+  width: 517px;
+}
+.brigandyne.actor .haut .caracteristiques .langues_parlees {
+  grid-area: langues_parlees;
+  justify-content: flex-start;
+}
+.brigandyne.actor .haut .caracteristiques .langues_parlees input {
+  width: 484px;
+}
+.brigandyne.actor .middle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+.brigandyne.actor .middle .gauche {
+  display: grid;
+}
+.brigandyne.actor .middle .competences {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 1fr;
+}
+.brigandyne.actor .middle .armesMelee, .brigandyne.actor .middle .armesDistance {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+.brigandyne.actor .middle .armesDistance {
+  margin-top: 10px;
+}
+.brigandyne.actor .bas {
+  display: flex;
+  justify-content: space-between;
+}
+.brigandyne.actor .bas .item {
+  justify-content: space-between;
+  border: 1px solid black;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.brigandyne.item .peuple .sheet-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 10px;
+}
+.brigandyne.item .sort .sheet-content .caracteristique {
+  display: flex;
+  justify-content: space-between;
+}
+.brigandyne.item .sort .sheet-content .caracteristique .domaineMagique, .brigandyne.item .sort .sheet-content .caracteristique .opposition, .brigandyne.item .sort .sheet-content .caracteristique .duree {
+  width: 32%;
+}
+.brigandyne.item .sort .sheet-content .caracteristique .domaineMagique label, .brigandyne.item .sort .sheet-content .caracteristique .domaineMagique input, .brigandyne.item .sort .sheet-content .caracteristique .domaineMagique select, .brigandyne.item .sort .sheet-content .caracteristique .opposition label, .brigandyne.item .sort .sheet-content .caracteristique .opposition input, .brigandyne.item .sort .sheet-content .caracteristique .opposition select, .brigandyne.item .sort .sheet-content .caracteristique .duree label, .brigandyne.item .sort .sheet-content .caracteristique .duree input, .brigandyne.item .sort .sheet-content .caracteristique .duree select {
+  width: 100%;
+}
+.brigandyne.item .sort .sheet-content .editors {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.brigandyne.item .sort .sheet-content .editors .formuleMagique {
+  min-height: 100px;
+  width: 45%;
+}
+.brigandyne.item .sort .sheet-content .editors .description {
+  min-height: 100px;
+  width: 45%;
+}
+
+/********
+ * Prix *
+ ********/
+.prix {
+  display: flex;
+}
+
+/*********
+ * Sheet *
+ *********/
+.sheet form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sheet .sheet-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sheet .sheet-content .editor {
+  height: 100%;
+}

@@ -1,0 +1,291 @@
+/**********
+ * Acteur *
+ **********/
+.brigandyne.actor {
+
+  .pnj {
+    .haut {
+      margin: 10px 0;
+      grid-template-areas: 
+        "taille poids main"
+        "description description description";
+      grid-template-columns: 1fr 1fr 1fr;
+
+      .taille {
+        grid-area: taille;
+      }
+      .poids {
+        grid-area: poids;
+      }
+      .main {
+        grid-area: main;
+      }
+      .description {
+        grid-area: description;
+        width: 100%;
+        justify-content: flex-start;
+
+        input {
+          width: 91%;
+        }
+      }
+    }
+
+    .middle {
+      .competences {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+
+        .modifier {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .item {
+    display: flex;
+    justify-content: space-around;
+    justify-self: flex-start;
+
+    input, select, .input {
+      width: 95px;
+      height: 22px;
+      margin-left: 5px;
+    }
+  }
+
+  .title {
+    font-weight: 700;
+  }
+
+  .haut {
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    gap: 10px;
+
+    .informations {
+      display: grid;
+      gap: 10px;
+      grid-template-areas: 
+        "name name"
+        "peuple archetype"
+        "carriere carriere"
+        "niveau_de_vie religion"
+        "vice_vertus vice_vertus"
+        "motivation motivation"
+      ;
+
+      .name {
+        grid-area: name;
+        justify-content: flex-start;
+
+        input {
+          width: 283px;
+        }
+      }
+
+      .peuple {
+        grid-area: peuple;
+      }
+
+      .archetype {
+        grid-area: archetype;
+      }
+
+      .carriere {
+        grid-area: carriere;
+        justify-content: flex-start;
+
+        input {
+          width: 302px;
+        }
+      }
+
+      .niveau_de_vie {
+        grid-area: niveau_de_vie;
+      }
+
+      .religion {
+        grid-area: religion;
+
+        input {
+          width: 110px;
+        }
+      }
+
+      .vice_vertus {
+        grid-area: vice_vertus;
+        justify-content: flex-start;
+
+        input {
+          width: 278px;
+        }
+      }
+
+      .motivation {
+        grid-area: motivation;
+        justify-content: flex-start;
+
+        input {
+          width: 303px;
+        }
+      }
+    }
+
+    .caracteristiques {
+      display: grid;
+      gap: 10px;
+      grid-template-areas: 
+        "age sexe cheveux yeux"
+        "taille poids pays main"
+        "description description description description"
+        "langues_parlees langues_parlees langues_parlees langues_parlees"
+      ;
+
+      .age {
+        grid-area: age;
+      }
+      .sexe {
+        grid-area: sexe;
+      }
+      .cheveux {
+        grid-area: cheveux;
+      }
+      .yeux {
+        grid-area: yeux;
+      }
+      .taille {
+        grid-area: taille;
+      }
+      .poids {
+        grid-area: poids;
+      }
+      .pays {
+        grid-area: pays;
+      }
+      .main {
+        grid-area: main;
+      }
+      .description {
+        grid-area: description;
+        justify-content: flex-start;
+
+        input {
+          width: 517px;
+        }
+      }
+      .langues_parlees {
+        grid-area: langues_parlees;
+        justify-content: flex-start;
+
+        input {
+          width: 484px;
+        }
+      }
+
+    }
+  }
+
+  .middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+
+    .gauche {
+      display: grid;
+    }
+
+    .competences {
+      display: grid;
+      grid-template-columns: 2fr 1fr 2fr 1fr;
+    }
+
+    .armesMelee, .armesDistance {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    }
+
+    .armesDistance {
+      margin-top: 10px;
+    }
+  }
+
+  .bas {
+    display: flex;
+    justify-content: space-between;
+
+    .item {
+      justify-content: space-between;
+      border: 1px solid black;
+      margin: 10px 0;
+      padding: 10px;
+    }
+  }
+}
+
+.brigandyne.item {
+  .peuple {
+    .sheet-content {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      column-gap: 10px;
+    }
+  }
+
+  .sort {
+    .sheet-content {
+      .caracteristique {
+        display: flex;
+        justify-content: space-between;
+
+        .domaineMagique, .opposition, .duree {
+          width: 32%;
+
+          label, input, select {
+            width: 100%;
+          }
+        }
+      }
+      .editors {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        
+        .formuleMagique {
+          min-height: 100px;
+          width: 45%;
+        }
+        .description {
+          min-height: 100px;
+          width: 45%;
+        }
+      }
+    }
+  }
+}
+
+/********
+ * Prix *
+ ********/
+.prix {
+  display: flex;
+}
+
+/*********
+ * Sheet *
+ *********/
+.sheet form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sheet .sheet-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sheet .sheet-content .editor {
+  height: 100%;
+}

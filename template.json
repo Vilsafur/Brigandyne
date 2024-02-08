@@ -1,0 +1,188 @@
+{
+  "Actor": {
+    "types": ["personnage", "pnj"],
+    "personnage": {
+      "peuple": "",
+      "archetype": "",
+      "carriere": "",
+      "niveau_de_vie": "",
+      "religion": "",
+      "vice_vertu": "",
+      "motivation": "",
+      "age": 0,
+      "sexe": "",
+      "cheveux": "",
+      "yeux": "",
+      "taille": "",
+      "poids": "",
+      "pays": "",
+      "main": "",
+      "description": "",
+      "langues_parlees": "",
+      "experience": 0,
+      "argent": 0,
+      "pf": 0,
+      "vitalite": 0,
+      "protection": 0,
+      "atouts": [],
+      "equipements": [],
+      "competences": {
+        "combat": {
+          "base": 0,
+          "progression": 0,
+          "actuel": 0
+        },
+        "connaissances": {
+          "base": 0,
+          "progression": 0,
+          "actuel": 0
+        },
+        "discretion": {
+          "base": 0,
+          "progression": 0,
+          "actuel": 0
+        },
+        "endurance": {
+          "base": 0,
+          "progression": 0,
+          "actuel": 0
+        },
+        "force": {
+          "base": 0,
+          "progression": 0,
+          "actuel": 0
+        },
+        "habilete": {
+          "base": 0,
+          "progression": 0,
+          "actuel": 0
+        },
+        "magie": {
+          "base": 0,
+          "progression": 0,
+          "actuel": 0
+        },
+        "mouvement": {
+          "base": 0,
+          "progression": 0,
+          "actuel": 0
+        },
+        "perception": {
+          "base": 0,
+          "progression": 0,
+          "actuel": 0
+        },
+        "sociabilite": {
+          "base": 0,
+          "progression": 0,
+          "actuel": 0
+        },
+        "survie": {
+          "base": 0,
+          "progression": 0,
+          "actuel": 0
+        },
+        "tir": {
+          "base": 0,
+          "progression": 0,
+          "actuel": 0
+        },
+        "volonte": {
+          "base": 0,
+          "progression": 0,
+          "actuel": 0
+        }
+      }
+    },
+    "pnj": {
+      "taille": "",
+      "poids": "",
+      "main": "",
+      "description": "",
+      "argent": 0,
+      "vitalite": 0,
+      "sang_froid": 0,
+      "protection": 0,
+      "atouts": [],
+      "equipements": [],
+      "competences": {
+        "combat": 0,
+        "connaissances": 0,
+        "discretion": 0,
+        "endurance": 0,
+        "force": 0,
+        "habilete": 0,
+        "magie": 0,
+        "mouvement": 0,
+        "perception": 0,
+        "sociabilite": 0,
+        "survie": 0,
+        "tir": 0,
+        "volonte": 0
+      }
+    }
+  },
+  "Item": {
+    "types": ["armure", "sort", "armeMelee", "armeDistance", "peuple"],
+    "templates": {
+      "itemBasics": {
+        "description": "",
+        "prix": 0,
+        "uniteePrix": ""
+      }
+    },
+    "armure": {
+      "templates": [
+        "itemBasics"
+      ],
+      "notes": "",
+      "protection": "",
+      "special": ""
+    },
+    "armeMelee": {
+      "templates": [
+        "itemBasics"
+      ],
+      "degats": 0,
+      "allonge": "",
+      "dissimulation": "",
+      "main": "",
+      "special": ""
+    },
+    "armeDistance": {
+      "templates": [
+        "itemBasics"
+      ],
+      "degats": 0,
+      "portee": "",
+      "dissimulation": "",
+      "main": "",
+      "special": ""
+    },
+    "peuple": {
+      "description": "",
+      "caracteristiques": {
+        "combat": 0,
+        "connaissances": 0,
+        "discretion": 0,
+        "endurance": 0,
+        "force": 0,
+        "habilete": 0,
+        "magie": 0,
+        "mouvement": 0,
+        "perception": 0,
+        "sociabilite": 0,
+        "survie": 0,
+        "tir": 0,
+        "volonte": 0
+      }
+    },
+    "sort": {
+      "domaineMagique": "",
+      "formuleMagique": "",
+      "opposition": "",
+      "description": "",
+      "duree": ""
+    }
+  }
+}

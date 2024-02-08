@@ -1,0 +1,170 @@
+<form class="{{cssClass}}" autocomplete="off">
+  <div class="haut">
+    <div class="informations">
+      <div class="item name">
+        <label>Nom, surnom</label>
+        <input type="text" name="actor.name" value="{{data.name}}" />
+      </div>
+      <div class="item peuple">
+        <label>Peuple, sang</label>
+        <div class="input">{{ peuple.name }}</div>
+      </div>
+      <div class="item archetype">
+        <label>Archétype</label>
+        <select name="data.archetype">
+          {{#select data.system.archetype}}
+          {{#each config.archetype as |name type|}}
+          <option value="{{type}}">{{localize name.name}}</option>
+          {{/each}}
+          {{/select}}
+        </select>
+      </div>
+      <div class="item carriere">
+        <label>Carrière(s)</label>
+        <input type="text" name="data.carriere" value="{{data.system.carriere}}" />
+      </div>
+      <div class="item niveau_de_vie">
+        <label>Niveau de vie</label>
+        <input type="text" name="data.niveau_de_vie" value="{{data.system.niveau_de_vie}}" />
+      </div>
+      <div class="item religion">
+        <label>Religion</label>
+        <input type="text" name="data.religion" value="{{data.system.religion}}" />
+      </div>
+      <div class="item vice_vertus">
+        <label>Vices & vertus</label>
+        <input type="text" name="data.vice_vertus" value="{{data.system.vice_vertus}}" />
+      </div>
+      <div class="item motivation">
+        <label>Motivation</label>
+        <input type="text" name="data.motivation" value="{{data.system.motivation}}" />
+      </div>
+    </div>
+    <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="128" width="128" />
+    <div class="caracteristiques">
+      <div class="item age">
+        <label>age</label>
+        <input type="text" name="data.age" value="{{data.system.age}}" data-dtype="Number" />
+      </div>
+      <div class="item sexe">
+        <label>sexe</label>
+        <input type="text" name="data.sexe" value="{{data.system.sexe}}" />
+      </div>
+      <div class="item cheveux">
+        <label>cheveux</label>
+        <input type="text" name="data.cheveux" value="{{data.system.cheveux}}" />
+      </div>
+      <div class="item yeux">
+        <label>yeux</label>
+        <input type="text" name="data.yeux" value="{{data.system.yeux}}" />
+      </div>
+      <div class="item taille">
+        <label>taille</label>
+        <input type="text" name="data.taille" value="{{data.system.taille}}" data-dtype="Number" />
+      </div>
+      <div class="item poids">
+        <label>poids</label>
+        <input type="text" name="data.poids" value="{{data.system.poids}}" data-dtype="Number" />
+      </div>
+      <div class="item pays">
+        <label>pays</label>
+        <input type="text" name="data.pays" value="{{data.system.pays}}" />
+      </div>
+      <div class="item main">
+        <label>main</label>
+        <select name="data.main">
+          {{#select data.system.main}}
+          {{#each config.mainDirectrice as |name type|}}
+          <option value="{{type}}">{{localize name}}</option>
+          {{/each}}
+          {{/select}}
+        </select>
+      </div>
+      <div class="item description">
+        <label>description</label>
+        <input type="text" name="data.description" value="{{data.system.description}}" />
+      </div>
+      <div class="item langues_parlees">
+        <label>langues parlées</label>
+        <input type="text" name="data.langues_parlees" value="{{data.system.langues_parlees}}" />
+      </div>
+    </div>
+  </div>
+  <div class="middle">
+    <div class="gauche">
+      <div class="equipement">
+        <h1>Equipements</h1>
+      </div>
+    </div>
+    <div class="centre">
+      <div class="competences">
+        <div class="title">Compétences</div>
+        <div class="title">Base</div>
+        <div class="title">Progression</div>
+        <div class="title">Actuel</div>
+        {{#each actor.system.competences as |competence nom| }}
+        <div>{{ucfirst nom}}</div>
+        <div><input type="text" name="data.competences.{{nom}}.base" value="{{competence.base}}"></div>
+        <div><input type="text" name="data.competences.{{nom}}.progression" value="{{competence.progression}}"></div>
+        <div>{{actualCompetence competence}}</div>
+        {{/each }}
+      </div>
+    </div>
+    <div class="droite">
+      <div class="initiative"></div>
+      <div class="protection"></div>
+      <div class="armesMelee">
+        <div class="title">Armes de mélée</div>
+        <div class="title">Dégats</div>
+        <div class="title">Allonge</div>
+        <div class="title">Spécial</div>
+        <div></div>
+        {{#each armesMelees as |arme nom| }}
+        <div>{{arme.name}}</div>
+        <div>{{arme.degats}}</div>
+        <div>{{arme.allonge}}</div>
+        <div>{{arme.special}}</div>
+        <div>
+          <a class="item-edit" data-item-id="{{arme._id}}"><i class="fas fa-edit" title="{{localize "brigandyne.sheet.updateItem"}}"></i></a>
+          <a class="item-delete" data-item-id="{{arme._id}}"><i class="fas fa-trash" title="{{localize "brigandyne.sheet.deleteItem"}}"></i></a>
+        </div>
+        {{/each }}
+      </div>
+      <div class="armesDistance">
+        <div class="title">Armes à distance</div>
+        <div class="title">Dégats</div>
+        <div class="title">Allonge</div>
+        <div class="title">Spécial</div>
+        <div></div>
+        {{#each armesDistances as |arme nom| }}
+        <div>{{arme.name}}</div>
+        <div>{{arme.degats}}</div>
+        <div>{{arme.allonge}}</div>
+        <div>{{arme.special}}</div>
+        <div>
+          <a class="item-edit" data-item-id="{{arme._id}}"><i class="fas fa-edit" title="{{localize "brigandyne.sheet.updateItem"}}"></i></a>
+          <a class="item-delete" data-item-id="{{arme._id}}"><i class="fas fa-trash" title="{{localize "brigandyne.sheet.deleteItem"}}"></i></a>
+          </div>
+        {{/each }}
+      </div>
+    </div>
+  </div>
+  <div class="bas">
+      <div class="item destin">
+        <label>Points de fortunes</label>
+        <input type="text" name="data.pf" value="{{data.system.pf}}" />
+      </div>
+      <div class="item experience">
+        <label>Expérience</label>
+        <input type="text" name="data.experience" value="{{data.system.experience}}" />
+      </div>
+      <div class="item argent">
+        <label>Argent</label>
+        <input type="text" name="data.argent" value="{{data.system.argent}}" />
+      </div>
+      <div class="item vitalite">
+        <label>Vitalité</label>
+        <input type="text" name="data.vitalite" value="{{data.system.vitalite}}" />
+      </div>
+  </div>
+</form>

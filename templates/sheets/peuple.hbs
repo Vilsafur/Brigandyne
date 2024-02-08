@@ -1,0 +1,21 @@
+<form class="{{cssClass}} peuple" autocomplete="off">
+  <header class="sheet-header">
+    <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64" />
+    <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name" /></h1>
+  </header>
+  <div class="sheet-content">
+    <div class="caracteristiques">
+      <table>
+        {{#each data.system.caracteristiques as |competence nom| }}
+        <tr>
+          <td>{{ucfirst nom}}</td>
+          <td><input type="text" name="data.caracteristiques.{{nom}}" value="{{competence}}"></td>
+        </tr>
+        {{/each }}
+      </table>
+    </div>
+    <div class="description">
+      {{editor data.system.description target="data.description" button=true engine="prosemirror" collaborate=false}}
+    </div>
+  </div>
+</form>
