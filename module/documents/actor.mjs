@@ -30,12 +30,44 @@ export class BrigandyneActor extends Actor {
    */
   prepareDerivedData() {
     const actorData = this;
-    const systemData = actorData.system;
-    const flags = actorData.flags.boilerplate || {};
 
     // Make separate methods for each Actor type (character, npc, etc.) to keep
     // things organized.
     this._prepareCharacterData(actorData);
     this._prepareNpcData(actorData);
+  }
+
+  /**
+   * Prepare Character type specific data
+   */
+  _prepareCharacterData(actorData) {
+    if (actorData.type !== 'personnage') return;
+
+    // Make modifications to data here. For example:
+    const systemData = actorData.system;
+
+    systemData.armesMelees = actorData.items.filter(item => item.type == "armeMelee")
+    systemData.armesDistances = actorData.items.filter(item => item.type == "armeDistance")
+
+    let peuples = actorData.items.filter(item => item.type == "peuple")
+    if (peuples.length > 1) {
+      actorData.items = [
+        actorData.items.filter(item => item.type != "peuple")
+      ]
+      actorData.items.push(peuples[peuples.length - 1])
+    }
+
+    systemData.peuple = peuples.pop()
+  }
+
+  /**
+   * Prepare NPC type specific data.
+   */
+  _prepareNpcData(actorData) {
+    if (actorData.type !== 'npc') return;
+
+    // Make modifications to data here. For example:
+    const systemData = actorData.system;
+    systemData.xp = (systemData.cr * systemData.cr) * 100;
   }
 }

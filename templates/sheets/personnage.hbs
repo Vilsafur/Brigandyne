@@ -7,7 +7,7 @@
       </div>
       <div class="item peuple">
         <label>Peuple, sang</label>
-        <div class="input">{{ peuple.name }}</div>
+        <div class="input">{{ data.system.peuple.name }}</div>
       </div>
       <div class="item archetype">
         <label>Archétype</label>
@@ -119,7 +119,7 @@
         <div class="title">Allonge</div>
         <div class="title">Spécial</div>
         <div></div>
-        {{#each armesMelees as |arme nom| }}
+        {{#each data.system.armesMelees as |arme nom| }}
         <div>{{arme.name}}</div>
         <div>{{arme.degats}}</div>
         <div>{{arme.allonge}}</div>
@@ -137,7 +137,7 @@
         <div class="title">Allonge</div>
         <div class="title">Spécial</div>
         <div></div>
-        {{#each armesDistances as |arme nom| }}
+        {{#each data.system.armesDistances as |arme nom| }}
         <div>{{arme.name}}</div>
         <div>{{arme.degats}}</div>
         <div>{{arme.allonge}}</div>

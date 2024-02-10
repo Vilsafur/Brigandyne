@@ -21,18 +21,8 @@ export class BrigandyneActorSheet extends ActorSheet {
   getData() {
     const data = super.getData()
     data.config = CONFIG.BRIGANDYNE
-    data.armesMelees = data.items.filter(item => item.type == "armeMelee")
-    data.armesDistances = data.items.filter(item => item.type == "armeDistance")
-    let peuples = data.items.filter(item => item.type == "peuple")
 
-    if (peuples.length > 1) {
-      data.items = [
-        data.items.filter(item => item.type != "peuple")
-      ]
-      data.items.push(peuples[peuples.length - 1])
-    }
-
-    data.peuple = peuples.pop()
+    console.log("BRIGANDYNE | actorSheet | data : ", data)
 
     return data
   }

@@ -2,7 +2,6 @@
   "Actor": {
     "types": ["personnage", "pnj"],
     "personnage": {
-      "peuple": "",
       "archetype": "",
       "carriere": "",
       "niveau_de_vie": "",
