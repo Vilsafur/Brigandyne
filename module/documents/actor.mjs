@@ -46,9 +46,6 @@ export class BrigandyneActor extends Actor {
     // Make modifications to data here. For example:
     const systemData = actorData.system;
 
-    systemData.armesMelees = actorData.items.filter(item => item.type == "armeMelee")
-    systemData.armesDistances = actorData.items.filter(item => item.type == "armeDistance")
-
     let peuples = actorData.items.filter(item => item.type == "peuple")
     if (peuples.length > 1) {
       actorData.items = [

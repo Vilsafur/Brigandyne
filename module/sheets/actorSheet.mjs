@@ -19,12 +19,64 @@ export class BrigandyneActorSheet extends ActorSheet {
 
   /** @override */
   getData() {
-    const data = super.getData()
-    data.config = CONFIG.BRIGANDYNE
+    const context  = super.getData()
+    context .config = CONFIG.BRIGANDYNE
 
-    console.log("BRIGANDYNE | actorSheet | data : ", data)
+    // Use a safe clone of the actor data for further operations.
+    const actorData = context.data;
 
-    return data
+    // Add the actor's data to context.data for easier access, as well as flags.
+    context.system = actorData.system;
+
+    // Prepare character data and items.
+    if (actorData.type == 'personnage') {
+      this._prepareItems(context);
+      // this._prepareCharacterData(context);
+    }
+
+
+    // Add roll data for TinyMCE editors.
+    // context.rollData = context.actor.getRollData();
+
+    // Prepare active effects
+    // context.effects = prepareActiveEffectCategories(
+    //   // A generator that returns all effects stored on the actor
+    //   // as well as any items
+    //   this.actor.allApplicableEffects()
+    // );
+
+    return context 
+  }
+
+  /**
+   * Organize and classify Items for Character sheets.
+   *
+   * @param {Object} actorData The actor to prepare.
+   *
+   * @return {undefined}
+   */
+  _prepareItems(context) {
+    // Initialize containers.
+    const armesDistances = [];
+    const armesMelees = [];
+    const peuples = [];
+
+    // Iterate through items, allocating to containers
+    for (let i of context.items) {
+      i.img = i.img || DEFAULT_TOKEN;
+      if (i.type === 'armeMelee') {
+        armesMelees.push(i);
+      }
+      else if (i.type === 'armeDistance') {
+        armesDistances.push(i);
+      }
+      else if (i.type === 'peuple') {
+        peuples.push(i);
+      }
+    }
+
+    context.armesDistances = armesDistances
+    context.armesMelees = armesMelees
   }
 
   activateListeners(html) {
