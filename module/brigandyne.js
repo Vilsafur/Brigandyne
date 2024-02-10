@@ -1,12 +1,49 @@
-import BrigandyneItemSheet from "./sheets/item.js"
-import BrigandyneActorSheet from "./sheets/actor.js"
-import { brigandyne } from './config.js'
+// Import document classes.
+import { BrigandyneItem } from "./documents/item.mjs"
+import { BrigandyneActor } from "./documents/actor.mjs"
+// Import helper/utility classes and constants.
+import { preloadHandlebarsTemplates } from "./helpers/templates.mjs"
+import { brigandyne } from './helpers/config.mjs'
+// Import sheet classes.
+import { BrigandyneItemSheet } from "./sheets/itemSheet.mjs"
+import { BrigandyneActorSheet } from "./sheets/actorSheet.mjs"
 
+/* -------------------------------------------- */
+/*  Init Hook                                   */
+/* -------------------------------------------- */
 Hooks.once('init', () => {
   console.log("Brigandyne | Initialisation du système Brigandyne")
 
-  CONFIG.brigandyne = brigandyne
+  // Add utility classes to the global game object so that they're more easily
+  // accessible in global contexts.
+  game.brigandyne = {
+    BrigandyneActor,
+    BrigandyneItem,
+  };
 
+
+  // Add custom constants for configuration.
+  CONFIG.BRIGANDYNE = brigandyne
+
+  // Define custom Document classes
+  CONFIG.Item.documentClass = BrigandyneItem
+  CONFIG.Actor.documentClass = BrigandyneActor
+
+  // Register sheet application classes
+  Items.unregisterSheet("core", ItemSheet)
+  Items.registerSheet("brigandyne", BrigandyneItemSheet, {
+    markDefault: true,
+    label: 'BRIGANDYNE.SheetLabels.Item',
+  })
+  Actors.unregisterSheet("core", ActorSheet)
+  Actors.registerSheet("brigandyne", BrigandyneActorSheet, {
+    markDefault: true,
+    label: 'BRIGANDYNE.SheetLabels.Actor',
+  })
+
+  /* -------------------------------------------- */
+  /*  Handlebars Helpers                          */
+  /* -------------------------------------------- */
   Handlebars.registerHelper('loud', function (aString) {
     return aString.toUpperCase()
   })
@@ -23,9 +60,13 @@ Hooks.once('init', () => {
     return parseInt(competence.base) + parseInt(competence.progression)
   })
 
-  Items.unregisterSheet("core", ItemSheet)
-  Items.registerSheet("brigandyne", BrigandyneItemSheet, { markDefault: true })
-
-  Actors.unregisterSheet("core", ActorSheet)
-  Actors.registerSheet("brigandyne", BrigandyneActorSheet, { markDefault: true })
+  return preloadHandlebarsTemplates()
 })
+
+/* -------------------------------------------- */
+/*  Ready Hook                                  */
+/* -------------------------------------------- */
+
+Hooks.once("ready", function() {
+  // Include steps that need to happen after Foundry has fully loaded here.
+});

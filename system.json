@@ -581,8 +581,12 @@
     }
   ],
   "scripts": [
-    "module/sheets/item.js",
-    "module/sheets/actor.js"
+    "module/documents/actor.mjs",
+    "module/documents/item.mjs",
+    "module/helpers/config.mjs",
+    "module/helpers/templates.mjs",
+    "module/sheets/itemSheet.mjs",
+    "module/sheets/actorSheet.mjs"
   ],
   "esmodules": [
     "module/brigandyne.js"

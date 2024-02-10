@@ -1,5 +1,10 @@
-export default class BrigandyneActorSheet extends ActorSheet {
+/**
+ * Extend the basic ActorSheet with some very simple modifications
+ * @extends {ActorSheet}
+ */
+export class BrigandyneActorSheet extends ActorSheet {
 
+  /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       width: 1162,
@@ -7,15 +12,15 @@ export default class BrigandyneActorSheet extends ActorSheet {
     })
   }
 
+  /** @override */
   get template() {
-    console.log(`Brigandyne | Récupération du fichier html ${this.actor.data.type}.`)
-
     return `systems/brigandyne/templates/sheets/${this.actor.data.type}.hbs`
   }
 
+  /** @override */
   getData() {
     const data = super.getData()
-    data.config = CONFIG.brigandyne
+    data.config = CONFIG.BRIGANDYNE
     data.armesMelees = data.items.filter(item => item.type == "armeMelee")
     data.armesDistances = data.items.filter(item => item.type == "armeDistance")
     let peuples = data.items.filter(item => item.type == "peuple")
@@ -29,14 +34,16 @@ export default class BrigandyneActorSheet extends ActorSheet {
 
     data.peuple = peuples.pop()
 
-    console.log(data)
-
     return data
   }
 
   activateListeners(html) {
     html.find(".item-edit").click(this._onItemEdit.bind(this))
     html.find(".item-delete").click(this._onItemDelete.bind(this))
+    html.find(".item-roll").click(this._onItemRoll.bind(this))
+    if (this.actor.owner) {
+    }
+
     super.activateListeners(html)
   }
 
@@ -54,5 +61,15 @@ export default class BrigandyneActorSheet extends ActorSheet {
     let element = event.currentTarget
     let itemId = element.dataset.itemId
     await this.actor.deleteEmbeddedDocuments('Item', [itemId])
+  }
+
+  _onItemRoll(event) {
+    console.log(`Brigandyne | onItemRoll.`)
+    event.preventDefault();
+    let element = event.currentTarget
+    const itemId = element.dataset.itemId
+    const item = this.actor.items.find(e => e._id == itemId)
+    
+    item.roll()
   }
 }

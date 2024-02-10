@@ -1,5 +1,10 @@
-export default class BrigandyneItemSheet extends ItemSheet {
+/**
+ * Extend the basic ItemSheet with some very simple modifications
+ * @extends {ItemSheet}
+ */
+export class BrigandyneItemSheet extends ItemSheet {
 
+  /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       width: 530,
@@ -7,16 +12,14 @@ export default class BrigandyneItemSheet extends ItemSheet {
     })
   }
 
+  /** @override */
   get template() {
-    console.log(`Brigandyne | Récupération du fichier html ${this.item.data.type}.`)
-
     return `systems/brigandyne/templates/sheets/${this.item.data.type}.hbs`
   }
 
   getData() {
     const data = super.getData()
-    data.config = CONFIG.brigandyne
-    console.log(data)
+    data.config = CONFIG.BRIGANDYNE
 
     return data
   }
