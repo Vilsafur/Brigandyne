@@ -38,6 +38,43 @@ export class BrigandyneActor extends Actor {
   }
 
   /**
+   * Override getRollData() that's supplied to rolls.
+   */
+  getRollData() {
+    const data = super.getRollData();
+
+    // Prepare character roll data.
+    this._getCharacterRollData(data);
+    this._getNpcRollData(data);
+
+    return data;
+  }
+
+  /**
+   * Prepare character roll data.
+   */
+  _getCharacterRollData(data) {
+    if (this.type !== 'personnage') return;
+  
+    // Copy the ability scores to the top level, so that rolls can use
+    // formulas like `@str.mod + 4`.
+    if (data.abilities) {
+      for (let [k, v] of Object.entries(data.abilities)) {
+        data[k] = foundry.utils.deepClone(v);
+      }
+    }
+  }
+  
+  /**
+   * Prepare NPC roll data.
+   */
+  _getNpcRollData(data) {
+    if (this.type !== 'pnj') return;
+  
+    // Process additional NPC data here.
+  }
+
+  /**
    * Prepare Character type specific data
    */
   _prepareCharacterData(actorData) {

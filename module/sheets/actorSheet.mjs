@@ -33,7 +33,7 @@ export class BrigandyneActorSheet extends ActorSheet {
 
 
     // Add roll data for TinyMCE editors.
-    // context.rollData = context.actor.getRollData();
+    context.rollData = context.actor.getRollData();
 
     // Prepare active effects
     // context.effects = prepareActiveEffectCategories(
