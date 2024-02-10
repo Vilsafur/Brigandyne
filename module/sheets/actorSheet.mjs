@@ -28,11 +28,8 @@ export class BrigandyneActorSheet extends ActorSheet {
     // Add the actor's data to context.data for easier access, as well as flags.
     context.system = actorData.system;
 
-    // Prepare character data and items.
-    if (actorData.type == 'personnage') {
-      this._prepareItems(context);
-      // this._prepareCharacterData(context);
-    }
+    // Prepare characteritems.
+    this._prepareItems(context);
 
 
     // Add roll data for TinyMCE editors.
