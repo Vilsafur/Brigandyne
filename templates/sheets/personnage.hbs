@@ -7,17 +7,11 @@
       </div>
       <div class="item peuple">
         <label>Peuple, sang</label>
-        <div class="input">{{ data.system.peuple.name }}</div>
+        <div class="input item-edit" data-item-id="{{data.system.peuple._id}}">{{ data.system.peuple.name }}</div>
       </div>
       <div class="item archetype">
         <label>Archétype</label>
-        <select name="data.archetype">
-          {{#select data.system.archetype}}
-          {{#each config.archetype as |name type|}}
-          <option value="{{type}}">{{localize name.name}}</option>
-          {{/each}}
-          {{/select}}
-        </select>
+        <div class="input item-edit" data-item-id="{{data.system.archetype._id}}">{{ data.system.archetype.name }}</div>
       </div>
       <div class="item carriere">
         <label>Carrière(s)</label>

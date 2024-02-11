@@ -1,0 +1,25 @@
+<form class="{{cssClass}} {{item.type}} flexcol" autocomplete="off">
+  <header class="sheet-header">
+    <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" height="100" width="100"/>
+    <div class="header-fields">
+      <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="Name"/></h1>
+      <div class="trait_de_caractere">
+        {{editor system.trait_de_caractere target="system.trait_de_caractere" button=true engine="prosemirror" collaborate=false}}
+      </div>
+    </div>
+  </header>
+  <div class="sheet-content">
+    <div class="caracteristiques">
+        {{#each system.caracteristiques as |competence nom| }}
+        <div class="caracteristique">
+          <label for="system.caracteristiques.{{nom}}.value" class="resource-label">{{ucfirst nom}}</label>
+          <input type="text" name="system.caracteristiques.{{nom}}.value" value="{{competence.value}}" data-dtype="Number"/>
+          <input type="checkbox" name="system.caracteristiques.{{nom}}.isChoice" {{checked competence.isChoice}}>
+        </div>
+        {{/each }}
+    </div>
+    <div class="description">
+      {{editor system.description target="system.description" button=true engine="prosemirror" collaborate=false}}
+    </div>
+  </div>
+</form>

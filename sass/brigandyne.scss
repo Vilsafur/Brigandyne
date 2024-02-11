@@ -263,6 +263,21 @@
       }
     }
   }
+
+  .archetype {
+    .caracteristiques {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5px;
+
+      .caracteristique {
+        border: 1px grey solid;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 5fr 2fr 1fr;
+      }
+    }
+  }
 }
 
 /********

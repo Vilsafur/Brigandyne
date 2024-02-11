@@ -122,7 +122,7 @@
     }
   },
   "Item": {
-    "types": ["armure", "sort", "armeMelee", "armeDistance", "peuple"],
+    "types": ["armure", "sort", "armeMelee", "armeDistance", "peuple", "archetype"],
     "templates": {
       "itemBasics": {
         "description": "",
@@ -175,6 +175,65 @@
         "tir": 0,
         "volonte": 0
       }
+    },
+    "archetype": {
+      "description": "Descriptions",
+      "trait_de_caractere": "Traits de caractères",
+      "caracteristiques": {
+        "combat": {
+          "value": 0,
+          "isChoice": false
+        },
+        "connaissances": {
+          "value": 0,
+          "isChoice": false
+        },
+        "discretion": {
+          "value": 0,
+          "isChoice": false
+        },
+        "endurance": {
+          "value": 0,
+          "isChoice": false
+        },
+        "force": {
+          "value": 0,
+          "isChoice": false
+        },
+        "habilete": {
+          "value": 0,
+          "isChoice": false
+        },
+        "magie": {
+          "value": 0,
+          "isChoice": false
+        },
+        "mouvement": {
+          "value": 0,
+          "isChoice": false
+        },
+        "perception": {
+          "value": 0,
+          "isChoice": false
+        },
+        "sociabilite": {
+          "value": 0,
+          "isChoice": false
+        },
+        "survie": {
+          "value": 0,
+          "isChoice": false
+        },
+        "tir": {
+          "value": 0,
+          "isChoice": false
+        },
+        "volonte": {
+          "value": 0,
+          "isChoice": false
+        }
+      },
+      "effectiveRandom": ""
     },
     "sort": {
       "domaineMagique": "",

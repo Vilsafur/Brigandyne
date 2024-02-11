@@ -197,6 +197,17 @@
   min-height: 100px;
   width: 45%;
 }
+.brigandyne.item .archetype .caracteristiques {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+.brigandyne.item .archetype .caracteristiques .caracteristique {
+  border: 1px grey solid;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 5fr 2fr 1fr;
+}
 
 /********
  * Prix *

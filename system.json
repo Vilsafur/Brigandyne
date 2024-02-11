@@ -571,6 +571,19 @@
           }
         }
       ]
+    },
+    {
+      "label": "Archetype",
+      "type": "Item",
+      "name": "archetype",
+      "path": "packs/archetype",
+      "system": "brigandyne",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "package": "world"
     }
   ],
   "languages": [

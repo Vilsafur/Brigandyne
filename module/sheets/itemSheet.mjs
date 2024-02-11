@@ -8,7 +8,14 @@ export class BrigandyneItemSheet extends ItemSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       width: 530,
-      classes: ["brigandyne", "sheet", "item"]
+      classes: ["brigandyne", "sheet", "item"],
+      tabs: [
+        {
+          navSelector: '.sheet-tabs',
+          contentSelector: '.sheet-body',
+          initial: 'description',
+        },
+      ],
     })
   }
 
@@ -18,9 +25,17 @@ export class BrigandyneItemSheet extends ItemSheet {
   }
 
   getData() {
-    const data = super.getData()
-    data.config = CONFIG.BRIGANDYNE
+    const context = super.getData()
+    const itemData = context.data
+    context.rollData = this.item.getRollData()
 
-    return data
+    context.system = itemData.system
+    context.flags = itemData.flags
+
+    // context.effects = prepareActiveEffectCategories(this.item.effects)
+
+    console.log('Brigandyne | itemSheet | context : ', context)
+
+    return context
   }
 }
