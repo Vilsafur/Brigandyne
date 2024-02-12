@@ -84,22 +84,10 @@ export class BrigandyneActor extends Actor {
     const systemData = actorData.system;
 
     let peuples = actorData.items.filter(item => item.type == "peuple")
-    if (peuples.length > 1) {
-      actorData.items = [
-        actorData.items.filter(item => item.type != "peuple")
-      ]
-      actorData.items.push(peuples[peuples.length - 1])
-    }
 
     systemData.peuple = peuples.pop()
 
     let archetypes = actorData.items.filter(item => item.type == "archetype")
-    if (archetypes.length > 1) {
-      actorData.items = [
-        actorData.items.filter(item => item.type != "archetype")
-      ]
-      actorData.items.push(archetypes[archetypes.length - 1])
-    }
 
     systemData.archetype = archetypes.pop()
 

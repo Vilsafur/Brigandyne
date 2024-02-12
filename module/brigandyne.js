@@ -57,7 +57,8 @@ Hooks.once('init', () => {
   })
 
   Handlebars.registerHelper('lookupProp', function (obj, key) {
-    return obj[key] && obj[key];
+    
+    return obj ? obj[key] : '';
  });
 
   return preloadHandlebarsTemplates()
