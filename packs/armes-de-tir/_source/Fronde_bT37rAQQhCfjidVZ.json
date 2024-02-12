@@ -1,0 +1,35 @@
+{
+  "folder": null,
+  "name": "Fronde",
+  "type": "armeDistance",
+  "img": "systems/brigandyne/assets/img/armesDistance/Fronde.webp",
+  "system": {
+    "description": "<p>La fronde se compose d'une bande souple formant une poche, souvent en cuir, prolongée à chaque extrémité par des lanières. Dans ladite poche se place le projectile à lancer, appelé « balle de fronde », généralement un caillou arrondi, une balle d'argile durcie ou de métal (plomb, par exemple). On grave parfois sur les balles des mots comme « reçois », « avale » ou d'autres encouragements. Une fois la balle placée dans la poche, le lanceur tenant la lanière longue dans la paume et la courte entre le pouce et l'index fait tournoyer la poche de la fronde sur le côté ou au-dessus de sa tête, puis lâche la lanière la plus courte en direction de la cible.</p>",
+    "prix": 1,
+    "uniteePrix": "pa",
+    "degats": -1,
+    "portee": "15",
+    "dissimulation": "aa",
+    "main": "a",
+    "special": "<p>Assommante</p>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706909847964,
+    "modifiedTime": 1707159539832,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "bT37rAQQhCfjidVZ",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!bT37rAQQhCfjidVZ"
+}

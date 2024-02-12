@@ -1,0 +1,33 @@
+{
+  "folder": null,
+  "name": "Armure de plates alourdie",
+  "type": "armure",
+  "img": "systems/brigandyne/assets/img/armures/Armure%20de%20plates%20alourdie.webp",
+  "system": {
+    "description": "<p>C’est une armure de plates encore plus épaisse et extrêmement lourde (+ de 50 kilos). Pour mettre un chevalier qui porte une telle armure sur son</p><p>cheval, il faut utiliser des cordes actionnées par un treuil. Tombé à terre, le chevalier ne peut plus se relever.</p>",
+    "prix": 130,
+    "uniteePrix": "po",
+    "notes": "Complète",
+    "protection": 7,
+    "special": "<p>L’armure est lourde et donne le malus de -20 à toutes les actions de Mouvement.</p><p>L’armure est chaude et très fatigante à porter sous un soleil d’été (-5% cumulatif à toutes les actions)</p><p>Il faut 45 minutes pour enfiler l’armure, avec l’aide indispensable d’un ou deux serviteurs.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706911399674,
+    "modifiedTime": 1707159486155,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "idlgGfQyd9139Neb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!idlgGfQyd9139Neb"
+}

@@ -1,0 +1,33 @@
+{
+  "folder": null,
+  "name": "Bouclier, écu",
+  "type": "armure",
+  "img": "systems/brigandyne/assets/img/armures/Bouclier%2C%20%C3%A9cu.webp",
+  "system": {
+    "description": "<p>L’arme défensive par excellence. Accroché au bras gauche, en bois cerclé de fer, ou totalement en métal, le bouclier est une valeur sûre pour se protéger des coups de ses adversaires. L’écu a une forme ogivale, allongée vers le bas en pointe.</p>",
+    "prix": 10,
+    "uniteePrix": "po",
+    "notes": "Bonus",
+    "protection": 1,
+    "special": "<p>Avec ce bouclier, le personnage remporte les « doublés gagnants » (les doublés qui le donnent gagnant de la passe d’arme) des jets de combat, au lieu de l’égalité. Si les deux combattants ont un bouclier, ce bonus est ignoré.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706911613418,
+    "modifiedTime": 1706983439972,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "bBdCvkJnzHA6VwbV",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!bBdCvkJnzHA6VwbV"
+}

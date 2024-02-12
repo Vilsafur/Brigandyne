@@ -1,0 +1,43 @@
+{
+  "name": "Elfe",
+  "type": "peuple",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Mystérieux, rusés et raffinés, les Elfes sont les protecteurs des forêts et des lieux légendaires. D’une beauté remarquable et d’une intelligence rare, les Elfes sont admirés et respectés de tous. On dit que leur longévité exceptionnelle de plusieurs centaines d’années est due à leur territoire, et que dès le franchissement de l’orée de leurs bois, leur corps subit le vieillissement normal des autres peuples.</p><p>Les aventuriers Elfes qui décident de parcourir le monde sont donc considérés comme des êtres d’un courage peu commun ou comme des fous selon les mentalités.</p><p>Espérance de vie : 300 ans</p><p>Taille, poids : environ 1m65, 55 kg</p><p>Allure : 5-6km/h</p><p>Cheveux : blancs, blonds, bruns, noirs</p><p>Yeux : verts, gris, argentés, bleus, violets, noirs, miroir, marrons, dorés</p>",
+    "caracteristiques": {
+      "combat": "25",
+      "connaissances": "25",
+      "discretion": "25",
+      "endurance": "20",
+      "force": "20",
+      "habilete": "25",
+      "magie": "0",
+      "mouvement": "25",
+      "perception": "30",
+      "sociabilite": "25",
+      "survie": "30",
+      "tir": "30",
+      "volonte": "20"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706825031064,
+    "modifiedTime": 1706901109860,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "d54S2KmkSbFjvizq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!d54S2KmkSbFjvizq"
+}

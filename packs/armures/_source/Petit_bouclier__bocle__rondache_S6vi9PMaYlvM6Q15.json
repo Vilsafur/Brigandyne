@@ -1,0 +1,33 @@
+{
+  "folder": null,
+  "name": "Petit bouclier, bocle, rondache",
+  "type": "armure",
+  "img": "systems/brigandyne/assets/img/armures/Petit%20bouclier%2C%20bocle%2C%20rondache.webp",
+  "system": {
+    "description": "<p>Bbouclier plus léger, ne dépassant pas les 50cm de diamètre.</p>",
+    "prix": 5,
+    "uniteePrix": "po",
+    "notes": "Bonus",
+    "protection": 1,
+    "special": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706911557372,
+    "modifiedTime": 1706983439972,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "S6vi9PMaYlvM6Q15",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!S6vi9PMaYlvM6Q15"
+}

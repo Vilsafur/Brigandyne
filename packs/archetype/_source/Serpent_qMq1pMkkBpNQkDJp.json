@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Serpent",
+  "type": "archetype",
+  "_id": "qMq1pMkkBpNQkDJp",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Froid et patient, le Serpent attend sa proie. Prédateur à l’apparence banale, c’est un être tout en contrôle et en mystère. Lorsque le Serpent parle, il sait être persuasif et caressant mais sans baratin, toujours avec un flegme souriant et des mots simples et choisis. Dénué de morale, il tue sans cruauté et trompe sans remords, tout est affaire de fin. Dans un groupe, le Serpent est incapable de donner entièrement sa confiance, même au milieu de personnes qu’il aime et estime : il gardera toujours une part de lui secrète, au cas où.</p>",
+    "trait_de_caractere": "<p>Déloyal, Discipliné, Froid, Pragmatique, Manipulateur, Mystérieux, Patient, Spirituel, Suspicieux</p>",
+    "caracteristiques": {
+      "combat": {
+        "value": 0,
+        "isChoice": false
+      },
+      "connaissances": {
+        "value": 5,
+        "isChoice": true
+      },
+      "discretion": {
+        "value": 0,
+        "isChoice": false
+      },
+      "endurance": {
+        "value": 0,
+        "isChoice": false
+      },
+      "force": {
+        "value": 0,
+        "isChoice": false
+      },
+      "habilete": {
+        "value": 0,
+        "isChoice": false
+      },
+      "magie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "mouvement": {
+        "value": -5,
+        "isChoice": true
+      },
+      "perception": {
+        "value": -5,
+        "isChoice": true
+      },
+      "sociabilite": {
+        "value": 5,
+        "isChoice": true
+      },
+      "survie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "tir": {
+        "value": 0,
+        "isChoice": false
+      },
+      "volonte": {
+        "value": 5,
+        "isChoice": false
+      }
+    },
+    "effectiveRandom": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707680120193,
+    "modifiedTime": 1707680363511,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!qMq1pMkkBpNQkDJp"
+}

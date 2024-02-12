@@ -1,0 +1,84 @@
+{
+  "name": "Aigle",
+  "type": "archetype",
+  "_id": "mXnubUdsP2kzqsjf",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>L’Aigle est un gagnant et il le sait. Il ne fréquente que les hautes sphères et ne se pardonne aucun échec. Il aime à s’entourer des meilleurs et leur servir d’exemple en matière de droiture et d’efficacité. Exigeant envers lui-même et distant, il peut vite sembler condescendant avec les autres. L’Aigle peut avoir des origines humbles mais son ambition démesurée le hissera vers les sommets ou il mourra en essayant. Doté d’un fort magnétisme, on remarque son ombre même s’il reste silencieux.</p>",
+    "trait_de_caractere": "<p>Ambitieux, Autoritaire, Discipliné, Hautain, Impitoyable, Loyal, Pragmatique, Prétentieux, Suspicieux, Sûr de soi.</p>",
+    "caracteristiques": {
+      "combat": {
+        "value": 0,
+        "isChoice": false
+      },
+      "connaissances": {
+        "value": 0,
+        "isChoice": false
+      },
+      "discretion": {
+        "value": 0,
+        "isChoice": false
+      },
+      "endurance": {
+        "value": 0,
+        "isChoice": false
+      },
+      "force": {
+        "value": 0,
+        "isChoice": false
+      },
+      "habilete": {
+        "value": 0,
+        "isChoice": false
+      },
+      "magie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "mouvement": {
+        "value": 0,
+        "isChoice": false
+      },
+      "perception": {
+        "value": 0,
+        "isChoice": false
+      },
+      "sociabilite": {
+        "value": 0,
+        "isChoice": false
+      },
+      "survie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "tir": {
+        "value": 0,
+        "isChoice": false
+      },
+      "volonte": {
+        "value": 5,
+        "isChoice": false
+      }
+    },
+    "effectiveRandom": []
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707676895183,
+    "modifiedTime": 1707680363511,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!mXnubUdsP2kzqsjf"
+}

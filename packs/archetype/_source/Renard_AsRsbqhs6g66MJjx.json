@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Renard",
+  "type": "archetype",
+  "_id": "AsRsbqhs6g66MJjx",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>La ruse faite homme, le Renard est un être fin et habile, prompt à trouver mille solutions pour un problème. Charmeur, il sait plaire mais aussi s’effacer pour se soustraire à la colère des puissants. Le Renard est égoïste et indépendant, combinaison qui en fait un compagnon instable à l’amitié tiède. Mais c’est un être aux ressources infinies, munie d’une folle capacité d’adaptation, pouvant s’adresser aux rois comme aux ruffians avec la même aisance, ce qui fascine ses compagnons et lui assure son avenir.</p>",
+    "trait_de_caractere": "<p>Amical, Courtois, Débrouillard, Déloyal, Egoïste, Inventif, Malhonnête, Moqueur, Rusé, Spontané</p>",
+    "caracteristiques": {
+      "combat": {
+        "value": -5,
+        "isChoice": true
+      },
+      "connaissances": {
+        "value": 0,
+        "isChoice": false
+      },
+      "discretion": {
+        "value": 0,
+        "isChoice": false
+      },
+      "endurance": {
+        "value": 0,
+        "isChoice": false
+      },
+      "force": {
+        "value": -5,
+        "isChoice": true
+      },
+      "habilete": {
+        "value": 0,
+        "isChoice": false
+      },
+      "magie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "mouvement": {
+        "value": 5,
+        "isChoice": false
+      },
+      "perception": {
+        "value": 0,
+        "isChoice": false
+      },
+      "sociabilite": {
+        "value": 5,
+        "isChoice": false
+      },
+      "survie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "tir": {
+        "value": 0,
+        "isChoice": false
+      },
+      "volonte": {
+        "value": 0,
+        "isChoice": false
+      }
+    },
+    "effectiveRandom": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707680092125,
+    "modifiedTime": 1707680363511,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!AsRsbqhs6g66MJjx"
+}

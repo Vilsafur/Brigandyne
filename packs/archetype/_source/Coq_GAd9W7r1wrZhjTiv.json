@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Coq",
+  "type": "archetype",
+  "_id": "GAd9W7r1wrZhjTiv",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Beauté et prestance, combativité et panache sont les maître-mot du Coq. Le silence l’angoisse, il a besoin de lumière, de bruit et d’agitation et s’il peut en être la cause c’est encore mieux. Le Coq n’est pas obligatoirement un fauteur de troubles mais son caractère entier et emporté et sa volonté d’être toujours au-devant de la scène ne le laisse pas longtemps dans l’ombre. Enfin, le Coq raffole du beau sexe, et son allure, sa virilité et son élan lui assurent toujours un succès</p>",
+    "trait_de_caractere": "<p>Agressif, Autoritaire, Courageux, Impulsif, Intolérant, Jaloux, Passionnel, Prétentieux, Séducteur, Sûr de soi</p>",
+    "caracteristiques": {
+      "combat": {
+        "value": 5,
+        "isChoice": false
+      },
+      "connaissances": {
+        "value": -5,
+        "isChoice": true
+      },
+      "discretion": {
+        "value": -5,
+        "isChoice": true
+      },
+      "endurance": {
+        "value": 0,
+        "isChoice": false
+      },
+      "force": {
+        "value": 0,
+        "isChoice": false
+      },
+      "habilete": {
+        "value": 0,
+        "isChoice": false
+      },
+      "magie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "mouvement": {
+        "value": 0,
+        "isChoice": false
+      },
+      "perception": {
+        "value": 0,
+        "isChoice": false
+      },
+      "sociabilite": {
+        "value": 5,
+        "isChoice": false
+      },
+      "survie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "tir": {
+        "value": 0,
+        "isChoice": false
+      },
+      "volonte": {
+        "value": 0,
+        "isChoice": false
+      }
+    },
+    "effectiveRandom": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707677708429,
+    "modifiedTime": 1707680363511,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!GAd9W7r1wrZhjTiv"
+}

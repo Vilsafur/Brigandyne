@@ -1,0 +1,152 @@
+{
+  "folder": "F4jaJMjp5lYWuGIV",
+  "name": "Oiseau-Roc",
+  "type": "pnj",
+  "_id": "y39fjMKqWSHpvEaE",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "taille": null,
+    "poids": null,
+    "main": "a",
+    "description": "Gigantesque rapace dont les ailes déployées atteignent les 40m d’envergure.",
+    "argent": "0",
+    "vitalite": "60",
+    "sang_froid": "0",
+    "protection": 0,
+    "atouts": [],
+    "equipements": [],
+    "competences": {
+      "combat": "60",
+      "connaissances": "0",
+      "discretion": "5",
+      "endurance": "80",
+      "force": "100",
+      "habilete": "0",
+      "magie": "0",
+      "mouvement": "40",
+      "perception": "80",
+      "sociabilite": "0",
+      "survie": "0",
+      "tir": "0",
+      "volonte": "30"
+    }
+  },
+  "prototypeToken": {
+    "name": "Oiseau-Roc",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Serres",
+      "type": "armeMelee",
+      "img": "systems/brigandyne/assets/img/armesMelee/serres.webp",
+      "system": {
+        "description": "",
+        "prix": 0,
+        "uniteePrix": "po",
+        "degats": 9,
+        "allonge": "f",
+        "dissimulation": "aa",
+        "main": "c",
+        "special": ""
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "UwlimL2UASASR0DY": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.brigandyne.armes-de-melee.Item.saXsx4FJfZYAl1rU"
+        }
+      },
+      "_stats": {
+        "systemId": "brigandyne",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.315",
+        "createdTime": 1707212836630,
+        "modifiedTime": 1707250323152,
+        "lastModifiedBy": "UwlimL2UASASR0DY"
+      },
+      "_id": "Ve0BKnJ21MwkSMSa",
+      "sort": 0,
+      "_key": "!actors.items!y39fjMKqWSHpvEaE.Ve0BKnJ21MwkSMSa"
+    }
+  ],
+  "effects": [],
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707250250179,
+    "modifiedTime": 1707331143917,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_key": "!actors!y39fjMKqWSHpvEaE"
+}

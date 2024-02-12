@@ -1,0 +1,33 @@
+{
+  "folder": null,
+  "name": "Cotte de plaques",
+  "type": "armure",
+  "img": "systems/brigandyne/assets/img/armures/Cotte%20de%20plaques.webp",
+  "system": {
+    "description": "<p>Par souci de simplicité, nous appellerons « cotte de plaques » les broignes et les brigandines accompagnées de protections aux bras et aux cuisses.</p>",
+    "prix": 15,
+    "uniteePrix": "po",
+    "notes": "Complète",
+    "protection": 4,
+    "special": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706910983240,
+    "modifiedTime": 1706983439972,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "WZS8RYtDST4GZQbj",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!WZS8RYtDST4GZQbj"
+}

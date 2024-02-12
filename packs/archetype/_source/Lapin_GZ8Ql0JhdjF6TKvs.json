@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Lapin",
+  "type": "archetype",
+  "_id": "GZ8Ql0JhdjF6TKvs",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Insouciant et sociable, le Lapin est un compagnon agréable et plein d’entrain. Il apprécie les belles choses, les ambiances chaleureuses et douces, il est respectueux des manières d’autrui et attaché aux siens. C’est aussi hélas un lâche indécrottable qui vous donnera raison pour que la dispute s’arrête, ne vous défendra pas quand une bagarre éclate pas plus qu’il n’assumera les conséquences de la nuit passée avec cette charmante jeune femme. Il a tendance à croire que le monde est assez grand pour tous et que la fuite est la meilleure des conclusions.</p>",
+    "trait_de_caractere": "<p>Amical, Courtois, Crédule, Curieux, Gentil, Lâche, Peureux, Réservé, Sensible, Suspicieux</p>",
+    "caracteristiques": {
+      "combat": {
+        "value": -5,
+        "isChoice": false
+      },
+      "connaissances": {
+        "value": 0,
+        "isChoice": false
+      },
+      "discretion": {
+        "value": 5,
+        "isChoice": false
+      },
+      "endurance": {
+        "value": 0,
+        "isChoice": false
+      },
+      "force": {
+        "value": -5,
+        "isChoice": false
+      },
+      "habilete": {
+        "value": 0,
+        "isChoice": false
+      },
+      "magie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "mouvement": {
+        "value": 5,
+        "isChoice": false
+      },
+      "perception": {
+        "value": 5,
+        "isChoice": false
+      },
+      "sociabilite": {
+        "value": 0,
+        "isChoice": false
+      },
+      "survie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "tir": {
+        "value": 0,
+        "isChoice": false
+      },
+      "volonte": {
+        "value": 0,
+        "isChoice": false
+      }
+    },
+    "effectiveRandom": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707679882969,
+    "modifiedTime": 1707680363511,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!GZ8Ql0JhdjF6TKvs"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Animaux",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "j9Ifjnnoikdu1HKh",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707250348051,
+    "modifiedTime": 1707331140851,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_key": "!folders!j9Ifjnnoikdu1HKh"
+}

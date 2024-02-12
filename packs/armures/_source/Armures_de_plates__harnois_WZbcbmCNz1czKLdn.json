@@ -1,0 +1,33 @@
+{
+  "folder": null,
+  "name": "Armures de plates, harnois",
+  "type": "armure",
+  "img": "systems/brigandyne/assets/img/armures/Armures%20de%20plates%2C%20harnois.webp",
+  "system": {
+    "description": "<p>Les armures de plates recouvrent toutes les parties du corps.</p><p>Elles sont composées de plaques de métal fixées sur des sangles ou des armatures de cuir.</p><p>Une armure de plates est en général moins difficile à porter qu'une cotte de mailles, en raison de la meilleure répartition du poids. On peut ainsi plus facilement monter à cheval ou se relever en cas de chute.</p>",
+    "prix": 0,
+    "uniteePrix": "po",
+    "notes": "Complète",
+    "protection": 6,
+    "special": "<p>L’armure est lourde et donne le malus de -5 à toutes les actions de Mouvement.</p><p>L’armure est chaude et très fatigante à porter sous un soleil d’été (-5% cumulatif à toutes les actions)</p><p>Il faut 45 minutes pour enfiler l’armure, avec l’aide indispensable d’un ou deux serviteurs.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706911279383,
+    "modifiedTime": 1706983439972,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "WZbcbmCNz1czKLdn",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!WZbcbmCNz1czKLdn"
+}

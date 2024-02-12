@@ -1,0 +1,35 @@
+{
+  "folder": null,
+  "name": "Pistolet à poudre",
+  "type": "armeDistance",
+  "img": "systems/brigandyne/assets/img/armesDistance/Pistolet%20%C3%A0%20poudre.webp",
+  "system": {
+    "description": "<p>D'une taille imposante, doté d'un canon unique à chargement par la gueule et d'un système de mise à feu par mèche, le pistolet comporte aussi un lourd pommeau, la calotte, en métal qui permet de se servir du pistolet comme d'une arme contondante après avoir tiré l'unique coup (arme improvisée, malus au BF de -2).</p>",
+    "prix": 50,
+    "uniteePrix": "po",
+    "degats": 4,
+    "portee": "10",
+    "dissimulation": "b",
+    "main": "a",
+    "special": "<p>Ignore les armures</p><p>L’arme est très lente à recharger. On ne peut tirer qu’un tour sur deux.</p><p>C’est une arme à poudre, instable et dangereuse. Sur un échec critique, l’arme peut se bloquer, devenir inutilisable ou carrément exploser dans les mains du personnage. Au MJ de décider des conséquences de l’échec critique.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706910073519,
+    "modifiedTime": 1707159539832,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "MoUeamJOJ9f2o3Fu",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!MoUeamJOJ9f2o3Fu"
+}

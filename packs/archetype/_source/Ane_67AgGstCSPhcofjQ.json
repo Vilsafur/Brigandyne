@@ -1,0 +1,82 @@
+{
+  "name": "Ane",
+  "type": "archetype",
+  "_id": "67AgGstCSPhcofjQ",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "Descriptions",
+    "trait_de_caractere": "Traits de caractères",
+    "caracteristiques": {
+      "combat": {
+        "value": 0,
+        "isChoice": false
+      },
+      "connaissances": {
+        "value": 5,
+        "isChoice": false
+      },
+      "discretion": {
+        "value": 0,
+        "isChoice": false
+      },
+      "endurance": {
+        "value": 5,
+        "isChoice": false
+      },
+      "force": {
+        "value": 0,
+        "isChoice": false
+      },
+      "habilete": {
+        "value": -5,
+        "isChoice": true
+      },
+      "magie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "mouvement": {
+        "value": 0,
+        "isChoice": false
+      },
+      "perception": {
+        "value": 0,
+        "isChoice": false
+      },
+      "sociabilite": {
+        "value": 0,
+        "isChoice": false
+      },
+      "survie": {
+        "value": -5,
+        "isChoice": true
+      },
+      "tir": {
+        "value": 0,
+        "isChoice": false
+      },
+      "volonte": {
+        "value": 5,
+        "isChoice": false
+      }
+    },
+    "effectiveRandom": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707684030556,
+    "modifiedTime": 1707684085109,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!67AgGstCSPhcofjQ"
+}

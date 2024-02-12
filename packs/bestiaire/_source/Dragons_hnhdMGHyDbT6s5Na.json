@@ -1,0 +1,19 @@
+{
+  "name": "Dragons",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "hnhdMGHyDbT6s5Na",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707250979855,
+    "modifiedTime": 1707331151150,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_key": "!folders!hnhdMGHyDbT6s5Na"
+}

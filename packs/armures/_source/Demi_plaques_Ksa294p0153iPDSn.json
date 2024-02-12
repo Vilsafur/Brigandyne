@@ -1,0 +1,33 @@
+{
+  "folder": null,
+  "name": "Demi-plaques",
+  "type": "armure",
+  "img": "systems/brigandyne/assets/img/armures/Demi-plaques.webp",
+  "system": {
+    "description": "<p>Armure de plates recouvrant le torse, les épaules, les bras et les hanches, mais pas les jambes.</p>",
+    "prix": 70,
+    "uniteePrix": "po",
+    "notes": "Complète",
+    "protection": 5,
+    "special": "<p>L’armure est lourde et donne le malus de -5 à toutes les actions de Mouvement.</p><p>L’armure est chaude et très fatigante à porter sous un soleil d’été (-5% cumulatif à toutes les actions)</p><p>Il faut 45 minutes pour enfiler l’armure, avec l’aide indispensable d’un ou deux serviteurs.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706911191579,
+    "modifiedTime": 1706983439972,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "Ksa294p0153iPDSn",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!Ksa294p0153iPDSn"
+}

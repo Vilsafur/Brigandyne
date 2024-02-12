@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Vautour",
+  "type": "archetype",
+  "_id": "TX2XWsZXMzLgXB8e",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Cachant souvent un esprit pragmatique et acéré, l’apparence maigre et maladive du Vautour ne l’a pas rendu humble ou timide pour autant. Au contraire, cet être intelligent et fin a une langue de fiel, un humour cynique et une grande patience. C’est un adversaire rancunier, sans morale et sans volonté de briller ce qui le rend dangereux. Socialement, le Vautour est repoussant de prime abord mais pourtant très entouré et écouté. Lucide, le Vautour est un être de sagesse, mais c’est une sagesse sombre et nihiliste.</p>",
+    "trait_de_caractere": "<p>Critique, Cruel, Intimidant, Moqueur, Mystérieux, Patient, Pragmatique, Rancunier, Sarcastique, Suspicieux</p>",
+    "caracteristiques": {
+      "combat": {
+        "value": 0,
+        "isChoice": false
+      },
+      "connaissances": {
+        "value": 5,
+        "isChoice": false
+      },
+      "discretion": {
+        "value": 0,
+        "isChoice": false
+      },
+      "endurance": {
+        "value": 5,
+        "isChoice": false
+      },
+      "force": {
+        "value": 0,
+        "isChoice": false
+      },
+      "habilete": {
+        "value": 0,
+        "isChoice": false
+      },
+      "magie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "mouvement": {
+        "value": 0,
+        "isChoice": false
+      },
+      "perception": {
+        "value": 0,
+        "isChoice": false
+      },
+      "sociabilite": {
+        "value": -5,
+        "isChoice": false
+      },
+      "survie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "tir": {
+        "value": 0,
+        "isChoice": false
+      },
+      "volonte": {
+        "value": 0,
+        "isChoice": false
+      }
+    },
+    "effectiveRandom": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707680267561,
+    "modifiedTime": 1707680363511,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!TX2XWsZXMzLgXB8e"
+}

@@ -1,0 +1,114 @@
+{
+  "folder": "2whJcjha6hOOiMIf",
+  "name": "Molosse infernal",
+  "type": "pnj",
+  "_id": "tU1NijhSOzoE7x9u",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "taille": null,
+    "poids": null,
+    "main": "a",
+    "description": "Monstrueux chien aux yeux rouges et aux crocs disproportionnés.",
+    "argent": "0",
+    "vitalite": "25",
+    "sang_froid": "0",
+    "protection": 0,
+    "atouts": [],
+    "equipements": [],
+    "competences": {
+      "combat": "65",
+      "connaissances": "0",
+      "discretion": "30",
+      "endurance": "70",
+      "force": "60",
+      "habilete": "0",
+      "magie": "0",
+      "mouvement": "60",
+      "perception": "65",
+      "sociabilite": "0",
+      "survie": "0",
+      "tir": "0",
+      "volonte": "40"
+    }
+  },
+  "prototypeToken": {
+    "name": "Molosse infernal",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707250790771,
+    "modifiedTime": 1707331146503,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_key": "!actors!tU1NijhSOzoE7x9u"
+}

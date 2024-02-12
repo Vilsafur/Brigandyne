@@ -1,0 +1,35 @@
+{
+  "folder": null,
+  "name": "Arquebuse",
+  "type": "armeDistance",
+  "img": "systems/brigandyne/assets/img/armesDistance/Arquebuse.webp",
+  "system": {
+    "description": "<p>Arme à feu de portée limitée, assez lourde et encombrante. Elle nécessite la prise d'appui sur une fourche (fourquin) pour tirer. La mèche est allumée et ramenée sur le bassinet où la poudre est tassée pour l'explosion. L'arquebuse a une faible cadence de tir et son canon s'échauffe vite. Très chères mais prestigieuses, elles comportent les plus belles ornementations dorures, gravures, inserts en corne ou en ivoire sculptés, parfois même de pierres précieuses. Elles servent même comme objet de décoration dans les demeures des plus riches seigneurs</p>",
+    "prix": 80,
+    "uniteePrix": "po",
+    "degats": 6,
+    "portee": "20",
+    "dissimulation": "e",
+    "main": "b",
+    "special": "<p>Ignore les armures</p><p>C’est une arme à poudre, instable et dangereuse. Sur un échec critique, l’arme peut se bloquer, devenir inutilisable ou carrément exploser dans les mains du personnage. Au MJ de décider des conséquences de l’échec critique.</p><p>L’arme est très lente à recharger. On ne peut tirer qu’un tour sur deux.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706909655650,
+    "modifiedTime": 1707159539832,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "zmS6u8vQnnFYfwAx",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!zmS6u8vQnnFYfwAx"
+}

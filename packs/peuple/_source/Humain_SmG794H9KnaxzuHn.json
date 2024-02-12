@@ -1,0 +1,43 @@
+{
+  "name": "Humain",
+  "type": "peuple",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>C’est le peuple majoritaire parmi les humanoïdes. Leurs cultures, leurs religions, leurs habitudes sont si nombreuses et différentes qu’il est impossible de les décrire toutes. Ils sont présents sur tous les continents grâce à leur ténacité, leur polyvalence et leur intelligence. Les humains apprennent vite, s’adaptent à tous les milieux, et se multiplient bien plus rapidement que les races anciennes.</p><p>C’est le peuple du renouveau, avide de pouvoir, de conquêtes, de richesses et de découvertes.</p><p>Espérance de vie : 60 ans</p><p>Taille, poids : environ 1m70, 65 kg</p><p>Allure : 4-5 km/h</p><p>Cheveux : blonds, roux, bruns, noirs</p><p>Yeux : marrons, bleus, verts, noirs</p>",
+    "caracteristiques": {
+      "combat": "25",
+      "connaissances": "25",
+      "discretion": "25",
+      "endurance": "25",
+      "force": "25",
+      "habilete": "25",
+      "magie": "0",
+      "mouvement": "25",
+      "perception": "25",
+      "sociabilite": "25",
+      "survie": "25",
+      "tir": "25",
+      "volonte": "25"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706896786817,
+    "modifiedTime": 1706901106890,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "SmG794H9KnaxzuHn",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!SmG794H9KnaxzuHn"
+}

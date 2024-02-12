@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Rat",
+  "type": "archetype",
+  "_id": "1hvLn6r8iv3uiRJd",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Sournois et vicieux, le Rat conjugue un corps maigrelet avec un caractère sombre et vil. Sa faiblesse physique est compensée par son manque total de scrupule, son absence de noblesse et un esprit d’initiative affûté. Le Rat est avant tout un survivant, s’il faut se cacher, mentir, se courber devant les puissants pour vivre un jour de plus, il le fera sans hésiter. Le Rat a vite appris que seul il était faible et il a adopté un esprit collectif et rassembleur qui contraste avec sa personnalité égoïste.</p>",
+    "trait_de_caractere": "<p>Avare, Cruel, Courtois, Débrouillard, Déloyal, Froid, Inventif, Lâche, Malhonnête, Rancunier</p>",
+    "caracteristiques": {
+      "combat": {
+        "value": 0,
+        "isChoice": false
+      },
+      "connaissances": {
+        "value": 0,
+        "isChoice": false
+      },
+      "discretion": {
+        "value": 5,
+        "isChoice": false
+      },
+      "endurance": {
+        "value": 0,
+        "isChoice": false
+      },
+      "force": {
+        "value": -5,
+        "isChoice": false
+      },
+      "habilete": {
+        "value": 0,
+        "isChoice": false
+      },
+      "magie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "mouvement": {
+        "value": 0,
+        "isChoice": false
+      },
+      "perception": {
+        "value": 0,
+        "isChoice": false
+      },
+      "sociabilite": {
+        "value": 0,
+        "isChoice": false
+      },
+      "survie": {
+        "value": 5,
+        "isChoice": true
+      },
+      "tir": {
+        "value": 0,
+        "isChoice": false
+      },
+      "volonte": {
+        "value": 5,
+        "isChoice": true
+      }
+    },
+    "effectiveRandom": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707680066792,
+    "modifiedTime": 1707680363511,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!1hvLn6r8iv3uiRJd"
+}

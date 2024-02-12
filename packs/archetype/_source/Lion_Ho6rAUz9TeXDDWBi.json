@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Lion",
+  "type": "archetype",
+  "_id": "Ho6rAUz9TeXDDWBi",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Le charisme et la force qui va avec, le Lion est né pour régner. Son apparence formidable, sa puissance physique et sociale le mettent sans effort ni gesticulations sur le devant de la scène. Brave, le Lion ne tremble pas et se place volontiers au-devant de ses troupes qu’il aime soumises et admiratives. Territorial, jaloux, voulant garder sa place à tout prix, il voit souvent des ennemis et des rivaux là où il n’y a que de trop brillants alliés...</p>",
+    "trait_de_caractere": "<p>Ambitieux, Autoritaire, Charismatique, Courageux, Egoïste, Fier, Jaloux, Paresseux, Sanguinaire, Sûr de soi</p>",
+    "caracteristiques": {
+      "combat": {
+        "value": 5,
+        "isChoice": false
+      },
+      "connaissances": {
+        "value": -5,
+        "isChoice": false
+      },
+      "discretion": {
+        "value": -5,
+        "isChoice": false
+      },
+      "endurance": {
+        "value": 0,
+        "isChoice": false
+      },
+      "force": {
+        "value": 5,
+        "isChoice": false
+      },
+      "habilete": {
+        "value": 0,
+        "isChoice": false
+      },
+      "magie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "mouvement": {
+        "value": 0,
+        "isChoice": false
+      },
+      "perception": {
+        "value": 0,
+        "isChoice": false
+      },
+      "sociabilite": {
+        "value": 5,
+        "isChoice": false
+      },
+      "survie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "tir": {
+        "value": 0,
+        "isChoice": false
+      },
+      "volonte": {
+        "value": 0,
+        "isChoice": false
+      }
+    },
+    "effectiveRandom": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707679926321,
+    "modifiedTime": 1707680363511,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!Ho6rAUz9TeXDDWBi"
+}

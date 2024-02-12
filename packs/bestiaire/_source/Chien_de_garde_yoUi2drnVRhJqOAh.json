@@ -1,0 +1,118 @@
+{
+  "folder": "j9Ifjnnoikdu1HKh",
+  "name": "Chien de garde",
+  "type": "pnj",
+  "_id": "yoUi2drnVRhJqOAh",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "taille": null,
+    "poids": null,
+    "main": "a",
+    "description": "Un gros molosse, nerveux, la bave aux lèvres",
+    "argent": "0",
+    "vitalite": "10",
+    "sang_froid": "0",
+    "protection": 0,
+    "atouts": [],
+    "equipements": [],
+    "competences": {
+      "combat": "35",
+      "connaissances": "0",
+      "discretion": "30",
+      "endurance": "50",
+      "force": "35",
+      "habilete": "0",
+      "magie": "0",
+      "mouvement": "60",
+      "perception": "60",
+      "sociabilite": "0",
+      "survie": "0",
+      "tir": "0",
+      "volonte": "40"
+    }
+  },
+  "prototypeToken": {
+    "name": "Chien de garde",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "flags": {
+    "core": {
+      "sourceId": "Actor.yoUi2drnVRhJqOAh"
+    }
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707218325853,
+    "modifiedTime": 1707331140831,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_key": "!actors!yoUi2drnVRhJqOAh"
+}

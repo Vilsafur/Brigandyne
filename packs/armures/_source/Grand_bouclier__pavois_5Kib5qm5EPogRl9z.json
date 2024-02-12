@@ -1,0 +1,33 @@
+{
+  "folder": null,
+  "name": "Grand bouclier, pavois",
+  "type": "armure",
+  "img": "systems/brigandyne/assets/img/armures/Grand%20bouclier%2C%20pavois.webp",
+  "system": {
+    "description": "<p>Le pavois est un grand bouclier ovale ou rectangulaire, en bois léger, parfois recouvert de cuir ou de lames de fer. Il mesure habituellement un mètre de haut sur une largeur de cinquante centimètres. On l’utilise surtout en le plantant au sol pour se protéger des tirs ennemis.</p>",
+    "prix": 15,
+    "uniteePrix": "po",
+    "notes": "Bonus",
+    "protection": 1,
+    "special": "<p>L’armure est lourde et donne le malus de -5 à toutes les actions de Mouvement.</p><p>On peut se cacher des tirs ennemis derrière un pavois.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706911697265,
+    "modifiedTime": 1706983439972,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "5Kib5qm5EPogRl9z",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!5Kib5qm5EPogRl9z"
+}

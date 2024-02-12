@@ -1,0 +1,33 @@
+{
+  "folder": null,
+  "name": "Vêtements rembourrés, fourrures",
+  "type": "armure",
+  "img": "systems/brigandyne/assets/img/armures/V%C3%AAtements%20rembourr%C3%A9s%2C%20fourrures.webp",
+  "system": {
+    "description": "<p>L’armure la plus simple. Les vêtements rembourrés sont composés de plusieurs couches de vêtements, et les fourrures sont un assemblage de peaux d’animaux. Impossible à porter en été.</p>",
+    "prix": 2,
+    "uniteePrix": "po",
+    "notes": "Complète",
+    "protection": 1,
+    "special": "<p>L’armure est chaude et très fatigante à porter sous un soleil d’été (-5% cumulatif à toutes les actions)</p>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706910755837,
+    "modifiedTime": 1706983439972,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "eCg7ardZAn6sBRQb",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!eCg7ardZAn6sBRQb"
+}

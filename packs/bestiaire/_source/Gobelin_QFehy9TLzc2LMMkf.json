@@ -1,0 +1,152 @@
+{
+  "folder": "ho3JBm3k7uO0wudi",
+  "name": "Gobelin",
+  "type": "pnj",
+  "_id": "QFehy9TLzc2LMMkf",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "taille": null,
+    "poids": null,
+    "main": "a",
+    "description": "Petit, voûté, le regard torve et la peau pustuleuse.",
+    "argent": "0",
+    "vitalite": "10",
+    "sang_froid": "0",
+    "protection": 0,
+    "atouts": [],
+    "equipements": [],
+    "competences": {
+      "combat": "30",
+      "connaissances": "25",
+      "discretion": "50",
+      "endurance": "25",
+      "force": "25",
+      "habilete": "40",
+      "magie": "0",
+      "mouvement": "40",
+      "perception": "40",
+      "sociabilite": "25",
+      "survie": "40",
+      "tir": "35",
+      "volonte": "15"
+    }
+  },
+  "prototypeToken": {
+    "name": "Gobelin",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Couteau, poignard",
+      "type": "armeMelee",
+      "img": "systems/brigandyne/assets/img/armesMelee/Couteau%2C%20poignard.webp",
+      "system": {
+        "description": "<p>Arme blanche courte (en moyenne 20 cm) à double tranchant, utilisée notamment comme arme de jet. Les stylets sont des poignards à lame triangulaire très fine, conçue pour produire des blessures très profondes et donc difficiles à guérir.</p>",
+        "prix": 5,
+        "uniteePrix": "pa",
+        "degats": -1,
+        "allonge": "e",
+        "dissimulation": "a",
+        "main": "a",
+        "special": "<p>Peut être lancé</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.brigandyne.armes-de-melee.Item.Now5R4LqzmNxdCtv"
+        }
+      },
+      "_stats": {
+        "systemId": "brigandyne",
+        "systemVersion": "1.0.0",
+        "coreVersion": "11.315",
+        "createdTime": 1706901566410,
+        "modifiedTime": 1707218217085,
+        "lastModifiedBy": "UwlimL2UASASR0DY"
+      },
+      "_id": "xryZvlpDZcHpNlum",
+      "sort": 900000,
+      "ownership": {
+        "default": 0,
+        "UwlimL2UASASR0DY": 3
+      },
+      "_key": "!actors.items!QFehy9TLzc2LMMkf.xryZvlpDZcHpNlum"
+    }
+  ],
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707218142245,
+    "modifiedTime": 1707331153858,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_key": "!actors!QFehy9TLzc2LMMkf"
+}

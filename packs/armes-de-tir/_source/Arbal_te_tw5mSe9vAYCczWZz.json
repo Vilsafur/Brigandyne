@@ -1,0 +1,35 @@
+{
+  "folder": null,
+  "name": "Arbalète",
+  "type": "armeDistance",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Arme de tir composée d'un arc de corne ou de métal, d'une pièce en bois permettant de fixer l'arc (arbrier) et d'un mécanisme permettant de maintenir la corde tendue (noix), de lâcher la flèche (détente) et de bander l'arc. Très puissante et précise, c'est une arme meurtrière mais qui souffre de deux défauts : son poids et sa cadence de tir (son temps de rechargement est long). L'arbalète est cependant plus facile à manier que l'arc et nécessite moins de temps pour la formation des tireurs. En effet, une fois que la corde est tendue, le tireur n’a plus d’effort physique à fournir pendant qu’il vise. De plus, l’arbalète peut être utilisée en position couchée et on peut ainsi se mettre à couvert.</p>",
+    "prix": 20,
+    "uniteePrix": "po",
+    "degats": 4,
+    "portee": "30",
+    "dissimulation": "c",
+    "main": "b",
+    "special": "<p>Maniable +10%</p><p>L’arme est très lente à recharger. On ne peut tirer qu’un tour sur deux.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706909297772,
+    "modifiedTime": 1707159539832,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "tw5mSe9vAYCczWZz",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!tw5mSe9vAYCczWZz"
+}

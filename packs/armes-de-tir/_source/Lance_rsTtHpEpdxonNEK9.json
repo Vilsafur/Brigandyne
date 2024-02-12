@@ -1,0 +1,35 @@
+{
+  "folder": null,
+  "name": "Lance",
+  "type": "armeDistance",
+  "img": "systems/brigandyne/assets/img/armesDistance/Lance.webp",
+  "system": {
+    "description": "<p>Arme d'hast dotée d'un fer emmanché sur une hampe ou long bois et, pour certaines d'un talon métallique qui sert en général à équilibrer l'arme tenue en main et à la planter dans le sol. À la différence du javelot, la lance est une arme mixte qui est destinée à être lancée ou être d'estoc.</p>",
+    "prix": 1,
+    "uniteePrix": "po",
+    "degats": -1,
+    "portee": "FOR/5",
+    "dissimulation": "e",
+    "main": "a",
+    "special": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706909971099,
+    "modifiedTime": 1707159539832,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "rsTtHpEpdxonNEK9",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!rsTtHpEpdxonNEK9"
+}

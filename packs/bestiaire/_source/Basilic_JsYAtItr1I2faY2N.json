@@ -1,0 +1,114 @@
+{
+  "folder": "F4jaJMjp5lYWuGIV",
+  "name": "Basilic",
+  "type": "pnj",
+  "_id": "JsYAtItr1I2faY2N",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "taille": null,
+    "poids": null,
+    "main": "a",
+    "description": "Un grand coq aux ailes de chauve-souris et à la queue serpentine.",
+    "argent": "0",
+    "vitalite": "30",
+    "sang_froid": "0",
+    "protection": 0,
+    "atouts": [],
+    "equipements": [],
+    "competences": {
+      "combat": "45",
+      "connaissances": "0",
+      "discretion": "35",
+      "endurance": "50",
+      "force": "50",
+      "habilete": "0",
+      "magie": "50",
+      "mouvement": "40",
+      "perception": "30",
+      "sociabilite": "0",
+      "survie": "0",
+      "tir": "0",
+      "volonte": "50"
+    }
+  },
+  "prototypeToken": {
+    "name": "Basilic",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707218571477,
+    "modifiedTime": 1707331143917,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_key": "!actors!JsYAtItr1I2faY2N"
+}

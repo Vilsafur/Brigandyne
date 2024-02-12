@@ -1,0 +1,35 @@
+{
+  "folder": null,
+  "name": "Couteau de lancer",
+  "type": "armeDistance",
+  "img": "systems/brigandyne/assets/img/armesDistance/Couteau%20de%20lancer.webp",
+  "system": {
+    "description": "<p>Arme courte à double tranchant, équilibrée et suffisamment lourde pour permettre un bon lancer.</p>",
+    "prix": 1,
+    "uniteePrix": "po",
+    "degats": -1,
+    "portee": "FOR/5",
+    "dissimulation": "a",
+    "main": "a",
+    "special": "<p>L’arme a une cadence de tir rapide. Sur une réussite de qualité 3 ou + (30+), le tireur a droit à un second (et donc dernier) tir.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706909769462,
+    "modifiedTime": 1707159539832,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "fIF3xcIjusDtEZdg",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!fIF3xcIjusDtEZdg"
+}

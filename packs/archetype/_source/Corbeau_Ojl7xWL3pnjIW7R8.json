@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Corbeau",
+  "type": "archetype",
+  "_id": "Ojl7xWL3pnjIW7R8",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Sombre et perspicace, le Corbeau est un nomade qui semble amener la mort et la malchance partout où il va. Il a toutefois appris à en rire et nombreux sont les Corbeaux munis d’un sombre sens de l’humour tout en cynisme et acidité. Mystérieux et intelligent, il a une vue lucide du monde qui l’entoure mais ne la partage pas volontiers. Cette intelligence peut prendre la forme d’une sombre détermination car le Corbeau est rancunier et vengeur et il sait prendre son temps.</p>",
+    "trait_de_caractere": "<p>Critique, Cruel, Distant, Intimidant, Mystérieux, Pragmatique, Rancunier, Sarcastique, Solitaire, Spirituel</p>",
+    "caracteristiques": {
+      "combat": {
+        "value": 0,
+        "isChoice": false
+      },
+      "connaissances": {
+        "value": 0,
+        "isChoice": false
+      },
+      "discretion": {
+        "value": 5,
+        "isChoice": true
+      },
+      "endurance": {
+        "value": 0,
+        "isChoice": false
+      },
+      "force": {
+        "value": 0,
+        "isChoice": false
+      },
+      "habilete": {
+        "value": 0,
+        "isChoice": false
+      },
+      "magie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "mouvement": {
+        "value": 0,
+        "isChoice": false
+      },
+      "perception": {
+        "value": 0,
+        "isChoice": false
+      },
+      "sociabilite": {
+        "value": -5,
+        "isChoice": false
+      },
+      "survie": {
+        "value": 5,
+        "isChoice": true
+      },
+      "tir": {
+        "value": 0,
+        "isChoice": false
+      },
+      "volonte": {
+        "value": 5,
+        "isChoice": false
+      }
+    },
+    "effectiveRandom": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707677738623,
+    "modifiedTime": 1707680363511,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!Ojl7xWL3pnjIW7R8"
+}

@@ -1,0 +1,33 @@
+{
+  "folder": null,
+  "name": "Gambison",
+  "type": "armure",
+  "img": "systems/brigandyne/assets/img/armures/Gambison%20(manteau%20matelass%C3%A9).webp",
+  "system": {
+    "description": "<p>Le gambison couvre le corps, les bras et une partie des jambes. C’est un vêtement matelassé ou multicouche, fait de tissu ou de cuir, et dont le rembourrage se composait de laine, de coton, de crin de chevaux, de poils d’animaux etc.</p>",
+    "prix": 7,
+    "uniteePrix": "po",
+    "notes": "Complète",
+    "protection": 2,
+    "special": "<p>L’armure est chaude et très fatigante à porter sous un soleil d’été (-5% cumulatif à toutes les actions)</p>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706910861061,
+    "modifiedTime": 1706983439972,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "sZjIwy4ucHFiN4NQ",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!sZjIwy4ucHFiN4NQ"
+}

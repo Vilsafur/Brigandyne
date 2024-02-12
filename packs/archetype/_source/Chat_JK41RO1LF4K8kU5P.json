@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Chat",
+  "type": "archetype",
+  "_id": "JK41RO1LF4K8kU5P",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Svelte et vif, le Chat est une énigme. Indépendant et suave, joueur et secret, c’est un être libre qui fuit les attaches et les contraintes. Dans une situation qui l’intéresse, le Chat montre d’extraordinaires ressources d’adaptation, de ruse, d’intuition ou de cruauté. Sans cela, il est perçu comme paresseux et amorphe. Grand séducteur, le Chat aime qu’on le cajole mais il est souvent trop égoïste pour donner autre chose qu’une chaleureuse estime.</p>",
+    "trait_de_caractere": "<p>Cruel, Curieux, Dépravé, Egoïste, Elégant, Hautain, Moqueur, Paresseux, Rusé, Séducteur</p>",
+    "caracteristiques": {
+      "combat": {
+        "value": 0,
+        "isChoice": false
+      },
+      "connaissances": {
+        "value": 0,
+        "isChoice": false
+      },
+      "discretion": {
+        "value": 5,
+        "isChoice": false
+      },
+      "endurance": {
+        "value": 0,
+        "isChoice": false
+      },
+      "force": {
+        "value": -5,
+        "isChoice": true
+      },
+      "habilete": {
+        "value": 0,
+        "isChoice": false
+      },
+      "magie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "mouvement": {
+        "value": 5,
+        "isChoice": false
+      },
+      "perception": {
+        "value": 0,
+        "isChoice": false
+      },
+      "sociabilite": {
+        "value": 0,
+        "isChoice": false
+      },
+      "survie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "tir": {
+        "value": 0,
+        "isChoice": false
+      },
+      "volonte": {
+        "value": -5,
+        "isChoice": true
+      }
+    },
+    "effectiveRandom": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707677630205,
+    "modifiedTime": 1707680363511,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!JK41RO1LF4K8kU5P"
+}

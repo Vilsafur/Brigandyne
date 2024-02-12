@@ -1,0 +1,33 @@
+{
+  "folder": null,
+  "name": "Broigne, brigandine",
+  "type": "armure",
+  "img": "systems/brigandyne/assets/img/armures/Broigne%2C%20brigandine%20(plastron%20renforc%C3%A9).webp",
+  "system": {
+    "description": "<p>La broigne ne protège que le torse. Elle est constituée d’un vêtement de gros tissu ou d’un plastron de cuir sur lequel sont fixés des anneaux ou des plaquettes de métal (de fer ou d’acier). Ces pièces de métal peuvent aussi être placés sous le vêtement ou même entre deux couches de vêtement.</p>",
+    "prix": 10,
+    "uniteePrix": "po",
+    "notes": "Partielle",
+    "protection": 3,
+    "special": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706910929062,
+    "modifiedTime": 1706983439972,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "FfcA8Oz6pYLcyiWz",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!FfcA8Oz6pYLcyiWz"
+}

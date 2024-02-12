@@ -1,0 +1,35 @@
+{
+  "folder": null,
+  "name": "Tromblon",
+  "type": "armeDistance",
+  "img": "systems/brigandyne/assets/img/armesDistance/Tromblon.webp",
+  "system": {
+    "description": "<p>Arme à feu portative dont le canon est évasé, en forme de trompette. On la charge par la bouche. Le tromblon peut tirer toutes sortes de projectiles (balles de plomb, cailloux, verre…) à courte portée.</p>",
+    "prix": 40,
+    "uniteePrix": "po",
+    "degats": 2,
+    "portee": "3",
+    "dissimulation": "c",
+    "main": "b",
+    "special": "<p>Peu précise -5%</p><p>C’est une arme à poudre, instable et dangereuse. Sur un échec critique, l’arme peut se bloquer, devenir inutilisable ou carrément exploser dans les mains du personnage. Au MJ de décider des conséquences de l’échec critique.</p>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706910173558,
+    "modifiedTime": 1707159542404,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "H12Wv6ieoWwZ0afH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!H12Wv6ieoWwZ0afH"
+}

@@ -1,0 +1,35 @@
+{
+  "folder": null,
+  "name": "Javelot",
+  "type": "armeDistance",
+  "img": "systems/brigandyne/assets/img/armesDistance/Javelot.webp",
+  "system": {
+    "description": "<p>Arme de jet légère composée d'une longue tige surmontée d'une pointe en acier.</p>",
+    "prix": 1,
+    "uniteePrix": "po",
+    "degats": -1,
+    "portee": "FOR/2",
+    "dissimulation": "e",
+    "main": "a",
+    "special": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706909917861,
+    "modifiedTime": 1707159539832,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "i1G1q3g79RdHED4g",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!i1G1q3g79RdHED4g"
+}

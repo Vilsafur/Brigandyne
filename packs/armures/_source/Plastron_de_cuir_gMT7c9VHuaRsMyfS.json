@@ -1,0 +1,33 @@
+{
+  "folder": null,
+  "name": "Plastron de cuir",
+  "type": "armure",
+  "img": "systems/brigandyne/assets/img/armures/Plastron%20de%20cuir.webp",
+  "system": {
+    "description": "<p>C’est un gilet de cuir souple ou de cuir bouilli, solide et pratique.</p>",
+    "prix": 5,
+    "uniteePrix": "po",
+    "notes": "Partielle",
+    "protection": 1,
+    "special": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706910820755,
+    "modifiedTime": 1706983439972,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "gMT7c9VHuaRsMyfS",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!gMT7c9VHuaRsMyfS"
+}

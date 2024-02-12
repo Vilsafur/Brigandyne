@@ -1,0 +1,33 @@
+{
+  "folder": null,
+  "name": "Cuirasse",
+  "type": "armure",
+  "img": "systems/brigandyne/assets/img/armures/Cuirasse.webp",
+  "system": {
+    "description": "<p>La cuirasse est une coque métallique couvrant le torse (des épaules jusqu’à la ceinture), formée d'une ou de plusieurs pièces de métal.</p>",
+    "prix": 40,
+    "uniteePrix": "po",
+    "notes": "Partielle",
+    "protection": 4,
+    "special": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706911024511,
+    "modifiedTime": 1706983439972,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "6ehq5NjFv8K3HyEe",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!6ehq5NjFv8K3HyEe"
+}

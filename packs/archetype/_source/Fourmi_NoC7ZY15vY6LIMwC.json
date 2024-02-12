@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Fourmi",
+  "type": "archetype",
+  "_id": "NoC7ZY15vY6LIMwC",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>On pense à la fourmi lorsqu’on a devant soi une tâche fastidieuse requérant méthode et patience. Dans le monde, la fourmi est discrète, peu brillante, souvent faible physiquement et sans don particulier. Elle s’est construite à force d’efforts et de patience, de rigueur et de travail. Elle en conçoit une certaine fierté et se méfie de tout ce qui n’est pas chiffrable et maîtrisé. Peu ambitieuse et modeste, c’est un être simple qui connait sa place et la valeur du travail d’équipe.</p>",
+    "trait_de_caractere": "<p>Conservateur, Débrouillard, Discipliné, Inventif, Loyal, Méticuleux, Rationnel, Suiveur, Travailleur, Donneur-de-leçon</p>",
+    "caracteristiques": {
+      "combat": {
+        "value": 0,
+        "isChoice": false
+      },
+      "connaissances": {
+        "value": 0,
+        "isChoice": false
+      },
+      "discretion": {
+        "value": 0,
+        "isChoice": false
+      },
+      "endurance": {
+        "value": -5,
+        "isChoice": false
+      },
+      "force": {
+        "value": 0,
+        "isChoice": false
+      },
+      "habilete": {
+        "value": 5,
+        "isChoice": false
+      },
+      "magie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "mouvement": {
+        "value": 0,
+        "isChoice": false
+      },
+      "perception": {
+        "value": 0,
+        "isChoice": false
+      },
+      "sociabilite": {
+        "value": 0,
+        "isChoice": false
+      },
+      "survie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "tir": {
+        "value": 0,
+        "isChoice": false
+      },
+      "volonte": {
+        "value": 5,
+        "isChoice": false
+      }
+    },
+    "effectiveRandom": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707677768279,
+    "modifiedTime": 1707680363511,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!NoC7ZY15vY6LIMwC"
+}

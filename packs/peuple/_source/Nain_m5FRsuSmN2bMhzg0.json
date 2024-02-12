@@ -1,0 +1,45 @@
+{
+  "name": "Nain",
+  "type": "peuple",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Fiers guerriers et travailleurs acharnés, les Nains sont connus pour leur valeur et leur loyauté dans tous les domaines. Malgré leur petite taille (1,30 m environ) et leur manque de finesse, ils figurent parmi les peuples les plus respectés. Leur âge est proportionnel à la longueur de leur barbe, qu’ils ne coupent jamais. Les Nains sont un peuple de passionnés, et ceux qu’on trouve sur les routes le sont souvent en raison d’un défi, d’une peine de cœur, ou d’une vengeance à accomplir.</p><p>Espérance de vie : 150 ans</p><p>Taille, poids : environ 1m35, 55 kg</p><p>Allure : 3-4 km/h</p><p>Cheveux : blonds, roux, bruns, noirs</p><p>Yeux : marrons, bleus, gris, verts, argentés, noirs</p>",
+    "caracteristiques": {
+      "combat": "30",
+      "connaissances": "25",
+      "discretion": "25",
+      "endurance": "30",
+      "force": "30",
+      "habilete": "30",
+      "magie": "0",
+      "mouvement": "20",
+      "perception": "20",
+      "sociabilite": "20",
+      "survie": "20",
+      "tir": "20",
+      "volonte": "30"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {
+      "sheetClass": ""
+    }
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706823479328,
+    "modifiedTime": 1706901106890,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "m5FRsuSmN2bMhzg0",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!m5FRsuSmN2bMhzg0"
+}

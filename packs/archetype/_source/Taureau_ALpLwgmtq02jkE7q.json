@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Taureau",
+  "type": "archetype",
+  "_id": "ALpLwgmtq02jkE7q",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>La virilité et la force, le Taureau est un concentré de tout cela dans un caractère ombrageux, car contrairement à l’Ours, sa force ne l’a pas rendu protecteur et il s’en sert volontiers pour piétiner ceux qui sont sur sa route. Fier de lui, il n’aime pas les rivalités larvées et il a besoin de savoir qui est le plus fort et maintenant. Fruste, le Taureau attire pourtant les flatteurs et les bonnes grâces des femmes qui veulent le manipuler. Malgré tous ces défauts, le Taureau est aussi un compagnon optimiste et têtu, bien agréable d’avoir de son côté.</p>",
+    "trait_de_caractere": "<p>Agressif, Dépravé, Fier, Grossier, Honorable, Intimidant, Jovial, Optimiste, Spontané, Têtu</p>",
+    "caracteristiques": {
+      "combat": {
+        "value": 5,
+        "isChoice": false
+      },
+      "connaissances": {
+        "value": -5,
+        "isChoice": false
+      },
+      "discretion": {
+        "value": -5,
+        "isChoice": false
+      },
+      "endurance": {
+        "value": 0,
+        "isChoice": false
+      },
+      "force": {
+        "value": 10,
+        "isChoice": false
+      },
+      "habilete": {
+        "value": 0,
+        "isChoice": false
+      },
+      "magie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "mouvement": {
+        "value": 0,
+        "isChoice": false
+      },
+      "perception": {
+        "value": 0,
+        "isChoice": false
+      },
+      "sociabilite": {
+        "value": 0,
+        "isChoice": false
+      },
+      "survie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "tir": {
+        "value": 0,
+        "isChoice": false
+      },
+      "volonte": {
+        "value": 0,
+        "isChoice": false
+      }
+    },
+    "effectiveRandom": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707680235909,
+    "modifiedTime": 1707680363511,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!ALpLwgmtq02jkE7q"
+}

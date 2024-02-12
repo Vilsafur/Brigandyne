@@ -1,0 +1,43 @@
+{
+  "name": "Halfenin",
+  "type": "peuple",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Pacifistes et travailleurs, les Petites-Gens sont très appréciés pour leur savoir-vivre, leurs talents de cuisinier, et leur bonne éducation. D’un caractère volontiers jovial et bon enfant, ils compensent leur taille réduite par une sociabilité peu commune, et un sens des affaires redoutable. Casaniers et conservateurs, peu nombreux sont ceux qui partent à l’aventure, mais ceux qui relèvent ce défi ne le font que rarement pour l’argent : ils souhaitent davantage échapper à une vie morne et répétitive.</p><p>Espérance de vie : 100 ans</p><p>Taille, poids : environ 1m30, 30 kg</p><p>Allure : 3-4 km/h</p><p>Cheveux : blonds, roux, bruns, noirs</p><p>Yeux : marrons, bleus, verts</p>",
+    "caracteristiques": {
+      "combat": "20",
+      "connaissances": "25",
+      "discretion": "35",
+      "endurance": "20",
+      "force": "15",
+      "habilete": "30",
+      "magie": "0",
+      "mouvement": "30",
+      "perception": "25",
+      "sociabilite": "30",
+      "survie": "25",
+      "tir": "25",
+      "volonte": "20"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706896886002,
+    "modifiedTime": 1706901106890,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "rMzoLNI24m9PEyk3",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!rMzoLNI24m9PEyk3"
+}

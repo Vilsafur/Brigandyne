@@ -1,0 +1,82 @@
+{
+  "folder": null,
+  "name": "Mouton",
+  "type": "archetype",
+  "_id": "ipRGRCPB4rMAR7CT",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Le Mouton est un être grégaire et conformiste, qui existe difficilement tout seul. Peu attaché à sa liberté qu’il troque volontiers contre du confort, il peut même accepter d’être un peu malmené et exploité si cela lui permet de maintenir un train de vie agréable, entouré de ses proches. Affolé par la solitude, il est souvent un ami d’une grande gentillesse même si peu utile quand la situation devient préoccupante ou dangereuse.</p>",
+    "trait_de_caractere": "<p></p>",
+    "caracteristiques": {
+      "combat": {
+        "value": -5,
+        "isChoice": false
+      },
+      "connaissances": {
+        "value": 0,
+        "isChoice": false
+      },
+      "discretion": {
+        "value": 0,
+        "isChoice": false
+      },
+      "endurance": {
+        "value": 0,
+        "isChoice": false
+      },
+      "force": {
+        "value": 0,
+        "isChoice": false
+      },
+      "habilete": {
+        "value": 5,
+        "isChoice": false
+      },
+      "magie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "mouvement": {
+        "value": 0,
+        "isChoice": false
+      },
+      "perception": {
+        "value": 5,
+        "isChoice": false
+      },
+      "sociabilite": {
+        "value": 5,
+        "isChoice": false
+      },
+      "survie": {
+        "value": 0,
+        "isChoice": false
+      },
+      "tir": {
+        "value": 0,
+        "isChoice": false
+      },
+      "volonte": {
+        "value": -5,
+        "isChoice": false
+      }
+    },
+    "effectiveRandom": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707679990080,
+    "modifiedTime": 1707680363511,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!ipRGRCPB4rMAR7CT"
+}

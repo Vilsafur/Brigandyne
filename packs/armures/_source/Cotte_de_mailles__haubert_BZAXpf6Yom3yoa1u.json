@@ -1,0 +1,33 @@
+{
+  "folder": null,
+  "name": "Cotte de mailles, haubert",
+  "type": "armure",
+  "img": "systems/brigandyne/assets/img/armures/Cotte%20de%20mailles%2C%20haubert.webp",
+  "system": {
+    "description": "<p>la cotte de mailles est un vêtement (robe), composé d'anneaux de fer ou d’acier imbriqués les uns dans les autres pour assurer au porteur une protection optimale. Elle protège le corps, les bras, et une partie des jambes. On la porte sur un gambison, pour protéger le corps des souffrances à l’épaule et au cou, mais aussi des infections qui pourraient se créer, dues aux frottements des pièces métalliques. Ce gambison est déjà compté dans la valeur de protection de l’armure.</p>",
+    "prix": 50,
+    "uniteePrix": "po",
+    "notes": "Complète",
+    "protection": 5,
+    "special": "<p>L’armure est lourde et donne le malus de -10 à toutes les actions de Mouvement.</p><p>L’armure est chaude et très fatigante à porter sous un soleil d’été (-5% cumulatif à toutes les actions)</p>"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706911068882,
+    "modifiedTime": 1706983439972,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_id": "BZAXpf6Yom3yoa1u",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!BZAXpf6Yom3yoa1u"
+}
