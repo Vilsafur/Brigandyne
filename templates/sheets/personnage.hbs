@@ -100,7 +100,7 @@
         <div>{{ucfirst nom}}</div>
         <div><input type="text" name="data.competences.{{nom}}.base" value="{{competence.base}}"></div>
         <div><input type="text" name="data.competences.{{nom}}.progression" value="{{competence.progression}}"></div>
-        <div>{{actualCompetence competence}}</div>
+        <div>{{lookupProp ../this.actor.system.calculatedCaracteristiques nom}}</div>
         {{/each }}
       </div>
     </div>

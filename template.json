@@ -233,7 +233,7 @@
           "isChoice": false
         }
       },
-      "effectiveRandom": ""
+      "effectiveRandom": []
     },
     "sort": {
       "domaineMagique": "",

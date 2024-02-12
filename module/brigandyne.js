@@ -56,9 +56,9 @@ Hooks.once('init', () => {
     return base != 0 ? 50 - base : null
   })
 
-  Handlebars.registerHelper('actualCompetence', function (competence) {
-    return parseInt(competence.base) + parseInt(competence.progression)
-  })
+  Handlebars.registerHelper('lookupProp', function (obj, key) {
+    return obj[key] && obj[key];
+ });
 
   return preloadHandlebarsTemplates()
 })
