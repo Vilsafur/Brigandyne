@@ -1,0 +1,10 @@
+<form class="{{cssClass}}" autocomplete="off">
+  {{#each choices as |choice value|}}
+  <div class="form-group">
+    <label>Choix pour la valeur {{value}}</label>
+    <div class="form-fields">
+      {{radioBoxes choice.groupName choice.choices checked=choice.chosen}}
+    </div>
+  </div>
+  {{/each}}
+</form>

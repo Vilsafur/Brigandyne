@@ -97,9 +97,9 @@ export class BrigandyneActor extends Actor {
       if (Object.hasOwnProperty.call(systemData.competences, competenceName)) {
         const competence = systemData.competences[competenceName];
         const peupleValue = systemData?.peuple?.system?.caracteristiques[competenceName] ?? "0"
-        const archetypeData = systemData.archetype.system
-        let archetypeValue = archetypeData.caracteristiques[competenceName].value
-        if (archetypeData.caracteristiques[competenceName].isChoice && archetypeData.effectiveRandom.indexOf(competenceName) == -1) {
+        const archetypeData = systemData?.archetype?.system ?? undefined
+        let archetypeValue = archetypeData?.caracteristiques[competenceName].value ?? 0
+        if (archetypeData?.caracteristiques[competenceName].isChoice && archetypeData?.effectiveRandom.indexOf(competenceName) == -1) {
           archetypeValue = 0
         }
         systemData.calculatedCaracteristiques[competenceName] = parseInt(competence.base) + parseInt(competence.progression) + parseInt(archetypeValue) + parseInt(peupleValue)

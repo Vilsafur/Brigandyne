@@ -32,8 +32,6 @@ export class BrigandyneItemSheet extends ItemSheet {
     context.system = itemData.system
     context.flags = itemData.flags
 
-    // context.effects = prepareActiveEffectCategories(this.item.effects)
-
     console.log('Brigandyne | itemSheet | context : ', context)
 
     return context

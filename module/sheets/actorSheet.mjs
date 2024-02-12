@@ -45,6 +45,65 @@ export class BrigandyneActorSheet extends ActorSheet {
     return context 
   }
 
+  async _onDropItemCreate(data) {
+    console.log('Brigandyne | actorsheet | onDropItemCreate', data)
+    await this._onDropItemCreateArchetype(data)
+    super._onDropItemCreate(data)
+  }
+
+  async _onDropItemCreateArchetype(data) {
+    return new Promise(async (resolve, reject) => {
+      if (data.type !== 'archetype') {
+        resolve()
+        return
+      }
+      data.choices = {}
+      for (const caracteristiqueName in data.system.caracteristiques) {
+        if (Object.hasOwnProperty.call(data.system.caracteristiques, caracteristiqueName)) {
+          const caracteristique = data.system.caracteristiques[caracteristiqueName];
+          if (caracteristique.isChoice) {
+            if (data.choices[caracteristique.value] === undefined) {
+              data.choices[caracteristique.value] = {
+                groupName: caracteristique.value,
+                choices: {},
+                chosen: ''
+              }
+            }
+            data.choices[caracteristique.value].choices[caracteristiqueName] = caracteristiqueName
+          }
+        }
+      }
+
+      ui.notifications.info(`Nombre de choix : ${Object.keys(data.choices).length}`)
+      if(Object.keys(data.choices).length == 0) {
+        resolve()
+        return
+      }
+      
+      const content = await renderTemplate("systems/brigandyne/templates/dialogs/dropArchetype.hbs", data);
+      new Dialog({
+        title: "Options de l'archetype",
+        content: content,
+        buttons: {
+          validate: {
+            label: 'Valider',
+            callback: (html) => {
+              const values = html.find("input").filter((index, i) => i.checked).map((index, i) => i.value);
+              for (const value of values) {
+                data.system.effectiveRandom.push(value)
+              }
+              console.log('Brigandyne | actorSheet | _onDropItemCreateArchetype', data)
+              ui.notifications.info("Button #1 Clicked!")
+              resolve()
+            },
+            icon: `<i class="fas fa-check"></i>`
+          }
+        }
+      }).render(true);
+
+    })
+  }
+
   /**
    * Organize and classify Items for Character sheets.
    *
