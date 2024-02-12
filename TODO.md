@@ -1,0 +1,9 @@
+- Mise en place des carrières
+- Gestion de l'équipement
+- Gestion des sorts disponibles
+- Gestion des points de progression
+- Gestion des lancés de dés
+  - ciblage
+  - utilisation de points de fortunes
+  - ajout de modificateur
+- Macro de lancé de dés
