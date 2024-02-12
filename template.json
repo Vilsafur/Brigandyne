@@ -122,7 +122,7 @@
     }
   },
   "Item": {
-    "types": ["armure", "sort", "armeMelee", "armeDistance", "peuple", "archetype"],
+    "types": ["armure", "sort", "ingredient", "potion", "armeMelee", "armeDistance", "peuple", "archetype"],
     "templates": {
       "itemBasics": {
         "description": "",
@@ -241,6 +241,13 @@
       "opposition": "",
       "description": "",
       "duree": ""
+    },
+    "ingredient": {
+      "description": ""
+    },
+    "potion": {
+      "description": "",
+      "ingredients": ""
     }
   }
 }

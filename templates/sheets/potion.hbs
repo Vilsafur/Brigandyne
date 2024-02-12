@@ -1,0 +1,18 @@
+<form class="{{cssClass}} ingredient" autocomplete="off">
+  <header class="sheet-header">
+    <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64" />
+    <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name" /></h1>
+  </header>
+  <div class="sheet-content">
+      <div class="description">
+        <h2>Description</h2>
+        {{editor data.system.description target="data.description" button=true engine="prosemirror" collaborate=false}}
+      </div>
+      <div class="ingredients">
+        <h2>Ingredients</h2>
+        {{editor data.system.ingredients target="data.ingredients" button=true engine="prosemirror" collaborate=false}}
+      </div>
+    </div>
+    </div>
+  </div>
+</form>
