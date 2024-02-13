@@ -15,7 +15,7 @@
       </div>
       <div class="item carriere">
         <label>Carrière(s)</label>
-        <input type="text" name="data.carriere" value="{{data.system.carriere}}" />
+        <div class="input item-edit" data-item-id="{{data.system.carriere._id}}">{{ data.system.carriere.name }}</div>
       </div>
       <div class="item niveau_de_vie">
         <label>Niveau de vie</label>
@@ -99,7 +99,39 @@
         {{#each actor.system.competences as |competence nom| }}
         <div>{{ucfirst nom}}</div>
         <div><input type="text" name="data.competences.{{nom}}.base" value="{{competence.base}}"></div>
-        <div><input type="text" name="data.competences.{{nom}}.progression" value="{{competence.progression}}"></div>
+        <div>
+          <input type="hidden" name="data.competences.{{nom}}.progression" value="{{competence.progression}}">
+          {{#if (check-carriere-competence-value ../this.data.system.carriere.system.caracteristiques nom 0)}}
+          <i class="fas fa-square"></i>
+          <i class="fas fa-square"></i>
+          {{else if (check-carriere-competence-value ../this.data.system.carriere.system.caracteristiques nom 1)}}
+            {{#if (check-progression competence 10)}}
+            <i class="far fa-plus-square progression-update-to-0" data-competence="{{nom}}"></i>
+            {{else if (check-progression competence 5)}}
+            <i class="far fa-minus-square progression-update-to-10" data-competence="{{nom}}"></i>
+            {{else}}
+            <i class="far fa-square progression-update-to-5" data-competence="{{nom}}"></i>
+            {{/if}}
+          <i class="fas fa-square"></i>
+          {{else}}
+            {{#if (check-progression competence 10)}}
+            <i class="far fa-plus-square progression-update-to-15" data-competence="{{nom}}"></i>
+            {{else if (check-progression competence 5)}}
+            <i class="far fa-minus-square progression-update-to-10" data-competence="{{nom}}"></i>
+            {{else}}
+            <i class="far fa-square progression-update-to-5" data-competence="{{nom}}"></i>
+            {{/if}}
+            {{#if (check-progression competence 20)}}
+            <i class="far fa-plus-square progression-update-to-0" data-competence="{{nom}}"></i>
+            {{else if (check-progression competence 15)}}
+            <i class="far fa-minus-square progression-update-to-20" data-competence="{{nom}}"></i>
+            {{else if (check-progression competence 10)}}
+            <i class="far fa-square progression-update-to-15" data-competence="{{nom}}"></i>
+            {{else}}
+            <i class="far fa-square" data-competence="{{nom}}"></i>
+            {{/if}}
+          {{/if}}
+        </div>
         <div>{{lookupProp ../this.actor.system.calculatedCaracteristiques nom}}</div>
         {{/each }}
       </div>

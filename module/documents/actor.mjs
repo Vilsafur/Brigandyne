@@ -90,6 +90,12 @@ export class BrigandyneActor extends Actor {
     let archetypes = actorData.items.filter(item => item.type == "archetype")
 
     systemData.archetype = archetypes.pop()
+    console.log('Brigandyne | actor | _prepareCharacterData', systemData)
+
+    let carrieres = actorData.items.filter(item => item.type == "carriere")
+
+    systemData.carriere = carrieres.pop()
+
 
     systemData.calculatedCaracteristiques = {}
 

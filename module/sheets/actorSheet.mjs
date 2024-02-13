@@ -42,6 +42,7 @@ export class BrigandyneActorSheet extends ActorSheet {
     //   this.actor.allApplicableEffects()
     // );
 
+    console.log('Brigandyne | actorSheet | getData', context)
     return context 
   }
 
@@ -139,10 +140,40 @@ export class BrigandyneActorSheet extends ActorSheet {
     html.find(".item-edit").click(this._onItemEdit.bind(this))
     html.find(".item-delete").click(this._onItemDelete.bind(this))
     html.find(".item-roll").click(this._onItemRoll.bind(this))
+    html.find(".progression-update-to-20").click(this._onProgressionUpdateTo20.bind(this))
+    html.find(".progression-update-to-15").click(this._onProgressionUpdateTo15.bind(this))
+    html.find(".progression-update-to-10").click(this._onProgressionUpdateTo10.bind(this))
+    html.find(".progression-update-to-5").click(this._onProgressionUpdateTo5.bind(this))
+    html.find(".progression-update-to-0").click(this._onProgressionUpdateTo0.bind(this))
     if (this.actor.owner) {
     }
 
     super.activateListeners(html)
+  }
+
+  async _onProgressionUpdateTo20(event) {
+    this.form.querySelector(`input[name="data.competences.${event.currentTarget.dataset.competence}.progression"`).value = '20'
+    await this.submit()
+  }
+
+  async _onProgressionUpdateTo15(event) {
+    this.form.querySelector(`input[name="data.competences.${event.currentTarget.dataset.competence}.progression"`).value = '15'
+    await this.submit()
+  }
+
+  async _onProgressionUpdateTo10(event) {
+    this.form.querySelector(`input[name="data.competences.${event.currentTarget.dataset.competence}.progression"`).value = '10'
+    await this.submit()
+  }
+  
+  async _onProgressionUpdateTo5(event) {
+    this.form.querySelector(`input[name="data.competences.${event.currentTarget.dataset.competence}.progression"`).value = '5'
+    await this.submit()
+  }
+  
+  async _onProgressionUpdateTo0(event) {
+    this.form.querySelector(`input[name="data.competences.${event.currentTarget.dataset.competence}.progression"`).value = '0'
+    await this.submit()
   }
 
   _onItemEdit(event) {

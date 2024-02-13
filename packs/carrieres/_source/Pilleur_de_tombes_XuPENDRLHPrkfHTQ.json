@@ -7,45 +7,19 @@
   "system": {
     "description": "",
     "caracteristiques": {
-      "combat": {
-        "value": "1"
-      },
-      "connaissances": {
-        "value": "0"
-      },
-      "discretion": {
-        "value": "1"
-      },
-      "endurance": {
-        "value": "2"
-      },
-      "force": {
-        "value": "1"
-      },
-      "habilete": {
-        "value": "1"
-      },
-      "magie": {
-        "value": "0"
-      },
-      "mouvement": {
-        "value": "1"
-      },
-      "perception": {
-        "value": "0"
-      },
-      "sociabilite": {
-        "value": "0"
-      },
-      "survie": {
-        "value": "1"
-      },
-      "tir": {
-        "value": "0"
-      },
-      "volonte": {
-        "value": "2"
-      }
+      "combat": "1",
+      "connaissances": "0",
+      "discretion": "1",
+      "endurance": "2",
+      "force": "1",
+      "habilete": "1",
+      "magie": "0",
+      "mouvement": "1",
+      "perception": "0",
+      "sociabilite": "0",
+      "survie": "1",
+      "tir": "0",
+      "volonte": "2"
     }
   },
   "effects": [],
