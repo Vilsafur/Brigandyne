@@ -1,0 +1,67 @@
+{
+  "folder": "yzcqblPRJObW97SI",
+  "name": "Archer, arbalétrier",
+  "type": "carriere",
+  "_id": "iF8voDjOXyOb6gyj",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "caracteristiques": {
+      "combat": {
+        "value": "1"
+      },
+      "connaissances": {
+        "value": "0"
+      },
+      "discretion": {
+        "value": "1"
+      },
+      "endurance": {
+        "value": "1"
+      },
+      "force": {
+        "value": "1"
+      },
+      "habilete": {
+        "value": "0"
+      },
+      "magie": {
+        "value": "0"
+      },
+      "mouvement": {
+        "value": "1"
+      },
+      "perception": {
+        "value": "2"
+      },
+      "sociabilite": {
+        "value": "0"
+      },
+      "survie": {
+        "value": "0"
+      },
+      "tir": {
+        "value": "2"
+      },
+      "volonte": {
+        "value": "1"
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707858724566,
+    "modifiedTime": 1707859554227,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!iF8voDjOXyOb6gyj"
+}

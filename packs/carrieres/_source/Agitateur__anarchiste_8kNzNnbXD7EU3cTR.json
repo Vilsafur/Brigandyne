@@ -1,0 +1,67 @@
+{
+  "folder": "uNTFQ790t9iyRcH2",
+  "name": "Agitateur, anarchiste",
+  "type": "carriere",
+  "_id": "8kNzNnbXD7EU3cTR",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "caracteristiques": {
+      "combat": {
+        "value": "1"
+      },
+      "connaissances": {
+        "value": "1"
+      },
+      "discretion": {
+        "value": "1"
+      },
+      "endurance": {
+        "value": "1"
+      },
+      "force": {
+        "value": "0"
+      },
+      "habilete": {
+        "value": "1"
+      },
+      "magie": {
+        "value": "0"
+      },
+      "mouvement": {
+        "value": "1"
+      },
+      "perception": {
+        "value": "1"
+      },
+      "sociabilite": {
+        "value": "2"
+      },
+      "survie": {
+        "value": "0"
+      },
+      "tir": {
+        "value": "0"
+      },
+      "volonte": {
+        "value": "1"
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707858320919,
+    "modifiedTime": 1707859554227,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!8kNzNnbXD7EU3cTR"
+}

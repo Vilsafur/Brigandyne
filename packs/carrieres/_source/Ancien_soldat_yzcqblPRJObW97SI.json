@@ -1,0 +1,19 @@
+{
+  "name": "Ancien soldat",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "yzcqblPRJObW97SI",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707858715067,
+    "modifiedTime": 1707859569588,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_key": "!folders!yzcqblPRJObW97SI"
+}

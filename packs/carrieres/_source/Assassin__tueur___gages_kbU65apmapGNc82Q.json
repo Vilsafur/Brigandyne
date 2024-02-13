@@ -1,0 +1,67 @@
+{
+  "folder": "WtUH1n9XN8olPahC",
+  "name": "Assassin, tueur à gages",
+  "type": "carriere",
+  "_id": "kbU65apmapGNc82Q",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "caracteristiques": {
+      "combat": {
+        "value": "2"
+      },
+      "connaissances": {
+        "value": "0"
+      },
+      "discretion": {
+        "value": "2"
+      },
+      "endurance": {
+        "value": "0"
+      },
+      "force": {
+        "value": "0"
+      },
+      "habilete": {
+        "value": "1"
+      },
+      "magie": {
+        "value": "0"
+      },
+      "mouvement": {
+        "value": "1"
+      },
+      "perception": {
+        "value": "1"
+      },
+      "sociabilite": {
+        "value": "0"
+      },
+      "survie": {
+        "value": "0"
+      },
+      "tir": {
+        "value": "2"
+      },
+      "volonte": {
+        "value": "1"
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707858918920,
+    "modifiedTime": 1707859554227,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!kbU65apmapGNc82Q"
+}

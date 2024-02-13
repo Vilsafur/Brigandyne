@@ -1,0 +1,67 @@
+{
+  "folder": "AB3fOLOXF9KDkHaD",
+  "name": "Fin limier",
+  "type": "carriere",
+  "_id": "a0KYSgutJFdueYKP",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "caracteristiques": {
+      "combat": {
+        "value": "1"
+      },
+      "connaissances": {
+        "value": "1"
+      },
+      "discretion": {
+        "value": "2"
+      },
+      "endurance": {
+        "value": "0"
+      },
+      "force": {
+        "value": "0"
+      },
+      "habilete": {
+        "value": "1"
+      },
+      "magie": {
+        "value": "0"
+      },
+      "mouvement": {
+        "value": "1"
+      },
+      "perception": {
+        "value": "2"
+      },
+      "sociabilite": {
+        "value": "1"
+      },
+      "survie": {
+        "value": "0"
+      },
+      "tir": {
+        "value": "0"
+      },
+      "volonte": {
+        "value": "1"
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707850242795,
+    "modifiedTime": 1707859554227,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!a0KYSgutJFdueYKP"
+}

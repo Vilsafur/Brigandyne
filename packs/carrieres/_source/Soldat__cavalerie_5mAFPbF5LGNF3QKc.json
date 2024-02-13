@@ -1,0 +1,67 @@
+{
+  "folder": "yzcqblPRJObW97SI",
+  "name": "Soldat, cavalerie",
+  "type": "carriere",
+  "_id": "5mAFPbF5LGNF3QKc",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "caracteristiques": {
+      "combat": {
+        "value": "2"
+      },
+      "connaissances": {
+        "value": "0"
+      },
+      "discretion": {
+        "value": "0"
+      },
+      "endurance": {
+        "value": "1"
+      },
+      "force": {
+        "value": "1"
+      },
+      "habilete": {
+        "value": "0"
+      },
+      "magie": {
+        "value": "0"
+      },
+      "mouvement": {
+        "value": "2"
+      },
+      "perception": {
+        "value": "1"
+      },
+      "sociabilite": {
+        "value": "0"
+      },
+      "survie": {
+        "value": "1"
+      },
+      "tir": {
+        "value": "1"
+      },
+      "volonte": {
+        "value": "1"
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707858795393,
+    "modifiedTime": 1707859554227,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!5mAFPbF5LGNF3QKc"
+}

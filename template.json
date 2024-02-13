@@ -122,7 +122,7 @@
     }
   },
   "Item": {
-    "types": ["armure", "sort", "ingredient", "potion", "armeMelee", "armeDistance", "peuple", "archetype"],
+    "types": ["armure", "sort", "ingredient", "potion", "armeMelee", "armeDistance", "peuple", "archetype", "carriere"],
     "templates": {
       "itemBasics": {
         "description": "",
@@ -241,6 +241,50 @@
       "opposition": "",
       "description": "",
       "duree": ""
+    },
+    "carriere": {
+      "description": "",
+      "caracteristiques": {
+        "combat": {
+          "value": 0
+        },
+        "connaissances": {
+          "value": 0
+        },
+        "discretion": {
+          "value": 0
+        },
+        "endurance": {
+          "value": 0
+        },
+        "force": {
+          "value": 0
+        },
+        "habilete": {
+          "value": 0
+        },
+        "magie": {
+          "value": 0
+        },
+        "mouvement": {
+          "value": 0
+        },
+        "perception": {
+          "value": 0
+        },
+        "sociabilite": {
+          "value": 0
+        },
+        "survie": {
+          "value": 0
+        },
+        "tir": {
+          "value": 0
+        },
+        "volonte": {
+          "value": 0
+        }
+      }
     },
     "ingredient": {
       "description": ""

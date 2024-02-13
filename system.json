@@ -584,6 +584,19 @@
       },
       "flags": {},
       "package": "world"
+    },
+    {
+      "label": "Carrières",
+      "type": "Item",
+      "name": "carrieres",
+      "path": "packs/carrieres",
+      "system": "brigandyne",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "package": "world"
     }
   ],
   "languages": [
