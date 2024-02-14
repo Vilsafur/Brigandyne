@@ -1,0 +1,67 @@
+{
+  "folder": "a5FdUJ2jwl2bgB6F",
+  "name": "Mendiant",
+  "type": "carriere",
+  "_id": "GCxPBwnmf8NBw1Wr",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "caracteristiques": {
+      "combat": {
+        "value": "1"
+      },
+      "connaissances": {
+        "value": "0"
+      },
+      "discretion": {
+        "value": "2"
+      },
+      "endurance": {
+        "value": "2"
+      },
+      "force": {
+        "value": "0"
+      },
+      "habilete": {
+        "value": "1"
+      },
+      "magie": {
+        "value": "0"
+      },
+      "mouvement": {
+        "value": "1"
+      },
+      "perception": {
+        "value": "1"
+      },
+      "sociabilite": {
+        "value": "1"
+      },
+      "survie": {
+        "value": "1"
+      },
+      "tir": {
+        "value": "0"
+      },
+      "volonte": {
+        "value": "0"
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707858192854,
+    "modifiedTime": 1707941862418,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!GCxPBwnmf8NBw1Wr"
+}

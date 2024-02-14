@@ -1,0 +1,67 @@
+{
+  "folder": "08NsZ90jAPygD5TT",
+  "name": "Maçon",
+  "type": "carriere",
+  "_id": "nA9A6fMkv6eJgiLH",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "caracteristiques": {
+      "combat": {
+        "value": "0"
+      },
+      "connaissances": {
+        "value": "0"
+      },
+      "discretion": {
+        "value": "0"
+      },
+      "endurance": {
+        "value": "2"
+      },
+      "force": {
+        "value": "2"
+      },
+      "habilete": {
+        "value": "2"
+      },
+      "magie": {
+        "value": "0"
+      },
+      "mouvement": {
+        "value": "1"
+      },
+      "perception": {
+        "value": "1"
+      },
+      "sociabilite": {
+        "value": "0"
+      },
+      "survie": {
+        "value": "0"
+      },
+      "tir": {
+        "value": "0"
+      },
+      "volonte": {
+        "value": "1"
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707858657037,
+    "modifiedTime": 1707941862418,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!nA9A6fMkv6eJgiLH"
+}

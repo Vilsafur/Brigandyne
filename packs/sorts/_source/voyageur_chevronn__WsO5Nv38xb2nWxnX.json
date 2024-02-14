@@ -1,0 +1,19 @@
+{
+  "name": "voyageur chevronné",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "WsO5Nv38xb2nWxnX",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707857688932,
+    "modifiedTime": 1707941862380,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_key": "!folders!WsO5Nv38xb2nWxnX"
+}

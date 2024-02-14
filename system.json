@@ -597,6 +597,19 @@
       },
       "flags": {},
       "package": "world"
+    },
+    {
+      "label": "Sorts",
+      "type": "Item",
+      "name": "sorts",
+      "path": "packs/sorts",
+      "system": "brigandyne",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "package": "world"
     }
   ],
   "languages": [

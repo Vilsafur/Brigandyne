@@ -1,0 +1,67 @@
+{
+  "folder": "VrwsAvkpDWwhQxEP",
+  "name": "Noble, dépravé",
+  "type": "carriere",
+  "_id": "7fulFH9jWCdB7nO9",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "",
+    "caracteristiques": {
+      "combat": {
+        "value": "1"
+      },
+      "connaissances": {
+        "value": "1"
+      },
+      "discretion": {
+        "value": "1"
+      },
+      "endurance": {
+        "value": "2"
+      },
+      "force": {
+        "value": "1"
+      },
+      "habilete": {
+        "value": "0"
+      },
+      "magie": {
+        "value": "0"
+      },
+      "mouvement": {
+        "value": "1"
+      },
+      "perception": {
+        "value": "0"
+      },
+      "sociabilite": {
+        "value": "2"
+      },
+      "survie": {
+        "value": "0"
+      },
+      "tir": {
+        "value": "0"
+      },
+      "volonte": {
+        "value": "1"
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707851333685,
+    "modifiedTime": 1707941862418,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!7fulFH9jWCdB7nO9"
+}
