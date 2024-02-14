@@ -90,12 +90,10 @@ export class BrigandyneActor extends Actor {
     let archetypes = actorData.items.filter(item => item.type == "archetype")
 
     systemData.archetype = archetypes.pop()
-    console.log('Brigandyne | actor | _prepareCharacterData', systemData)
 
     let carrieres = actorData.items.filter(item => item.type == "carriere")
 
     systemData.carriere = carrieres.pop()
-
 
     systemData.calculatedCaracteristiques = {}
 
@@ -111,6 +109,21 @@ export class BrigandyneActor extends Actor {
         systemData.calculatedCaracteristiques[competenceName] = parseInt(competence.base) + parseInt(competence.progression) + parseInt(archetypeValue) + parseInt(peupleValue)
       }
     }
+
+    // Suppression des items en excédents
+    
+    const itemsToDelete = []
+    for (const item of actorData.items) {
+      if (
+          ['peuple', 'carriere', 'archetype'].indexOf(item.type) !== -1 &&
+          [systemData.peuple?._id, systemData.carriere?._id, systemData.archetype?._id].indexOf(item._id) === -1
+        ) {
+        itemsToDelete.push(item._id)
+      }
+    }
+    this.deleteEmbeddedDocuments('Item', itemsToDelete)
+
+    console.log('Brigandyne | actor | _prepareCharacterData', systemData)
   }
 
   /**

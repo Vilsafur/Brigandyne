@@ -61,6 +61,7 @@ Hooks.once('init', () => {
  });
 
   Handlebars.registerHelper('check-carriere-competence-value', function (competences, competenceName, value) {
+    if (!competences) return
     return competences[competenceName] == value;
  });
 
