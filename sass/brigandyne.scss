@@ -194,6 +194,11 @@
 
     .gauche {
       display: grid;
+
+      .objet {
+        display: flex;
+        justify-content: space-between;
+      }
     }
 
     .competences {

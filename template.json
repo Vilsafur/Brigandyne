@@ -121,7 +121,7 @@
     }
   },
   "Item": {
-    "types": ["armure", "sort", "ingredient", "potion", "armeMelee", "armeDistance", "peuple", "archetype", "carriere"],
+    "types": ["objet", "armure", "sort", "ingredient", "potion", "armeMelee", "armeDistance", "peuple", "archetype", "carriere"],
     "templates": {
       "itemBasics": {
         "description": "",
@@ -265,6 +265,9 @@
     "potion": {
       "description": "",
       "ingredients": ""
+    },
+    "objet": {
+      "description": ""
     }
   }
 }

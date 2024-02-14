@@ -88,6 +88,15 @@
     <div class="gauche">
       <div class="equipement">
         <h1>Equipements</h1>
+        {{#each objets as |objet nom| }}
+        <div class="objet">
+          {{objet.name}}
+          <div>
+            <a class="item-edit" data-item-id="{{objet._id}}"><i class="fas fa-edit" title="{{localize "brigandyne.sheet.updateItem"}}"></i></a>
+            <a class="item-delete" data-item-id="{{objet._id}}"><i class="fas fa-trash" title="{{localize "brigandyne.sheet.deleteItem"}}"></i></a>
+          </div>
+        </div>
+        {{/each }}
       </div>
     </div>
     <div class="centre">

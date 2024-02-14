@@ -147,6 +147,9 @@
 .brigandyne.actor .middle .gauche {
   display: grid;
 }
+.brigandyne.actor .middle .gauche .objet {
+  display: flex;
+}
 .brigandyne.actor .middle .competences {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr 1fr;

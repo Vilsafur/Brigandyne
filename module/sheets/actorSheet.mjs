@@ -116,7 +116,7 @@ export class BrigandyneActorSheet extends ActorSheet {
     // Initialize containers.
     const armesDistances = [];
     const armesMelees = [];
-    const peuples = [];
+    const objets = [];
 
     // Iterate through items, allocating to containers
     for (let i of context.items) {
@@ -127,13 +127,14 @@ export class BrigandyneActorSheet extends ActorSheet {
       else if (i.type === 'armeDistance') {
         armesDistances.push(i);
       }
-      else if (i.type === 'peuple') {
-        peuples.push(i);
+      else if (i.type === 'objet') {
+        objets.push(i);
       }
     }
 
     context.armesDistances = armesDistances
     context.armesMelees = armesMelees
+    context.objets = objets
   }
 
   activateListeners(html) {
