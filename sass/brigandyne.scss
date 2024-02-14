@@ -211,6 +211,11 @@
       grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     }
 
+    .sort {
+      display: flex;
+      justify-content: space-between;
+    }
+
     .armesDistance {
       margin-top: 10px;
     }

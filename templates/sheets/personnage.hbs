@@ -148,8 +148,9 @@
     <div class="droite">
       <div class="initiative"></div>
       <div class="protection"></div>
+      <h2>Armes de mélée</h2>
       <div class="armesMelee">
-        <div class="title">Armes de mélée</div>
+        <div></div>
         <div class="title">Dégats</div>
         <div class="title">Allonge</div>
         <div class="title">Spécial</div>
@@ -166,8 +167,9 @@
         </div>
         {{/each }}
       </div>
+      <h2>Armes à distance</h2>
       <div class="armesDistance">
-        <div class="title">Armes à distance</div>
+        <div></div>
         <div class="title">Dégats</div>
         <div class="title">Allonge</div>
         <div class="title">Spécial</div>
@@ -181,6 +183,20 @@
           <a class="item-edit" data-item-id="{{arme._id}}"><i class="fas fa-edit" title="{{localize "brigandyne.sheet.updateItem"}}"></i></a>
           <a class="item-delete" data-item-id="{{arme._id}}"><i class="fas fa-trash" title="{{localize "brigandyne.sheet.deleteItem"}}"></i></a>
           </div>
+        {{/each }}
+      </div>
+      <h2>Sorts</h2>
+      <div class="sorts">
+        {{#each sorts as |sort nom| }}
+        <div class="sort">
+          <p>
+            {{sort.name}}
+          </p>
+          <div>
+            <a class="item-edit" data-item-id="{{sort._id}}"><i class="fas fa-edit" title="{{localize "brigandyne.sheet.updateItem"}}"></i></a>
+            <a class="item-delete" data-item-id="{{sort._id}}"><i class="fas fa-trash" title="{{localize "brigandyne.sheet.deleteItem"}}"></i></a>
+            </div>
+        </div>
         {{/each }}
       </div>
     </div>

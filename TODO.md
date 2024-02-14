@@ -1,6 +1,6 @@
 - [X] Mise en place des carrières
-- [ ] Gestion de l'équipement
-- [ ] Gestion des sorts disponibles
+- [X] Gestion de l'équipement
+- [X] Gestion des sorts disponibles
 - [X] Gestion des points de progression
 - [ ] Gestion des lancés de dés
   - ciblage

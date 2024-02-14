@@ -149,6 +149,7 @@
 }
 .brigandyne.actor .middle .gauche .objet {
   display: flex;
+  justify-content: space-between;
 }
 .brigandyne.actor .middle .competences {
   display: grid;
@@ -157,6 +158,10 @@
 .brigandyne.actor .middle .armesMelee, .brigandyne.actor .middle .armesDistance {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+.brigandyne.actor .middle .sort {
+  display: flex;
+  justify-content: space-between;
 }
 .brigandyne.actor .middle .armesDistance {
   margin-top: 10px;
