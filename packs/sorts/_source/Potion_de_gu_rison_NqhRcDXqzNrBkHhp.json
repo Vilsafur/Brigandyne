@@ -1,0 +1,30 @@
+{
+  "folder": "jldwnSpF8IZEFTnl",
+  "name": "Potion de guérison",
+  "type": "sort",
+  "_id": "NqhRcDXqzNrBkHhp",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "alchimie",
+    "formuleMagique": "<p>Bois le secret des nymphes,</p><p>Pour guérir tes humeurs,</p><p>Le sang, la bile, la lymphe,</p><p>S’allieront en douceur</p>",
+    "opposition": "Test normal à +10",
+    "description": "<p>Lorsque cette mixture très odorante sera bue par un malade ou un blessé, celui-ci regagnera  immédiatement (RU +1) Points de VIE. Cette mixture permet de soigner aussi bien les blessures que les maladies courantes, mais pas les poisons.</p>",
+    "duree": "immédiat"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977510141,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!NqhRcDXqzNrBkHhp"
+}

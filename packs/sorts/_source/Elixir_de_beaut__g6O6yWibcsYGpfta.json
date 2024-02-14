@@ -1,0 +1,30 @@
+{
+  "folder": "jldwnSpF8IZEFTnl",
+  "name": "Elixir de beauté",
+  "type": "sort",
+  "_id": "g6O6yWibcsYGpfta",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "alchimie",
+    "formuleMagique": "<p>Renversons le destin,</p><p>Altérons les images,</p><p>La belle et l’affreux nain,</p><p>Échangeront leur visage</p>",
+    "opposition": "Test normal à +10",
+    "description": "<p>Il faut ici faire boire l’élixir à deux personnes. L’une d’entre elle volera la beauté de l’autre pour toute la durée du sort.</p>",
+    "duree": "RU jours"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977615134,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!g6O6yWibcsYGpfta"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "ypB4p63W0BwAzeVr",
+  "name": "Miasmes",
+  "type": "sort",
+  "_id": "fe5GhNj3z0kGMhqz",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "",
+    "formuleMagique": "<p>Dans un souffle puissant,</p><p>Je cracherai vapeurs,</p><p>Et relents répugnants</p><p>Venus des profondeurs</p>",
+    "opposition": "Test normal à +10",
+    "description": "<p>Vous vomissez un nuage pestilentiel qui envahit une zone de 10 mètres de rayon.</p><p>Tous ceux qui entrent dans cette zone doivent tester leur END à 0. En cas d’échec, ils subiront un malus de -10% à toutes leurs actions. En cas d’échec critique à ce test, ils s’arrêteront pour vomir pendant un tour.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707941404026,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!fe5GhNj3z0kGMhqz"
+}

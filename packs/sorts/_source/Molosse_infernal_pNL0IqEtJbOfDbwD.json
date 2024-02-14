@@ -1,0 +1,30 @@
+{
+  "folder": "wyC3cmMddFfmYCcj",
+  "name": "Molosse infernal",
+  "type": "sort",
+  "_id": "pNL0IqEtJbOfDbwD",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "demonisme",
+    "formuleMagique": "<p>Les yeux rouges, le poil noir,</p><p>Le monstre sort et grogne,</p><p>Son énorme mâchoire</p><p>Réclame d’autres charognes</p>",
+    "opposition": "Test normal à -10",
+    "description": "<p>Vous invoquez un monstrueux chien des enfers qui dévorera vos ennemis. Ses valeurs sont indiquées dans le bestiaire.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706978457356,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!pNL0IqEtJbOfDbwD"
+}

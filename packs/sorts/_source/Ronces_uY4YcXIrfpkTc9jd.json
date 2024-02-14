@@ -1,0 +1,30 @@
+{
+  "folder": "FpwLe4W1A31QmX1l",
+  "name": "Ronces",
+  "type": "sort",
+  "_id": "uY4YcXIrfpkTc9jd",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "terre",
+    "formuleMagique": "<p>Reculez face aux ronces</p><p>Qui s’érigent en barrière,</p><p>Elles s’enroulent et s’enfoncent</p><p>Au plus profond des chairs</p>",
+    "opposition": "Test d’opposition MAG/MVT ou test normal à +10",
+    "description": "<p>Des ronces jaillissent du sol et peuvent soit : entraver un adversaire (test d’opposition), soit créer un mur d’épines qui vous protégera (test normal). Dans tous les cas, elles ont une valeur de COM de 40 et un BF de (+2).</p>",
+    "duree": "RU tours"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977077135,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!uY4YcXIrfpkTc9jd"
+}

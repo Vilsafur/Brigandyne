@@ -1,0 +1,30 @@
+{
+  "folder": "DJiQxoh5j16IEKQI",
+  "name": "Suffocation",
+  "type": "sort",
+  "_id": "IAaSv9gTb4m0vk3S",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "",
+    "formuleMagique": "<p>C’est ton air qui s’enfuit</p><p>C’est ta gorge qu’on étrangle</p><p>Comme un chien qu’on punit</p><p>En tirant sur sa sangle</p>",
+    "opposition": "Test d’opposition MAG/END",
+    "description": "<p>Votre ennemi est pris à la gorge et a de plus en plus de mal à respirer. Vous faîtes un test d’opposition de MAG contre son END à chaque minute de suffocation.</p><p>Chaque succès lui inflige un -10 à toutes ses actions et une perte d’1PV.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706975503936,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!IAaSv9gTb4m0vk3S"
+}

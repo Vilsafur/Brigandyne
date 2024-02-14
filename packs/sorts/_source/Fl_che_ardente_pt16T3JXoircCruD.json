@@ -1,0 +1,30 @@
+{
+  "folder": "zzTcdrO2GDAFWwNi",
+  "name": "Flèche ardente",
+  "type": "sort",
+  "_id": "pt16T3JXoircCruD",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "feu",
+    "formuleMagique": "<p>J’invoque la flèche ardente,</p><p>Flèche de feu et d’effroi,</p><p>Que tes flammes dévorantes</p><p>Se nourrissent de ta proie !</p>",
+    "opposition": "Test d’opposition MAG/MVT",
+    "description": "<p>Vous projetez de votre main une flèche enflammée sur votre ennemi, et lui causer (RU +6) points de dégâts. Cette flèche peut aussi enflammer ses vêtements.</p>",
+    "duree": "immédiat"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976740469,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!pt16T3JXoircCruD"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "ypB4p63W0BwAzeVr",
+  "name": "Épée vampire",
+  "type": "sort",
+  "_id": "GtNDSEThwfRdzV6x",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "",
+    "formuleMagique": "<p>Elle veut d’autres victimes</p><p>Cette épée assoiffée,</p><p>Le sang de tous ses crimes</p><p>Ne l’a pas rassasiée</p>",
+    "opposition": "Test normal à -10",
+    "description": "<p>Vous enchantez une lame qui deviendra « vampire », c’est-à-dire qu’elle boira l’énergie vitale de ses victimes et vous la restituera. En d’autres termes, tous les PV que vous enlevez avec cette arme vous sont transmis (sans toutefois dépasser votre score initial).</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707941722832,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!GtNDSEThwfRdzV6x"
+}

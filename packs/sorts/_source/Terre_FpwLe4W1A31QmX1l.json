@@ -1,0 +1,19 @@
+{
+  "name": "Terre",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "FpwLe4W1A31QmX1l",
+  "sort": 0,
+  "color": "#af6741",
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977027328,
+    "modifiedTime": 1707942153564,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_key": "!folders!FpwLe4W1A31QmX1l"
+}

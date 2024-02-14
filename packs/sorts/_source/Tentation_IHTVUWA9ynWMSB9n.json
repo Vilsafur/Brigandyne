@@ -1,0 +1,30 @@
+{
+  "folder": "wyC3cmMddFfmYCcj",
+  "name": "Tentation",
+  "type": "sort",
+  "_id": "IHTVUWA9ynWMSB9n",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "demonisme",
+    "formuleMagique": "<p>Accorde-moi faveurs,</p><p>Privilèges et services,</p><p>Et tu pourras dans l’heure,</p><p>Te vautrer dans ton vice</p>",
+    "opposition": "Test d’opposition MAG/VOL",
+    "description": "<p>Ce sort permet de corrompre une cible en lui promettant un cadeau correspondant à ses vices (l’or, la luxure, la boisson, la gourmandise, la paresse…). Pendant toute la durée du sort il vous rendra service en rêvant de la récompense qu’il n’aura jamais.</p><p>Evidemment, si vous attaquez votre cible, le sort prend fin immédiatement.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706978192090,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!IHTVUWA9ynWMSB9n"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "huqNvdQyWrmkNS3u",
+  "name": "Marche sur l’eau",
+  "type": "sort",
+  "_id": "hlIf5U0QwbaMKjbh",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "eau",
+    "formuleMagique": "<p>Pieds nus, les bras ouverts,</p><p>J’ai longtemps avancé,</p><p>J’ai traversé les mers</p><p>Pour venir te parler</p>",
+    "opposition": "Test normal à 0",
+    "description": "<p>Vous pouvez marcher et courir sur l’eau. Vous pouvez aussi lancer ce sort sur une cible, humaine ou animale, mais pas un objet.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976371720,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!hlIf5U0QwbaMKjbh"
+}

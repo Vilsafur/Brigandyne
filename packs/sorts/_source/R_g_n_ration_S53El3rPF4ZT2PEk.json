@@ -1,0 +1,30 @@
+{
+  "folder": "FpwLe4W1A31QmX1l",
+  "name": "Régénération",
+  "type": "sort",
+  "_id": "S53El3rPF4ZT2PEk",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "terre",
+    "formuleMagique": "<p>Laisse le temps te guérir</p><p>Et que repoussent tes branches</p><p>Je les vois refleurir,</p><p>Comme une glorieuse revanche</p>",
+    "opposition": "Test normal à 0",
+    "description": "<p>Votre cible (il peut s’agir de vous-même) regagne 1 PV de plus que sa récupération normale pendant (RU) jours. C’est le seul sort de soins qui peut faire repousser des membres tranchés : il faut pour cela que le sort fasse effet plus de 5 jours.</p>",
+    "duree": "immédiat"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977206537,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!S53El3rPF4ZT2PEk"
+}

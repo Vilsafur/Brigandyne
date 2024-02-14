@@ -1,0 +1,30 @@
+{
+  "folder": "wyC3cmMddFfmYCcj",
+  "name": "Pacte",
+  "type": "sort",
+  "_id": "YZPksePeVZwOC9iE",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "demonisme",
+    "formuleMagique": "<p>Aujourd’hui je célèbre</p><p>Par ces mots notre alliance,</p><p>Ô Seigneur des Ténèbres,</p><p>Offre-moi ta puissance !</p>",
+    "opposition": "Test normal à -30",
+    "description": "<p>Vous invoquez, pauvre fou, un seigneur-démon dont la puissance est immense. Il vous conférera toutes sortes de pouvoirs ou de services avant de réclamer une âme (il pourra choisir un être cher, ou même la vôtre s’il est de mauvaise humeur). C’est au MJ de jauger les pouvoirs qu’il vous offre et de décider du moment du paiement.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706978772156,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!YZPksePeVZwOC9iE"
+}

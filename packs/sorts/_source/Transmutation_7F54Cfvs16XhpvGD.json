@@ -1,0 +1,30 @@
+{
+  "folder": "FpwLe4W1A31QmX1l",
+  "name": "Transmutation",
+  "type": "sort",
+  "_id": "7F54Cfvs16XhpvGD",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "terre",
+    "formuleMagique": "<p>Roche, métal, ou bien bois,</p><p>Sont issus du même sang,</p><p>On les confond parfois,</p><p>Tant la terre a d’enfants</p>",
+    "opposition": "Test normal à -10",
+    "description": "<p>Vous pouvez changer pour la durée du sort la matière de d’un objet ou d’une construction autour de vous, n’excédant pas 3 mètres cube. Transformer le bois en métal, la roche en bois ou inversement etc. Vous pouvez décider de la qualité du nouveau matériau (changer une lourde porte en métal en porte de bois vieilli par exemple…).</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977300881,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!7F54Cfvs16XhpvGD"
+}

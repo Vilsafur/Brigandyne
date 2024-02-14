@@ -1,0 +1,30 @@
+{
+  "folder": "ypB4p63W0BwAzeVr",
+  "name": "Danse macabre",
+  "type": "sort",
+  "_id": "yAiRNINfzQtGwcTI",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "",
+    "formuleMagique": "<p>Comme une dernière offrande</p><p>Aux âmes des trépassés</p><p>Dansez la sarabande</p><p>Jusqu’à vous effondrer</p>",
+    "opposition": "Test en opposition MAG/VOL à -10 ",
+    "description": "<p>Votre cible se met à danser une gigue démentielle, comme un pantin désarticulé, et ne peut rien faire d’autre pendant toute la durée du sort. A la fin du sort elle s’écroulera de fatigue.</p>",
+    "duree": "RU tours"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707941583588,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!yAiRNINfzQtGwcTI"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "huqNvdQyWrmkNS3u",
+  "name": "Dragon des abysses",
+  "type": "sort",
+  "_id": "Wsna3JvOiHm7l1wN",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "eau",
+    "formuleMagique": "<p>Dragon des océans,</p><p>Il traverse le monde,</p><p>Je l’aperçois céans,</p><p>Qui s’approche et qui gronde</p>",
+    "opposition": "Test normal à -30",
+    "description": "<p>Vous invoquez un élémentaire d’eau qui prend la forme du Dragon des Abysses, un gigantesque monstre marin aux écailles bleues et noires. Il ne peut apparaître que dans une grande étendue d’eau (lac, fleuve, mer, océan…). Vous ne pouvez l’invoquer plus d’une fois par jour.</p>",
+    "duree": "RU minutes en combat, RU heures pour voyager"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976520948,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!Wsna3JvOiHm7l1wN"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "FpwLe4W1A31QmX1l",
+  "name": "Peau d’écorce",
+  "type": "sort",
+  "_id": "7cjld5a0mCLBmCDU",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "terre",
+    "formuleMagique": "<p>Nous avons hérité</p><p>De l’écorce du vieux chêne,</p><p>Et au solstice d’été,</p><p>Sa sève coule dans nos veines</p>",
+    "opposition": "Test normal à 0",
+    "description": "<p>Votre peau prend l’aspect du bois, et vous bénéficiez d’une protection de 4 points supplémentaires partout sur le corps.</p>",
+    "duree": "RU tours"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977171624,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!7cjld5a0mCLBmCDU"
+}

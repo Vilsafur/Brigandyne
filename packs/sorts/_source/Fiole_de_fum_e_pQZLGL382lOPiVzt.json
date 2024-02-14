@@ -1,0 +1,30 @@
+{
+  "folder": "jldwnSpF8IZEFTnl",
+  "name": "Fiole de fumée",
+  "type": "sort",
+  "_id": "pQZLGL382lOPiVzt",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "alchimie",
+    "formuleMagique": "<p>Fumées noires et opaques</p><p>Jailliront du cristal,</p><p>Subterfuge démoniaque</p><p>Prisonnier du métal</p>",
+    "opposition": "Test normal à +10",
+    "description": "<p>Lorsque la fiole où a été stockée la mixture se brise, une épaisse fumée noire s’en dégage et permet au magicien de prendre la fuite.</p>",
+    "duree": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977421819,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!pQZLGL382lOPiVzt"
+}

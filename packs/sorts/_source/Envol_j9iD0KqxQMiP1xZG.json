@@ -1,0 +1,30 @@
+{
+  "folder": "DJiQxoh5j16IEKQI",
+  "name": "Envol",
+  "type": "sort",
+  "_id": "j9iD0KqxQMiP1xZG",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "air",
+    "formuleMagique": "<p>Je prendrai mon élan</p><p>A la fin de ces vers</p><p>Et dominerai le vent</p><p>Pour ne plus toucher terre</p>",
+    "opposition": "Test normal à -20",
+    "description": "<p>Vous pouvez voler dans les airs pendant toute la durée du sort.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706975549324,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!j9iD0KqxQMiP1xZG"
+}

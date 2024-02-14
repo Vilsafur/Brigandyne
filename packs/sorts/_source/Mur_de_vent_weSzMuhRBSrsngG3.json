@@ -1,0 +1,30 @@
+{
+  "folder": "DJiQxoh5j16IEKQI",
+  "name": "Mur de vent",
+  "type": "sort",
+  "_id": "weSzMuhRBSrsngG3",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "air",
+    "formuleMagique": "<p>Vos armures et vos casques</p><p>Ne serviront à rien</p><p>Face à la grande bourrasque</p><p>Qui me sert de gardien</p>",
+    "opposition": "Test normal à 0",
+    "description": "<p>Un mur de vent se dresse devant vous. Aucun projectile ne peut passer au travers et les personnages pris dans ce mur de vent sont repoussés de plusieurs mètres.</p><p>On ne peut le traverser si on a moins de 80 en Force.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706975457656,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!weSzMuhRBSrsngG3"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "huqNvdQyWrmkNS3u",
+  "name": "Forme d’eau",
+  "type": "sort",
+  "_id": "mlyC1HxVtARHcLBS",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "eau",
+    "formuleMagique": "<p>Né de chair et de sang,</p><p>Je ne suis plus que l’eau,</p><p>Libre et fort : le torrent</p><p>De l’amphore du Verseau</p>",
+    "opposition": "Test normal à -20 ",
+    "description": "<p>Votre corps (mais pas votre équipement, qui tombe au sol) devient liquide et transparent, mais vous pouvez garder forme humaine et continuer à agir normalement. Aucune arme non magique ne peut vous atteindre mais vous pouvez continuer à utiliser une arme ou un objet.</p>",
+    "duree": "RU tours"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976471521,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!mlyC1HxVtARHcLBS"
+}

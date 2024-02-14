@@ -1,0 +1,30 @@
+{
+  "folder": "jldwnSpF8IZEFTnl",
+  "name": "Poison",
+  "type": "sort",
+  "_id": "pGATiWKOyzXlfXii",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "alchimie",
+    "formuleMagique": "<p>Le venin du serpent,</p><p>La piqûre du scorpion,</p><p>Sont tous deux artisans,</p><p>Pour former ce poison</p>",
+    "opposition": "Test normal à 0",
+    "description": "<p>Vous pouvez concocter deux sortes de poison :</p><p>- un poison fulgurant de virulence -20 et qui ôtera (RU) PV par minute à la victime. Il devra être ingéré par la victime.</p><p>- un poison paralysant de virulence -10 qui durera (RU) minutes, dans lesquelles votre cible divisera par deux son mouvement et subira un -10 à toutes ses autres actions. Ce poison peut être ingéré ou appliqué sur une lame.</p>",
+    "duree": "immédiat"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977553781,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!pGATiWKOyzXlfXii"
+}

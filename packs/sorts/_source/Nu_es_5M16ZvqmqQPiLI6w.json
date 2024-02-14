@@ -1,0 +1,30 @@
+{
+  "folder": "wyC3cmMddFfmYCcj",
+  "name": "Nuées",
+  "type": "sort",
+  "_id": "5M16ZvqmqQPiLI6w",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "demonisme",
+    "formuleMagique": "<p>Des entrailles de la terre</p><p>S’échappera la vermine,</p><p>Ne laissant que misère,</p><p>Maladies et famine</p>",
+    "opposition": "Test normal à 0",
+    "description": "<p>Vous faîtes apparaître des nuées de serpents, d’araignées, de cloportes, de mouches ou de rats qui pourront attaquer vos ennemis (voir Vermine démoniaque dans le bestiaire).</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706978280927,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!5M16ZvqmqQPiLI6w"
+}

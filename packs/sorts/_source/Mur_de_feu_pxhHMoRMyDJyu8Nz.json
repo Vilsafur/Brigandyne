@@ -1,0 +1,30 @@
+{
+  "folder": "zzTcdrO2GDAFWwNi",
+  "name": "Mur de feu",
+  "type": "sort",
+  "_id": "pxhHMoRMyDJyu8Nz",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "feu",
+    "formuleMagique": "<p>Devant nous le rempart,</p><p>Brasier incandescent</p><p>Par le feu nous sépare</p><p>De l’ennemi menaçant</p>",
+    "opposition": "Test normal à 0",
+    "description": "<p>Vous faîtes jaillir du sol un mur de feu de 4 mètres de large et de 3 mètres de haut au maximum. Ceux qui le traversent encaisseront 5 points de dégâts, et verront leurs vêtements s’embraser. La chaleur qu’il dégage est insoutenable à moins de 3 mètres.</p>",
+    "duree": "RU tours"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976875948,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!pxhHMoRMyDJyu8Nz"
+}

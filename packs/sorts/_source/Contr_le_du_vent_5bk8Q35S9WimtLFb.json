@@ -1,0 +1,30 @@
+{
+  "folder": "DJiQxoh5j16IEKQI",
+  "name": "Contrôle du vent",
+  "type": "sort",
+  "_id": "5bk8Q35S9WimtLFb",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "",
+    "formuleMagique": "<p>Les vents m’ont chuchoté</p><p>-Si d’aventure tu tombes,</p><p>Tu seras plus léger</p><p>Que la plume d’une colombe</p>",
+    "opposition": "Test normal à +10",
+    "description": "<p>Vous pouvez transformer une brise en un vent, une rafale de vent et inversement.</p><p>Cependant, s’il n’y a pas le moindre souffle d’air (dans une pièce fermée par exemple) vous ne pouvez pas créer de vent ex nihilo.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706975271481,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!5bk8Q35S9WimtLFb"
+}

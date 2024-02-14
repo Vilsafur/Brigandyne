@@ -1,0 +1,30 @@
+{
+  "folder": "wyC3cmMddFfmYCcj",
+  "name": "Ailes de Démon",
+  "type": "sort",
+  "_id": "X3K0B8N6nCNa0yTj",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "demonisme",
+    "formuleMagique": "<p>Que surgissent de mon dos,</p><p>Des ailes de chauve-souris,</p><p>De mouche ou de corbeau,</p><p>Je suis fils des harpies</p>",
+    "opposition": "Test normal à -10",
+    "description": "<p>De gigantesques ailes animales (chauve-souris, insecte, ou corbeau) poussent sur votre dos et vous permettent de voler pendant toute la durée du sort. Elles finiront par se rétracter, se dessécher peu à peu, et tomber en lambeaux à la fin du sort.</p>",
+    "duree": "RU heures"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706978665548,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!X3K0B8N6nCNa0yTj"
+}

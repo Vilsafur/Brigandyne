@@ -1,0 +1,19 @@
+{
+  "name": "Alchimie",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "jldwnSpF8IZEFTnl",
+  "sort": 0,
+  "color": "#a419d7",
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977410858,
+    "modifiedTime": 1707942153564,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_key": "!folders!jldwnSpF8IZEFTnl"
+}

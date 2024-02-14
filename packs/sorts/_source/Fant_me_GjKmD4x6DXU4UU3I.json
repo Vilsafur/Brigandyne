@@ -1,0 +1,30 @@
+{
+  "folder": "ypB4p63W0BwAzeVr",
+  "name": "Fantôme",
+  "type": "sort",
+  "_id": "GjKmD4x6DXU4UU3I",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "",
+    "formuleMagique": "<p>Que mon esprit s’arrache</p><p>De mon corps bien trop lourd</p><p>Et qu’il vole sans attaches</p><p>Jusqu’au lever du jour</p>",
+    "opposition": "Test normal à -20",
+    "description": "<p>Votre âme fuit votre corps le temps d’une nuit. Elle est intangible, peut voler où elle le souhaite à une vitesse folle, et n’est perceptible que par une très faible partie de la population. Vous ne pouvez pas interagir avec les gens physiquement, mais vous pouvez leur jeter des sorts sous cette forme. Une arme bénie ou magique vous blessera comme si vous étiez présent physiquement.</p>",
+    "duree": "une nuit"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707941780579,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!GjKmD4x6DXU4UU3I"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "wyC3cmMddFfmYCcj",
+  "name": "Démons servants",
+  "type": "sort",
+  "_id": "S56kgbaiL8vwg1NC",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "demonisme",
+    "formuleMagique": "<p>Serviteurs minuscules</p><p>Et affreux diablotins,</p><p>Se montrent au crépuscule</p><p>Disparaissent au matin</p>",
+    "opposition": "Test normal à +10",
+    "description": "<p>Vous invoquez (RU) démons mineurs, répugnants et geignards, qui seront vos serviteurs pour la nuit. Ils ne participent jamais à un combat mais peuvent vous rendre toutes sortes de services. Certains volent, d’autres non. A vous de décider de leur apparence, qui doit être laide, ridicule ou pathétique.</p>",
+    "duree": "une nuit"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706978134724,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!S56kgbaiL8vwg1NC"
+}

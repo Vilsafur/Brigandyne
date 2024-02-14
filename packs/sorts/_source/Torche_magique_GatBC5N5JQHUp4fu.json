@@ -1,0 +1,30 @@
+{
+  "folder": "zzTcdrO2GDAFWwNi",
+  "name": "Torche magique",
+  "type": "sort",
+  "_id": "GatBC5N5JQHUp4fu",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "feu",
+    "formuleMagique": "<p>En un claquement de doigts,</p><p>Qu’une flamme apparaisse !</p><p>Qu’elle crépite et flamboie</p><p>Comme dans les nuits d’ivresse</p>",
+    "opposition": "Test normal à +20",
+    "description": "<p>Une flamme apparaît sur votre paume. Elle peut enflammer une torche et est particulièrement résistante au vent et à la pluie.</p>",
+    "duree": "RU heures"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976648224,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!GatBC5N5JQHUp4fu"
+}

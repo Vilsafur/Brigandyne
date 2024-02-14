@@ -1,0 +1,30 @@
+{
+  "folder": "huqNvdQyWrmkNS3u",
+  "name": "Prison de givre",
+  "type": "sort",
+  "_id": "nAoVgLEAzU3Ybm0w",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "eau",
+    "formuleMagique": "<p>Par les neiges éternelles</p><p>Des montagnes du Nord</p><p>Qu’une prison de glace scelle</p><p>Soudain ton triste sort !</p>",
+    "opposition": "Test d’opposition MAG/MVT à -10",
+    "description": "<p>Un cercueil de glace vient recouvrir le corps de votre ennemi. Cette prison l’empêche de bouger et lui ôte 2 PV à chaque tour. Il pourra détruire cette prison avec un test de FOR à -30.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976408620,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!nAoVgLEAzU3Ybm0w"
+}

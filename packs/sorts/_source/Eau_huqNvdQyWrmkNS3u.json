@@ -1,0 +1,19 @@
+{
+  "name": "Eau",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "huqNvdQyWrmkNS3u",
+  "sort": 0,
+  "color": "#5f90f2",
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976294668,
+    "modifiedTime": 1707942153564,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_key": "!folders!huqNvdQyWrmkNS3u"
+}

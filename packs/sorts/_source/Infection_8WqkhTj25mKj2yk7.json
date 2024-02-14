@@ -1,0 +1,30 @@
+{
+  "folder": "ypB4p63W0BwAzeVr",
+  "name": "Infection",
+  "type": "sort",
+  "_id": "8WqkhTj25mKj2yk7",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "",
+    "formuleMagique": "<p>Quand la gangrène torture,</p><p>Comme sur la plaie le sel,</p><p>La plus petite morsure</p><p>Peut s’avérer mortelle</p>",
+    "opposition": "Test normal à 0",
+    "description": "<p>Ce maléfice vous permet d’infecter une plaie récente (moins de 3 jours). La gangrène s’y installe et fait pourrir le membre. La victime perd alors 1 PV par jour pendant 5 jours et devra amputer le membre si elle ne reçoit pas une guérison d’exception, ou une guérison magique. Vous n’êtes pas obligé de voir la cible pour lui lancer ce sort.</p>",
+    "duree": "immédiat"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707941664068,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!8WqkhTj25mKj2yk7"
+}

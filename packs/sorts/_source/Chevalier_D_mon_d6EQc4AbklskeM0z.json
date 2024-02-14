@@ -1,0 +1,30 @@
+{
+  "folder": "wyC3cmMddFfmYCcj",
+  "name": "Chevalier Démon",
+  "type": "sort",
+  "_id": "d6EQc4AbklskeM0z",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "demonisme",
+    "formuleMagique": "<p>Il couvre de son heaume,</p><p>Sa figure écorchée,</p><p>Et ravage les royaumes</p><p>Dans sa folle chevauchée</p>",
+    "opposition": "Test normal à -20 ",
+    "description": "<p>Vous invoquez un chevalier-démon qui vous servira pendant toute la durée du sort.</p><p>Néanmoins vous devrez tôt ou tard réussir un test d’opposition MAG/VOL contre lui.</p><p>S’il le remporte, il fuira votre autorité pour détruire et massacrer tous les habitants des alentours. Ses valeurs sont indiquées dans le bestiaire.</p>",
+    "duree": "RU heures"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706978718077,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!d6EQc4AbklskeM0z"
+}

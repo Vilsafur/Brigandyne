@@ -1,0 +1,30 @@
+{
+  "folder": "ypB4p63W0BwAzeVr",
+  "name": "Réveil des morts",
+  "type": "sort",
+  "_id": "Zmkloc77wK8R70Au",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "",
+    "formuleMagique": "<p>Autour de moi les corps,</p><p>Un à un se réveillent</p><p>Prêts à se battre encore,</p><p>Jusqu’au dernier sommeil</p>",
+    "opposition": "Test normal à 0",
+    "description": "<p>Tous les cadavres autour de vous (dans un rayon de 10 m) s’animent et obéissent à vos ordres. Ils n’ont plus qu’une intelligence animale et leurs caractéristiques physiques sont toutes diminuées de 10%.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707941529087,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!Zmkloc77wK8R70Au"
+}

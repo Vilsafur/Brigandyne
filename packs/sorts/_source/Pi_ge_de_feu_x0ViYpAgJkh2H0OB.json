@@ -1,0 +1,30 @@
+{
+  "folder": "zzTcdrO2GDAFWwNi",
+  "name": "Piège de feu",
+  "type": "sort",
+  "_id": "x0ViYpAgJkh2H0OB",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "feu",
+    "formuleMagique": "<p>J’ai tracé ce symbole</p><p>Pour protéger les miens</p><p>Et qu’un jour il immole</p><p>Les curieux, les vauriens</p>",
+    "opposition": "Test normal à 0",
+    "description": "<p>Vous placez ce piège sur une porte, sur le sol, une armure, ou tout autre endroit.</p><p>Lorsqu’il sera touché il se déclenchera et crachera une flamme qui enveloppera sa cible, lui causant (RU+5) points de dégâts. Vous pouvez préciser un type de cible particulier (un homme, une femme, un elfe, un orque…)</p>",
+    "duree": "immédiat"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976828381,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!x0ViYpAgJkh2H0OB"
+}

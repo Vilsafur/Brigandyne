@@ -1,0 +1,30 @@
+{
+  "folder": "zzTcdrO2GDAFWwNi",
+  "name": "Salamandre",
+  "type": "sort",
+  "_id": "7oyOMGpdaviF6hpb",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "feu",
+    "formuleMagique": "<p>Mes haillons sont noircis,</p><p>Mais mon corps reste entier,</p><p>Au cœur de l’incendie</p><p>Comme sur le grand bûcher</p>",
+    "opposition": "Test normal à +10",
+    "description": "<p>Vous êtes totalement immunisé au feu et à sa fumée asphyxiante, mais pas vos vêtements ou votre équipement.</p>",
+    "duree": "RU heures"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976788904,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!7oyOMGpdaviF6hpb"
+}

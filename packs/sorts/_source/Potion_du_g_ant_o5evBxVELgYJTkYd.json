@@ -1,0 +1,30 @@
+{
+  "folder": "jldwnSpF8IZEFTnl",
+  "name": "Potion du géant",
+  "type": "sort",
+  "_id": "o5evBxVELgYJTkYd",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "alchimie",
+    "formuleMagique": "<p>Que la force des surhommes,</p><p>Que la taille des grands ours,</p><p>Amènent à son summum,</p><p>Le buveur de cette source</p>",
+    "opposition": "Test normal à -10",
+    "description": "<p>Le buveur de la potion double en taille, et gagne + 40 en FOR et +10 PV (qui disparaîtront à la fin du sort). Votre voix est beaucoup plus grave et vous pouvez manier d’une seule main les armes à deux mains.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977720758,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!o5evBxVELgYJTkYd"
+}

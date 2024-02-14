@@ -1,0 +1,30 @@
+{
+  "folder": "FpwLe4W1A31QmX1l",
+  "name": "Abri",
+  "type": "sort",
+  "_id": "3ffVOJU7j7hxA8hP",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "terre",
+    "formuleMagique": "<p>Voyez la pierre se fendre</p><p>Et les arbres s’ouvrir,</p><p>Cachons nous sans attendre,</p><p>Pour éviter le pire</p>",
+    "opposition": "Test normal à -10",
+    "description": "<p>La terre, des arbres, ou les pierres s’ouvrent pour vous accueillir et vous protéger.</p><p>L’abri peut contenir une dizaine de personnes et sera utilisable des jours durant.</p><p>Vous pouvez l’ouvrir et le refermer à volonté.</p>",
+    "duree": "RU jours"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977260291,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!3ffVOJU7j7hxA8hP"
+}

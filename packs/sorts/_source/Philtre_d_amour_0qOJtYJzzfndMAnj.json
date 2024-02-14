@@ -1,0 +1,30 @@
+{
+  "folder": "jldwnSpF8IZEFTnl",
+  "name": "Philtre d’amour",
+  "type": "sort",
+  "_id": "0qOJtYJzzfndMAnj",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "alchimie",
+    "formuleMagique": "<p>Deux mortels désignés,</p><p>S’aimeront désormais</p><p>D’une passion exaltée,</p><p>A défaut d’être vraie</p>",
+    "opposition": "Test normal à -20",
+    "description": "<p>Les deux personnes qui boivent ce philtre tombent éperdument amoureuses l’une de l’autre. Rien ne pourra les dissuader de cet amour passionnel. On raconte néanmoins que certains rituels peuvent mettre fin au charme, mais ils ont été oubliés depuis longtemps…</p>",
+    "duree": "permanent"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977768404,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!0qOJtYJzzfndMAnj"
+}

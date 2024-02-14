@@ -1,0 +1,30 @@
+{
+  "folder": "zzTcdrO2GDAFWwNi",
+  "name": "Lion de braise",
+  "type": "sort",
+  "_id": "lmciPImANAdnVWXL",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "feu",
+    "formuleMagique": "<p>Trop longtemps enfermé,</p><p>Je l’ai laissé s’enfuir,</p><p>Le fauve est affamé</p><p>Ecoutez-le rugir !</p>",
+    "opposition": "Test normal à -30",
+    "description": "<p>Vous invoquez un élémentaire de feu qui prend la forme du Lion de Braise, un monstrueux fauve rougeoyant à la crinière enflammée.</p><p>Vous ne pouvez l’invoquer plus d’une fois par jour.</p>",
+    "duree": "RU minutes en combat"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976968114,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!lmciPImANAdnVWXL"
+}

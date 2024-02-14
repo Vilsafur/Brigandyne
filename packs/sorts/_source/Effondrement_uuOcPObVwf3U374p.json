@@ -1,0 +1,30 @@
+{
+  "folder": "FpwLe4W1A31QmX1l",
+  "name": "Effondrement",
+  "type": "sort",
+  "_id": "uuOcPObVwf3U374p",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "terre",
+    "formuleMagique": "<p>Comme le pas d’un géant</p><p>Creuse le sol et la pierre,</p><p>Laisse un gouffre béant,</p><p>Dans un bruit de tonnerre !</p>",
+    "opposition": "Test d’opposition MAG/MVT ou test normal à +10",
+    "description": "<p>Dans un bruit de tremblement de terre, vous pouvez faire s’effondrer la terre et créer un gouffre de 5 mètres de diamètre et profond de (RU) mètres sous les pieds de vos ennemis, soit provoquer d’une secousse une avalanche ou une chute de pierre si vous êtes en milieu montagneux (le nombre de rochers et leur taille sont laissés à la discrétion du MJ, mais il devra tenir compte du RU).</p>",
+    "duree": "immédiat"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977119691,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!uuOcPObVwf3U374p"
+}

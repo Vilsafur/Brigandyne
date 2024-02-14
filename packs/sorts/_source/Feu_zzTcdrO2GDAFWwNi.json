@@ -1,0 +1,19 @@
+{
+  "name": "Feu",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "zzTcdrO2GDAFWwNi",
+  "sort": 0,
+  "color": "#f73636",
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976635997,
+    "modifiedTime": 1707942153564,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "_key": "!folders!zzTcdrO2GDAFWwNi"
+}

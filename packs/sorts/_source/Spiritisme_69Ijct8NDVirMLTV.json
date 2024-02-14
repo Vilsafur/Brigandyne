@@ -1,0 +1,30 @@
+{
+  "folder": "ypB4p63W0BwAzeVr",
+  "name": "Spiritisme",
+  "type": "sort",
+  "_id": "69Ijct8NDVirMLTV",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "",
+    "formuleMagique": "<p>Pour qu’on me prête mainforte</p><p>Dans les heures les plus sombres</p><p>J’ai frappé à la porte</p><p>Du grand royaume des ombres</p>",
+    "opposition": "Test normal à +20",
+    "description": "<p>Vous entrez en contact avec l’esprit d’un mort. Vous pouvez lui poser des questions, sentir sa présence et savoir ce qu’il ressent. Il répondra à vos questions de façon très simple : par oui, par non, ou par un mot ou un nom.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707941323522,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!69Ijct8NDVirMLTV"
+}

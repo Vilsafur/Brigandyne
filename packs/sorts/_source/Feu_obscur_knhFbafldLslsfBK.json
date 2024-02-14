@@ -1,0 +1,30 @@
+{
+  "folder": "wyC3cmMddFfmYCcj",
+  "name": "Feu obscur",
+  "type": "sort",
+  "_id": "knhFbafldLslsfBK",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "demonisme",
+    "formuleMagique": "<p>La flamme noire de la haine</p><p>Sera ma nouvelle arme,</p><p>Qu’elle brûle, tue et déchaîne</p><p>Pluies de sang et de larmes !</p>",
+    "opposition": "Test d’opposition MAG/MVT - test normal à 0",
+    "description": "<p>Vous pouvez au choix : projeter une flamme noire sur une cible qui lui infligera RU +6 PV et qui pourra l’enflammer ;</p><p>OU entourer votre main de ce feu qui vous servira d’arme (allonge : E, dégâts : +3, enflamme les vêtements comme une torche) pendant RU minutes.</p>",
+    "duree": "immédiat - RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706978344174,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!knhFbafldLslsfBK"
+}

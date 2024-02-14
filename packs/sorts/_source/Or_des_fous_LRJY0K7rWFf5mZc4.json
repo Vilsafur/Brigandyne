@@ -1,0 +1,30 @@
+{
+  "folder": "jldwnSpF8IZEFTnl",
+  "name": "Or des fous",
+  "type": "sort",
+  "_id": "LRJY0K7rWFf5mZc4",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "alchimie",
+    "formuleMagique": "<p>Poussière de mensonge,</p><p>Or des fous, poudre aux yeux,</p><p>Font sortir de mes songes</p><p>Le métal merveilleux</p>",
+    "opposition": "Test normal à +10",
+    "description": "<p>Vous recouvrez de vulgaires piécettes de cuivre d’une poussière qui leur donnera l’apparence de véritables pièces d’or pendant toute la durée du sort.</p>",
+    "duree": "RU heures"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977468062,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!LRJY0K7rWFf5mZc4"
+}

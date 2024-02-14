@@ -1,0 +1,30 @@
+{
+  "folder": "zzTcdrO2GDAFWwNi",
+  "name": "Contrôle des flammes",
+  "type": "sort",
+  "_id": "UM2p2NYcXdObIFON",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "air",
+    "formuleMagique": "<p>Jouons avec le feu,</p><p>Sa fumée ou sa forme,</p><p>Qu’il éblouisse nos yeux</p><p>Ou bien qu’il se rendorme !</p>",
+    "opposition": "Test normal à +10",
+    "description": "<p>Vous pouvez accroître la taille et l’intensité d’un feu, diriger sa fumée, concentrer ses flammes sur un point précis, ou au contraire l’éteindre peu à peu.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976695292,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!UM2p2NYcXdObIFON"
+}

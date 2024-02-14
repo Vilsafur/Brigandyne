@@ -1,0 +1,30 @@
+{
+  "folder": "DJiQxoh5j16IEKQI",
+  "name": "Air pur",
+  "type": "sort",
+  "_id": "k4GZeSNkQdeCZum8",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "air",
+    "formuleMagique": "<p>J’ai parcouru le ciel,</p><p>Qu’on m’accueille, triomphal,</p><p>Que l’air pestilentiel</p><p>Disparaisse d’une rafale !</p>",
+    "opposition": "Test normal à +20",
+    "description": "<p>Un courant d’air vient dissiper toutes les fumées et les mauvaises odeurs présentes sur un rayon de 10m.</p>",
+    "duree": "immédiat"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706973910410,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!k4GZeSNkQdeCZum8"
+}

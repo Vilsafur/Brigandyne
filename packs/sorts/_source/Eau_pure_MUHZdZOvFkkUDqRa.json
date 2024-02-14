@@ -1,0 +1,30 @@
+{
+  "folder": "huqNvdQyWrmkNS3u",
+  "name": "Eau pure",
+  "type": "sort",
+  "_id": "MUHZdZOvFkkUDqRa",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "eau",
+    "formuleMagique": "<p>Comme le disaient les sages</p><p>A la gorge trop sèche</p><p>-Point de meilleur breuvage</p><p>Que cette eau pure et fraîche !</p>",
+    "opposition": "Test normal à +10",
+    "description": "<p>Vous pouvez au choix : purifier (RU) litres d’eau souillée (ou d’eau de mer) et la rendre potable, ou créer de l’eau pure à partir de rien, pour remplir deux mains jointes.</p>",
+    "duree": "immédiat"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976124838,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!MUHZdZOvFkkUDqRa"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "ypB4p63W0BwAzeVr",
+  "name": "Hantise",
+  "type": "sort",
+  "_id": "7p19E86CaGGxxYWP",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "",
+    "formuleMagique": "<p>J’ai puisé la terreur</p><p>Dans tes rêves, tes nuits noires</p><p>Pour qu’au fond de ton cœur,</p><p>Se creuse le désespoir</p>",
+    "opposition": "Test en opposition MAG/VOL",
+    "description": "<p>La victime de ce maléfice hurle et reste paralysée par la peur pendant toute la durée du sort. Tous ceux qui l’attaquent sont considérés comme l’attaquant « par surprise ». Elle pourra néanmoins riposter au prochain tour, car le choc lui aura fait reprendre ses esprits.</p>",
+    "duree": "RU tours"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1707941473191,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!7p19E86CaGGxxYWP"
+}

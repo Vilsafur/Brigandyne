@@ -1,0 +1,30 @@
+{
+  "folder": "FpwLe4W1A31QmX1l",
+  "name": "Abondance",
+  "type": "sort",
+  "_id": "DtwxROa2NPQyBkYf",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "terre",
+    "formuleMagique": "<p>Généreuse est la terre</p><p>Pour celui qui a faim</p><p>Qui connaît ses mystères,</p><p>Et protège ses jardins</p>",
+    "opposition": "Test normal à +20",
+    "description": "<p>Vous touchez un arbre, de la terre, des plantes, et de gros fruits ou des légumes en sortiront soudain, prêts à être dégustés.</p>",
+    "duree": "immédiat"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977033874,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!DtwxROa2NPQyBkYf"
+}

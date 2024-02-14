@@ -1,0 +1,30 @@
+{
+  "folder": "DJiQxoh5j16IEKQI",
+  "name": "Passe-muraille",
+  "type": "sort",
+  "_id": "Y4bFycuOM7sABpR3",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "air",
+    "formuleMagique": "<p>Les portes et les murailles</p><p>Des grands châteaux de pierre,</p><p>Ont toujours eu une faille</p><p>Pour passer au travers</p>",
+    "opposition": "Test normal à 0",
+    "description": "<p>Vous prenez la consistance de l’air, et si la paroi en face de vous a la moindre faille vous pouvez vous y infiltrer pour passer de l’autre côté. Vous devenez aussi intouchable pendant la durée du sort.</p>",
+    "duree": "RU secondes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706975411038,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!Y4bFycuOM7sABpR3"
+}

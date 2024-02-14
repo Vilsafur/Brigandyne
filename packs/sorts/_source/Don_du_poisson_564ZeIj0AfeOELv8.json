@@ -1,0 +1,30 @@
+{
+  "folder": "huqNvdQyWrmkNS3u",
+  "name": "Don du poisson",
+  "type": "sort",
+  "_id": "564ZeIj0AfeOELv8",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "eau",
+    "formuleMagique": "<p>J’ai reçu ce cadeau</p><p>De la main des tritons</p><p>Pour les suivre sous l’eau</p><p>Jusqu’à leur panthéon</p>",
+    "opposition": "Test normal à +10",
+    "description": "<p>Vous respirez sous l’eau aussi bien que dans l’air pendant toute la durée du sort.</p>",
+    "duree": "RU minutes"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706976161630,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!564ZeIj0AfeOELv8"
+}

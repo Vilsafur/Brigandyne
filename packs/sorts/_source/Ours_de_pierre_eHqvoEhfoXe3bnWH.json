@@ -1,0 +1,30 @@
+{
+  "folder": "FpwLe4W1A31QmX1l",
+  "name": "Ours de pierre",
+  "type": "sort",
+  "_id": "eHqvoEhfoXe3bnWH",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "terre",
+    "formuleMagique": "<p>Souviens-toi du gardien</p><p>Des monts et des forêts,</p><p>Géant des temps anciens,</p><p>Le voilà qui renaît</p>",
+    "opposition": "Test normal à -30 ",
+    "description": "<p>Vous invoquez un élémentaire de terre sous la forme de l’Ours de Pierre, colossal monstre minéral aux yeux d’obsidienne.</p><p>Vous ne pouvez l’invoquer plus d’une fois par jour.</p>",
+    "duree": "RU minutes en combat, RU heures pour voyager"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977350594,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!eHqvoEhfoXe3bnWH"
+}

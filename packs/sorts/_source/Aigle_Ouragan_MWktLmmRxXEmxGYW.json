@@ -1,0 +1,30 @@
+{
+  "folder": "DJiQxoh5j16IEKQI",
+  "name": "Aigle-Ouragan",
+  "type": "sort",
+  "_id": "MWktLmmRxXEmxGYW",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "air",
+    "formuleMagique": "<p>Ses grandes ailes déployées</p><p>Sont comme de noirs nuages</p><p>Ses serres sont des épées</p><p>Son cri est un orage</p>",
+    "opposition": "Test normal à -30",
+    "description": "<p>Vous invoquez un élémentaire d’air qui prend la forme de l’Aigle-Ouragan, un rapace de 18 mètres d’envergure dont les cris sont terrifiants. Vous pouvez le monter avec vos compagnons.</p><p>Vous ne pouvez l’invoquer plus d’une fois par jour.</p>",
+    "duree": "RU minutes en combat, RU heures pour voler"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706975590827,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!MWktLmmRxXEmxGYW"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "jldwnSpF8IZEFTnl",
+  "name": "Golem",
+  "type": "sort",
+  "_id": "9Yk4qeDxrzmIxcX2",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "domaineMagique": "alchimie",
+    "formuleMagique": "<p>Nuit et jour j’ai créé,</p><p>Façonné de mes mains,</p><p>Ce serviteur dévoué</p><p>Qui s’éveille, presqu’humain</p>",
+    "opposition": "Test normal à -10 ",
+    "description": "<p>Que ce soit en ayant sculpté vous-même un corps, ou en ayant imbriqué plusieurs parties de cadavres différents, vous avez créé un humanoïde (de 3 mètres maximum) à votre service. Il ne peut parler, ni comprendre votre langue, et vous devrez inscrire sur un petit parchemin les ordres qu’il exécutera pour les lui glisser dans la bouche.</p>",
+    "duree": "permanent"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1706977657922,
+    "modifiedTime": 1707942153579,
+    "lastModifiedBy": "UwlimL2UASASR0DY"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UwlimL2UASASR0DY": 3
+  },
+  "_key": "!items!9Yk4qeDxrzmIxcX2"
+}
