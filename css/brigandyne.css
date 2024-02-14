@@ -70,7 +70,7 @@
   grid-area: carriere;
   justify-content: flex-start;
 }
-.brigandyne.actor .haut .informations .carriere input {
+.brigandyne.actor .haut .informations .carriere .input {
   width: 302px;
 }
 .brigandyne.actor .haut .informations .niveau_de_vie {
