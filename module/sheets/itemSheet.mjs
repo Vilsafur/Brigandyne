@@ -26,6 +26,8 @@ export class BrigandyneItemSheet extends ItemSheet {
 
   getData() {
     const context = super.getData()
+    context.config = CONFIG.BRIGANDYNE
+    
     const itemData = context.data
     context.rollData = this.item.getRollData()
 

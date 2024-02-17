@@ -20,7 +20,7 @@ export class BrigandyneActorSheet extends ActorSheet {
   /** @override */
   getData() {
     const context  = super.getData()
-    context .config = CONFIG.BRIGANDYNE
+    context.config = CONFIG.BRIGANDYNE
 
     // Use a safe clone of the actor data for further operations.
     const actorData = context.data;
