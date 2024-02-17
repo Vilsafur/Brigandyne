@@ -1,0 +1,33 @@
+{
+  "name": "Hache, cognée",
+  "type": "armeMelee",
+  "_id": "MKZgTEK22b60zoyO",
+  "img": "systems/brigandyne/assets/img/armesMelee/Hache%2C%20cogn%C3%A9e.webp",
+  "system": {
+    "description": "",
+    "prix": 1,
+    "uniteePrix": "po",
+    "degats": 0,
+    "allonge": "c",
+    "dissimulation": "c",
+    "main": "b",
+    "special": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191629073,
+    "modifiedTime": 1708191646439,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!MKZgTEK22b60zoyO"
+}

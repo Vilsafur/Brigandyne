@@ -1,0 +1,33 @@
+{
+  "name": "Rapière",
+  "type": "armeMelee",
+  "_id": "XH0RV2dTm4U8nk2D",
+  "img": "systems/brigandyne/assets/img/armesMelee/Rapi%C3%A8re.webp",
+  "system": {
+    "description": "",
+    "prix": 10,
+    "uniteePrix": "po",
+    "degats": 0,
+    "allonge": "b",
+    "dissimulation": "c",
+    "main": "a",
+    "special": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191969883,
+    "modifiedTime": 1708191987390,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!XH0RV2dTm4U8nk2D"
+}

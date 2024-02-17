@@ -1,0 +1,33 @@
+{
+  "name": "Espadon, flamberge",
+  "type": "armeMelee",
+  "_id": "WVpvcfVXe5ha89Lt",
+  "img": "systems/brigandyne/assets/img/armesMelee/Espadon%2C%20flamberge.webp",
+  "system": {
+    "description": "",
+    "prix": 15,
+    "uniteePrix": "po",
+    "degats": 1,
+    "allonge": "a",
+    "dissimulation": "e",
+    "main": "b",
+    "special": "<p>-10% si lieu étroit</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191399825,
+    "modifiedTime": 1708191441292,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!WVpvcfVXe5ha89Lt"
+}

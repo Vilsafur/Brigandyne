@@ -1,0 +1,33 @@
+{
+  "name": "Hallebarde, bardiche",
+  "type": "armeMelee",
+  "_id": "T6q69X69liFu1CuW",
+  "img": "systems/brigandyne/assets/img/armesMelee/Hallebarde%2C%20bardiche.webp",
+  "system": {
+    "description": "",
+    "prix": 5,
+    "uniteePrix": "po",
+    "degats": 0,
+    "allonge": "a",
+    "dissimulation": "e",
+    "main": "b",
+    "special": "<p>Anti-cavalier</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191714570,
+    "modifiedTime": 1708191739610,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!T6q69X69liFu1CuW"
+}

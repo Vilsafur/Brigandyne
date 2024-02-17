@@ -1,0 +1,33 @@
+{
+  "name": "Pertuisane",
+  "type": "armeMelee",
+  "_id": "gVLZlH6kePxOf8Xl",
+  "img": "systems/brigandyne/assets/img/armesMelee/Pertuisane.webp",
+  "system": {
+    "description": "",
+    "prix": 5,
+    "uniteePrix": "po",
+    "degats": 0,
+    "allonge": "a",
+    "dissimulation": "e",
+    "main": "b",
+    "special": "<p>Anti-cavalier</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191927147,
+    "modifiedTime": 1708191950290,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!gVLZlH6kePxOf8Xl"
+}

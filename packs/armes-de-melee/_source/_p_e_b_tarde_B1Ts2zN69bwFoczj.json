@@ -1,0 +1,33 @@
+{
+  "name": "Épée bâtarde",
+  "type": "armeMelee",
+  "_id": "B1Ts2zN69bwFoczj",
+  "img": "systems/brigandyne/assets/img/armesMelee/Ep%C3%A9e%20batarde.webp",
+  "system": {
+    "description": "",
+    "prix": 15,
+    "uniteePrix": "po",
+    "degats": 0,
+    "allonge": "b",
+    "dissimulation": "d",
+    "main": "c",
+    "special": "<p>Peut être maniée à une ou deux mains</p><p>Dégât +1 si manié à 2 mains</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191239945,
+    "modifiedTime": 1708191300816,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!B1Ts2zN69bwFoczj"
+}

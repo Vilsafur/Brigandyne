@@ -1,0 +1,33 @@
+{
+  "name": "Fléau d’armes",
+  "type": "armeMelee",
+  "_id": "5iMziQmTvwzad0jb",
+  "img": "systems/brigandyne/assets/img/armesMelee/Fl%C3%A9au%20d%E2%80%99armes.webp",
+  "system": {
+    "description": "",
+    "prix": 5,
+    "uniteePrix": "po",
+    "degats": 1,
+    "allonge": "c",
+    "dissimulation": "c",
+    "main": "a",
+    "special": "<p>Ignore boucliers, arme lourde</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191491003,
+    "modifiedTime": 1708191528353,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!5iMziQmTvwzad0jb"
+}

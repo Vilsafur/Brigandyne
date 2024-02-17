@@ -1,0 +1,33 @@
+{
+  "name": "Epée courte",
+  "type": "armeMelee",
+  "_id": "z0FtpRKy6m9askzt",
+  "img": "systems/brigandyne/assets/img/armesMelee/Ep%C3%A9e%20courte.webp",
+  "system": {
+    "description": "",
+    "prix": 4,
+    "uniteePrix": "po",
+    "degats": -1,
+    "allonge": "c",
+    "dissimulation": "b",
+    "main": "a",
+    "special": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191311591,
+    "modifiedTime": 1708191388655,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!z0FtpRKy6m9askzt"
+}

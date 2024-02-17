@@ -1,0 +1,33 @@
+{
+  "name": "Hachette",
+  "type": "armeMelee",
+  "_id": "lAHp98PoZowjU6Ld",
+  "img": "systems/brigandyne/assets/img/armesMelee/Hachette.webp",
+  "system": {
+    "description": "",
+    "prix": 5,
+    "uniteePrix": "pa",
+    "degats": -1,
+    "allonge": "d",
+    "dissimulation": "b",
+    "main": "a",
+    "special": "<p>Peut être lancée</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191584708,
+    "modifiedTime": 1708191619181,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!lAHp98PoZowjU6Ld"
+}

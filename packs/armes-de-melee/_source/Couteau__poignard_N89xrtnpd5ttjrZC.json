@@ -1,0 +1,35 @@
+{
+  "folder": null,
+  "name": "Couteau, poignard",
+  "type": "armeMelee",
+  "img": "systems/brigandyne/assets/img/armesMelee/Couteau%2C%20poignard.webp",
+  "system": {
+    "description": "",
+    "prix": 5,
+    "uniteePrix": "pa",
+    "degats": -1,
+    "allonge": "e",
+    "dissimulation": "a",
+    "main": "a",
+    "special": "<p>Peut être lancé</p>"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708017027552,
+    "modifiedTime": 1708191088139,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_id": "N89xrtnpd5ttjrZC",
+  "sort": 300000,
+  "_key": "!items!N89xrtnpd5ttjrZC"
+}

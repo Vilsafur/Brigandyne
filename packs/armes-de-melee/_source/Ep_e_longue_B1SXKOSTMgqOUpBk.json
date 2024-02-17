@@ -1,0 +1,33 @@
+{
+  "name": "Epée longue",
+  "type": "armeMelee",
+  "_id": "B1SXKOSTMgqOUpBk",
+  "img": "systems/brigandyne/assets/img/armesMelee/Ep%C3%A9e%20longue.webp",
+  "system": {
+    "description": "",
+    "prix": 10,
+    "uniteePrix": "po",
+    "degats": 0,
+    "allonge": "b",
+    "dissimulation": "d",
+    "main": "a",
+    "special": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191356353,
+    "modifiedTime": 1708191374049,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!B1SXKOSTMgqOUpBk"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Cestus, griffes",
+  "type": "armeMelee",
+  "_id": "dXUk8HZykR185GQM",
+  "img": "systems/brigandyne/assets/img/armesMelee/Cestus%2C%20griffes.webp",
+  "system": {
+    "description": "",
+    "prix": 5,
+    "uniteePrix": "pa",
+    "degats": -2,
+    "allonge": "f",
+    "dissimulation": "aa",
+    "main": "a",
+    "special": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191153232,
+    "modifiedTime": 1708191181295,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!dXUk8HZykR185GQM"
+}

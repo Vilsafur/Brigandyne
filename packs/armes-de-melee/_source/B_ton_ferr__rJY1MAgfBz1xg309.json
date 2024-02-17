@@ -1,0 +1,33 @@
+{
+  "name": "Bâton ferré",
+  "type": "armeMelee",
+  "_id": "rJY1MAgfBz1xg309",
+  "img": "systems/brigandyne/assets/img/armesMelee/B%C3%A2ton%20ferr%C3%A9.webp",
+  "system": {
+    "description": "",
+    "prix": 3,
+    "uniteePrix": "pa",
+    "degats": -1,
+    "allonge": "a",
+    "dissimulation": "e",
+    "main": "b",
+    "special": "<p>Assommant</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191102308,
+    "modifiedTime": 1708191142030,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!rJY1MAgfBz1xg309"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Dague, miséricorde",
+  "type": "armeMelee",
+  "_id": "0cI5FmJcEmBr20NN",
+  "img": "systems/brigandyne/assets/img/armesMelee/Dague%2C%20mis%C3%A9ricorde.webp",
+  "system": {
+    "description": "",
+    "prix": 1,
+    "uniteePrix": "po",
+    "degats": -1,
+    "allonge": "d",
+    "dissimulation": "b",
+    "main": "a",
+    "special": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191198846,
+    "modifiedTime": 1708191220450,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!0cI5FmJcEmBr20NN"
+}

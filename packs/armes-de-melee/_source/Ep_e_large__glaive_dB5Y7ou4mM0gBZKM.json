@@ -1,0 +1,33 @@
+{
+  "name": "Epée large, glaive",
+  "type": "armeMelee",
+  "_id": "dB5Y7ou4mM0gBZKM",
+  "img": "systems/brigandyne/assets/img/armesMelee/Ep%C3%A9e%20large%2C%20glaive.webp",
+  "system": {
+    "description": "",
+    "prix": 6,
+    "uniteePrix": "po",
+    "degats": 0,
+    "allonge": "c",
+    "dissimulation": "c",
+    "main": "a",
+    "special": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191334467,
+    "modifiedTime": 1708191381332,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!dB5Y7ou4mM0gBZKM"
+}

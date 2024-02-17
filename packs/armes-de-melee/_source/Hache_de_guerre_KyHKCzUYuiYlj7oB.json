@@ -1,0 +1,33 @@
+{
+  "name": "Hache de guerre",
+  "type": "armeMelee",
+  "_id": "KyHKCzUYuiYlj7oB",
+  "img": "systems/brigandyne/assets/img/armesMelee/Hache%20de%20guerre.webp",
+  "system": {
+    "description": "",
+    "prix": 6,
+    "uniteePrix": "po",
+    "degats": 1,
+    "allonge": "c",
+    "dissimulation": "c",
+    "main": "a",
+    "special": "<p>Arme lourde</p>"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191656098,
+    "modifiedTime": 1708191697832,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!KyHKCzUYuiYlj7oB"
+}

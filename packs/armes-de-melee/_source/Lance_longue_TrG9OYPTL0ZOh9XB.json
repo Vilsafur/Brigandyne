@@ -1,0 +1,33 @@
+{
+  "name": "Lance longue",
+  "type": "armeMelee",
+  "_id": "TrG9OYPTL0ZOh9XB",
+  "img": "systems/brigandyne/assets/img/armesMelee/Lance%20longue.webp",
+  "system": {
+    "description": "",
+    "prix": 2,
+    "uniteePrix": "po",
+    "degats": -1,
+    "allonge": "aa",
+    "dissimulation": "f",
+    "main": "b",
+    "special": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "xnDmnudJKUg9kWx1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "brigandyne",
+    "systemVersion": "1.0.0",
+    "coreVersion": "11.315",
+    "createdTime": 1708191807809,
+    "modifiedTime": 1708191828646,
+    "lastModifiedBy": "xnDmnudJKUg9kWx1"
+  },
+  "_key": "!items!TrG9OYPTL0ZOh9XB"
+}
