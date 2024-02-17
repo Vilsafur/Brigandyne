@@ -7,3 +7,4 @@
   - utilisation de points de fortunes
   - ajout de modificateur
 - [ ] Macro de lancé de dés
+- [ ] Ajout du bestiaire complet
