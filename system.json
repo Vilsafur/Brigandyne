@@ -625,7 +625,8 @@
     "module/helpers/config.mjs",
     "module/helpers/templates.mjs",
     "module/sheets/itemSheet.mjs",
-    "module/sheets/actorSheet.mjs"
+    "module/sheets/actorSheet.mjs",
+    "module/utils/actor.mjs"
   ],
   "esmodules": [
     "module/brigandyne.js"

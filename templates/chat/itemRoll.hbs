@@ -1,0 +1,27 @@
+<div>Résultat du test</div>
+<div class="dice-roll">
+    <div class="dice-result">
+        <div class="dice-formula">1d100 < (competence + modo)</div>
+        <div class="dice-tooltip" style="display:none;">
+            <section class="tooltip-part">
+                <div class="dice">
+                    <header class="part-header flexrow">
+                        <span class="part-formula">1d100</span>
+                        <span class="part-total">{{result}}</span>
+                    </header>
+                    <ol class="dice-rolls">
+                        <li class="roll die d20">{{result}}</li>
+                        <li class="roll die d4">{{competence}}</li>
+                        <li class="roll die d4">{{modo}}</li>
+                    </ol>
+                </div>
+            </section>
+        </div>
+        {{#if success}}
+        <h4 class="dice-total">Succès</h4>
+        {{else}}
+        <h4 class="dice-total">Echec</h4>
+        {{/if}}
+        <h4 class="dice-total">Dégats: {{degats}}</h4>
+    </div>
+</div>
