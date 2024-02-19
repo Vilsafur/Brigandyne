@@ -16,7 +16,7 @@ import { ActorData } from './data/actorData.mjs'
 Hooks.once('init', () => {
 	console.log('Brigandyne | Initialisation du système Brigandyne')
 
-	CONFIG.Actor.systemDataModels.actor = ActorData
+	CONFIG.Actor.dataModels.actor = ActorData
 
 	// Add utility classes to the global game object so that they're more easily
 	// accessible in global contexts.
@@ -74,6 +74,10 @@ Hooks.once('init', () => {
 	Handlebars.registerHelper('check-progression', function (competences, value) {
 		return competences.progression >= value
 	})
+
+	Handlebars.registerHelper('json', function(context) {
+    return JSON.stringify(context);
+	});
 
 	return preloadHandlebarsTemplates()
 })

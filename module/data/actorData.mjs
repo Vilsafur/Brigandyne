@@ -5,10 +5,15 @@ export class ActorData extends foundry.abstract.TypeDataModel {
     console.debug(`Brigandyne | ActorData`)
 
     return {
-      nom: new Fields.StringField({
+      vitalite: new Fields.NumberField({
         required: true,
-        label: "Brigandyne.ActorData.Nom"
-      })
+        initial: 1,
+        min: 0,
+        max: 30,
+        integer: true,
+        positive: true
+      }),
+      biography: new Fields.HTMLField(),
     }
   }
 }

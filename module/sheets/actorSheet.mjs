@@ -14,7 +14,7 @@ export class BrigandyneActorSheet extends ActorSheet {
 
   /** @override */
   get template() {
-    return `systems/brigandyne/templates/sheets/${this.actor.data.type}.hbs`
+    return `systems/brigandyne/templates/sheets/${this.actor.type}.hbs`
   }
 
   /** @override */
@@ -22,15 +22,8 @@ export class BrigandyneActorSheet extends ActorSheet {
     const context  = super.getData()
     context.config = CONFIG.BRIGANDYNE
 
-    // Use a safe clone of the actor data for further operations.
-    const actorData = context.data;
-
-    // Add the actor's data to context.data for easier access, as well as flags.
-    context.system = actorData.system;
-
     // Prepare characteritems.
     this._prepareItems(context);
-
 
     // Add roll data for TinyMCE editors.
     context.rollData = context.actor.getRollData();
@@ -41,6 +34,8 @@ export class BrigandyneActorSheet extends ActorSheet {
     //   // as well as any items
     //   this.actor.allApplicableEffects()
     // );
+
+    debugger
 
     console.log('Brigandyne | actorSheet | getData', context)
     return context 
