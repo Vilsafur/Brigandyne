@@ -42,8 +42,8 @@ export class BrigandyneItem extends Item {
       case 'armeMelee':
         caracteristique = 'combat'
         break;
-      case 'tir':
-        caracteristique = 'combat'
+      case 'armeDistance':
+        caracteristique = 'tir'
         break;
     }
     // If there's no roll data, send a chat message.
