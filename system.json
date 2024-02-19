@@ -1,622 +1,624 @@
 {
-  "id": "brigandyne",
-  "title": "Brigandyne",
-  "description": "Brigandyne JDR",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11",
-    "maximum": "11"
-  },
   "authors": [
     {
-      "name": "Vilsafur",
+      "discord": "vilsafur",
       "email": "vilsafur@gmail.com",
-      "discord": "vilsafur"
+      "name": "Vilsafur"
     }
   ],
-  "packs": [
-    {
-      "label": "Armures",
-      "type": "Item",
-      "name": "armures",
-      "path": "packs/armures",
-      "system": "brigandyne",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Armes de tir",
-      "type": "Item",
-      "name": "armes-de-tir",
-      "path": "packs/armes-de-tir",
-      "system": "brigandyne",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {},
-      "package": "world"
-    },
-    {
-      "label": "Armes de mélée",
-      "type": "Item",
-      "name": "armes-de-melee",
-      "path": "packs/armes-de-melee",
-      "system": "brigandyne",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Peuple",
-      "type": "Item",
-      "name": "peuple",
-      "path": "packs/peuple",
-      "system": "brigandyne",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {},
-      "package": "world"
-    },
-    {
-      "label": "Bestiaire",
-      "type": "Actor",
-      "name": "bestiaire",
-      "path": "packs/bestiaire",
-      "system": "brigandyne",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {},
-      "package": "world",
-      "id": "world.bestiaire",
-      "packageType": "world",
-      "packageName": "test-brigandyne",
-      "index": [
-        {
-          "folder": "2whJcjha6hOOiMIf",
-          "name": "Vermine démoniaque",
-          "type": "pnj",
-          "_id": "3F4knINqb6uSvTbJ",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "ho3JBm3k7uO0wudi",
-          "name": "Guerrier orque",
-          "type": "pnj",
-          "_id": "3e4WE5fPpnXkJ5wH",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "2whJcjha6hOOiMIf",
-          "name": "Démon médian, légionnaire des Enfers",
-          "type": "pnj",
-          "_id": "5ElWhanWiYdQarXA",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "ho3JBm3k7uO0wudi",
-          "name": "Sorcier orque",
-          "type": "pnj",
-          "_id": "5T3kegRklx2QuKEF",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "2whJcjha6hOOiMIf",
-          "name": "Démon majeur, seigneur-démon",
-          "type": "pnj",
-          "_id": "5ck5nzKvOPPTryWz",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "F78R95p1pR9soE2Z",
-          "name": "Homme-lézard",
-          "type": "pnj",
-          "_id": "9C7SPI0hGs37pNfR",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 600000
-        },
-        {
-          "folder": "ho3JBm3k7uO0wudi",
-          "name": "Troll",
-          "type": "pnj",
-          "_id": "Bch37ASo2F9QIOgU",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "F78R95p1pR9soE2Z",
-          "name": "Harpie",
-          "type": "pnj",
-          "_id": "CNGg9rummPJikziW",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 500000
-        },
-        {
-          "folder": "hnhdMGHyDbT6s5Na",
-          "name": "Dragon vert",
-          "type": "pnj",
-          "_id": "GWD8KMob5ErDTOFn",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "j9Ifjnnoikdu1HKh",
-          "name": "Ours",
-          "type": "pnj",
-          "_id": "HB9Agwc7ND4Wa626",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 112500
-        },
-        {
-          "folder": "F4jaJMjp5lYWuGIV",
-          "name": "Basilic",
-          "type": "pnj",
-          "_id": "JsYAtItr1I2faY2N",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 100000
-        },
-        {
-          "folder": "j9Ifjnnoikdu1HKh",
-          "name": "Loup",
-          "type": "pnj",
-          "_id": "LWLblbYQj0G0Q2Za",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 150000
-        },
-        {
-          "folder": "2whJcjha6hOOiMIf",
-          "name": "Abomination",
-          "type": "pnj",
-          "_id": "LcSuogHu739mPUBf",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 100000
-        },
-        {
-          "folder": "2whJcjha6hOOiMIf",
-          "name": "Démon mineur, diablotin",
-          "type": "pnj",
-          "_id": "NlY16Wsi3fFImNzD",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "hnhdMGHyDbT6s5Na",
-          "name": "Dragon blanc",
-          "type": "pnj",
-          "_id": "PVjLFf7ul2KuwxZp",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "ho3JBm3k7uO0wudi",
-          "name": "Gobelin",
-          "type": "pnj",
-          "_id": "QFehy9TLzc2LMMkf",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 100000
-        },
-        {
-          "folder": "2whJcjha6hOOiMIf",
-          "name": "Chevalier-démon",
-          "type": "pnj",
-          "_id": "QJEmD8abmtVoOTxN",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "F4jaJMjp5lYWuGIV",
-          "name": "Guivre, vouivre",
-          "type": "pnj",
-          "_id": "QVb72VXrqILmVYRi",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 150000
-        },
-        {
-          "folder": "hnhdMGHyDbT6s5Na",
-          "name": "Dragon bleu",
-          "type": "pnj",
-          "_id": "S1hokXVL34uW82Nk",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "aCvkVo2TujlyjKNK",
-          "name": "Zombie",
-          "type": "pnj",
-          "_id": "S4ptr9kJo7ffqoEf",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "2whJcjha6hOOiMIf",
-          "name": "Incube/Succube",
-          "type": "pnj",
-          "_id": "ThwacF2ar9v3or0t",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "F78R95p1pR9soE2Z",
-          "name": "Skavvi, homme-rat",
-          "type": "pnj",
-          "_id": "TkYAceaOWLcqhkJZ",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 800000
-        },
-        {
-          "folder": "F78R95p1pR9soE2Z",
-          "name": "Centaure",
-          "type": "pnj",
-          "_id": "V2DKr0Bkdu63wUWs",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 400000
-        },
-        {
-          "folder": "hnhdMGHyDbT6s5Na",
-          "name": "Dragon noir",
-          "type": "pnj",
-          "_id": "Wfo1fuZCox1JQGcU",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "F78R95p1pR9soE2Z",
-          "name": "Akokraa",
-          "type": "pnj",
-          "_id": "WgtjfsClxWwpwSmz",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 200000
-        },
-        {
-          "folder": "ho3JBm3k7uO0wudi",
-          "name": "Ogre",
-          "type": "pnj",
-          "_id": "YEqusraev3jpecVy",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "F78R95p1pR9soE2Z",
-          "name": "Minotaure",
-          "type": "pnj",
-          "_id": "ZHrriNbjK2JOWV42",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 700000
-        },
-        {
-          "folder": "aCvkVo2TujlyjKNK",
-          "name": "Goule",
-          "type": "pnj",
-          "_id": "ZJCWtAv6iZMLXhlq",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "aCvkVo2TujlyjKNK",
-          "name": "Liche",
-          "type": "pnj",
-          "_id": "bjSaHls8hPICHufB",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "2whJcjha6hOOiMIf",
-          "name": "Glouton, démon dévoreur",
-          "type": "pnj",
-          "_id": "eC6Cm0KlVyn7NmmR",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "j9Ifjnnoikdu1HKh",
-          "name": "Nuées",
-          "type": "pnj",
-          "_id": "erjq9tYEqhozj8Jr",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 125000
-        },
-        {
-          "folder": "F4jaJMjp5lYWuGIV",
-          "name": "Licorne",
-          "type": "pnj",
-          "_id": "gOiidCxgpum5q1VT",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 125000
-        },
-        {
-          "folder": "F78R95p1pR9soE2Z",
-          "name": "Gnolh",
-          "type": "pnj",
-          "_id": "ghm8dX3Iuoij7tUf",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 100000
-        },
-        {
-          "folder": "aCvkVo2TujlyjKNK",
-          "name": "Squelette",
-          "type": "pnj",
-          "_id": "iRiV0a3HnF519pzP",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "F78R95p1pR9soE2Z",
-          "name": "Broho",
-          "type": "pnj",
-          "_id": "rhd0xwoxGwtImzSH",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 300000
-        },
-        {
-          "folder": "2whJcjha6hOOiMIf",
-          "name": "Pestilent",
-          "type": "pnj",
-          "_id": "t1ldiNqfhidwDe1i",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "2whJcjha6hOOiMIf",
-          "name": "Molosse infernal",
-          "type": "pnj",
-          "_id": "tU1NijhSOzoE7x9u",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "F4jaJMjp5lYWuGIV",
-          "name": "Griffon",
-          "type": "pnj",
-          "_id": "uus3D7t3ldSz3LMJ",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 200000
-        },
-        {
-          "folder": "j9Ifjnnoikdu1HKh",
-          "name": "Araignée géante",
-          "type": "pnj",
-          "_id": "vV0o2IdBBWasvRQi",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 100000
-        },
-        {
-          "folder": "j9Ifjnnoikdu1HKh",
-          "name": "Rat géant",
-          "type": "pnj",
-          "_id": "vaocOoh1w5QQuXV3",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 106250
-        },
-        {
-          "folder": "hnhdMGHyDbT6s5Na",
-          "name": "Dragon rouge",
-          "type": "pnj",
-          "_id": "vlBkzfg7ep7whThA",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        },
-        {
-          "folder": "F78R95p1pR9soE2Z",
-          "name": "Triton, sirène",
-          "type": "pnj",
-          "_id": "wzGPN4jKsIkehHOq",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 900000
-        },
-        {
-          "folder": "F4jaJMjp5lYWuGIV",
-          "name": "Oiseau-Roc",
-          "type": "pnj",
-          "_id": "y39fjMKqWSHpvEaE",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 112500
-        },
-        {
-          "folder": "j9Ifjnnoikdu1HKh",
-          "name": "Chien de garde",
-          "type": "pnj",
-          "_id": "yoUi2drnVRhJqOAh",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 200000
-        },
-        {
-          "folder": "aCvkVo2TujlyjKNK",
-          "name": "Fantôme, Spectre",
-          "type": "pnj",
-          "_id": "ziHaRxgQBiUfTr32",
-          "img": "icons/svg/mystery-man.svg",
-          "sort": 0
-        }
-      ],
-      "folders": [
-        {
-          "name": "Démons",
-          "sorting": "a",
-          "folder": null,
-          "type": "Actor",
-          "_id": "2whJcjha6hOOiMIf",
-          "sort": 100000,
-          "color": null,
-          "flags": {},
-          "_stats": {
-            "systemId": "brigandyne",
-            "systemVersion": "1.0.0",
-            "coreVersion": "11.315",
-            "createdTime": 1707250413329,
-            "modifiedTime": 1707331146530,
-            "lastModifiedBy": "UwlimL2UASASR0DY"
-          }
-        },
-        {
-          "name": "Animaux légendaires",
-          "sorting": "a",
-          "folder": null,
-          "type": "Actor",
-          "_id": "F4jaJMjp5lYWuGIV",
-          "sort": 100000,
-          "color": null,
-          "flags": {},
-          "_stats": {
-            "systemId": "brigandyne",
-            "systemVersion": "1.0.0",
-            "coreVersion": "11.315",
-            "createdTime": 1707250362977,
-            "modifiedTime": 1707331143941,
-            "lastModifiedBy": "UwlimL2UASASR0DY"
-          }
-        },
-        {
-          "name": "Hybrides",
-          "sorting": "a",
-          "folder": null,
-          "type": "Actor",
-          "_id": "F78R95p1pR9soE2Z",
-          "sort": 100000,
-          "color": null,
-          "flags": {},
-          "_stats": {
-            "systemId": "brigandyne",
-            "systemVersion": "1.0.0",
-            "coreVersion": "11.315",
-            "createdTime": 1707252034853,
-            "modifiedTime": 1707331155934,
-            "lastModifiedBy": "UwlimL2UASASR0DY"
-          }
-        },
-        {
-          "name": "Mort-vivants",
-          "sorting": "a",
-          "folder": null,
-          "type": "Actor",
-          "_id": "aCvkVo2TujlyjKNK",
-          "sort": 100000,
-          "color": null,
-          "flags": {},
-          "_stats": {
-            "systemId": "brigandyne",
-            "systemVersion": "1.0.0",
-            "coreVersion": "11.315",
-            "createdTime": 1707252579862,
-            "modifiedTime": 1707331157859,
-            "lastModifiedBy": "UwlimL2UASASR0DY"
-          }
-        },
-        {
-          "name": "Dragons",
-          "sorting": "a",
-          "folder": null,
-          "type": "Actor",
-          "_id": "hnhdMGHyDbT6s5Na",
-          "sort": 100000,
-          "color": null,
-          "flags": {},
-          "_stats": {
-            "systemId": "brigandyne",
-            "systemVersion": "1.0.0",
-            "coreVersion": "11.315",
-            "createdTime": 1707250979855,
-            "modifiedTime": 1707331151150,
-            "lastModifiedBy": "UwlimL2UASASR0DY"
-          }
-        },
-        {
-          "name": "Gobelinoïdes",
-          "sorting": "a",
-          "folder": null,
-          "type": "Actor",
-          "_id": "ho3JBm3k7uO0wudi",
-          "sort": 100000,
-          "color": null,
-          "flags": {},
-          "_stats": {
-            "systemId": "brigandyne",
-            "systemVersion": "1.0.0",
-            "coreVersion": "11.315",
-            "createdTime": 1707251304610,
-            "modifiedTime": 1707331153875,
-            "lastModifiedBy": "UwlimL2UASASR0DY"
-          }
-        },
-        {
-          "name": "Animaux",
-          "sorting": "a",
-          "folder": null,
-          "type": "Actor",
-          "_id": "j9Ifjnnoikdu1HKh",
-          "sort": 100000,
-          "color": null,
-          "flags": {},
-          "_stats": {
-            "systemId": "brigandyne",
-            "systemVersion": "1.0.0",
-            "coreVersion": "11.315",
-            "createdTime": 1707250348051,
-            "modifiedTime": 1707331140851,
-            "lastModifiedBy": "UwlimL2UASASR0DY"
-          }
-        }
-      ]
-    },
-    {
-      "label": "Archetype",
-      "type": "Item",
-      "name": "archetype",
-      "path": "packs/archetype",
-      "system": "brigandyne",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {},
-      "package": "world"
-    },
-    {
-      "label": "Carrières",
-      "type": "Item",
-      "name": "carrieres",
-      "path": "packs/carrieres",
-      "system": "brigandyne",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {},
-      "package": "world"
-    },
-    {
-      "label": "Sorts",
-      "type": "Item",
-      "name": "sorts",
-      "path": "packs/sorts",
-      "system": "brigandyne",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {},
-      "package": "world"
-    }
+  "background": "systems/brigandyne/assets/img/templar_diviners.jpg",
+  "compatibility": {
+    "maximum": "11",
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "Brigandyne JDR",
+  "esmodules": [
+    "module/brigandyne.mjs"
   ],
+  "id": "brigandyne",
   "languages": [
     {
       "lang": "fr",
       "name": "Français",
       "path": "lang/fr.json"
+    }
+  ],
+  "packs": [
+    {
+      "flags": {},
+      "label": "Armures",
+      "name": "armures",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
+      },
+      "path": "packs/armures",
+      "system": "brigandyne",
+      "type": "Item"
+    },
+    {
+      "flags": {},
+      "label": "Armes de tir",
+      "name": "armes-de-tir",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
+      },
+      "package": "world",
+      "path": "packs/armes-de-tir",
+      "system": "brigandyne",
+      "type": "Item"
+    },
+    {
+      "flags": {},
+      "label": "Armes de mélée",
+      "name": "armes-de-melee",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
+      },
+      "path": "packs/armes-de-melee",
+      "system": "brigandyne",
+      "type": "Item"
+    },
+    {
+      "flags": {},
+      "label": "Peuple",
+      "name": "peuple",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
+      },
+      "package": "world",
+      "path": "packs/peuple",
+      "system": "brigandyne",
+      "type": "Item"
+    },
+    {
+      "flags": {},
+      "folders": [
+        {
+          "_id": "2whJcjha6hOOiMIf",
+          "_stats": {
+            "coreVersion": "11.315",
+            "createdTime": 1707250413329,
+            "lastModifiedBy": "UwlimL2UASASR0DY",
+            "modifiedTime": 1707331146530,
+            "systemId": "brigandyne",
+            "systemVersion": "1.0.0"
+          },
+          "color": null,
+          "flags": {},
+          "folder": null,
+          "name": "Démons",
+          "sort": 100000,
+          "sorting": "a",
+          "type": "Actor"
+        },
+        {
+          "_id": "F4jaJMjp5lYWuGIV",
+          "_stats": {
+            "coreVersion": "11.315",
+            "createdTime": 1707250362977,
+            "lastModifiedBy": "UwlimL2UASASR0DY",
+            "modifiedTime": 1707331143941,
+            "systemId": "brigandyne",
+            "systemVersion": "1.0.0"
+          },
+          "color": null,
+          "flags": {},
+          "folder": null,
+          "name": "Animaux légendaires",
+          "sort": 100000,
+          "sorting": "a",
+          "type": "Actor"
+        },
+        {
+          "_id": "F78R95p1pR9soE2Z",
+          "_stats": {
+            "coreVersion": "11.315",
+            "createdTime": 1707252034853,
+            "lastModifiedBy": "UwlimL2UASASR0DY",
+            "modifiedTime": 1707331155934,
+            "systemId": "brigandyne",
+            "systemVersion": "1.0.0"
+          },
+          "color": null,
+          "flags": {},
+          "folder": null,
+          "name": "Hybrides",
+          "sort": 100000,
+          "sorting": "a",
+          "type": "Actor"
+        },
+        {
+          "_id": "aCvkVo2TujlyjKNK",
+          "_stats": {
+            "coreVersion": "11.315",
+            "createdTime": 1707252579862,
+            "lastModifiedBy": "UwlimL2UASASR0DY",
+            "modifiedTime": 1707331157859,
+            "systemId": "brigandyne",
+            "systemVersion": "1.0.0"
+          },
+          "color": null,
+          "flags": {},
+          "folder": null,
+          "name": "Mort-vivants",
+          "sort": 100000,
+          "sorting": "a",
+          "type": "Actor"
+        },
+        {
+          "_id": "hnhdMGHyDbT6s5Na",
+          "_stats": {
+            "coreVersion": "11.315",
+            "createdTime": 1707250979855,
+            "lastModifiedBy": "UwlimL2UASASR0DY",
+            "modifiedTime": 1707331151150,
+            "systemId": "brigandyne",
+            "systemVersion": "1.0.0"
+          },
+          "color": null,
+          "flags": {},
+          "folder": null,
+          "name": "Dragons",
+          "sort": 100000,
+          "sorting": "a",
+          "type": "Actor"
+        },
+        {
+          "_id": "ho3JBm3k7uO0wudi",
+          "_stats": {
+            "coreVersion": "11.315",
+            "createdTime": 1707251304610,
+            "lastModifiedBy": "UwlimL2UASASR0DY",
+            "modifiedTime": 1707331153875,
+            "systemId": "brigandyne",
+            "systemVersion": "1.0.0"
+          },
+          "color": null,
+          "flags": {},
+          "folder": null,
+          "name": "Gobelinoïdes",
+          "sort": 100000,
+          "sorting": "a",
+          "type": "Actor"
+        },
+        {
+          "_id": "j9Ifjnnoikdu1HKh",
+          "_stats": {
+            "coreVersion": "11.315",
+            "createdTime": 1707250348051,
+            "lastModifiedBy": "UwlimL2UASASR0DY",
+            "modifiedTime": 1707331140851,
+            "systemId": "brigandyne",
+            "systemVersion": "1.0.0"
+          },
+          "color": null,
+          "flags": {},
+          "folder": null,
+          "name": "Animaux",
+          "sort": 100000,
+          "sorting": "a",
+          "type": "Actor"
+        }
+      ],
+      "id": "world.bestiaire",
+      "index": [
+        {
+          "_id": "3F4knINqb6uSvTbJ",
+          "folder": "2whJcjha6hOOiMIf",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Vermine démoniaque",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "3e4WE5fPpnXkJ5wH",
+          "folder": "ho3JBm3k7uO0wudi",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Guerrier orque",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "5ElWhanWiYdQarXA",
+          "folder": "2whJcjha6hOOiMIf",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Démon médian, légionnaire des Enfers",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "5T3kegRklx2QuKEF",
+          "folder": "ho3JBm3k7uO0wudi",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Sorcier orque",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "5ck5nzKvOPPTryWz",
+          "folder": "2whJcjha6hOOiMIf",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Démon majeur, seigneur-démon",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "9C7SPI0hGs37pNfR",
+          "folder": "F78R95p1pR9soE2Z",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Homme-lézard",
+          "sort": 600000,
+          "type": "pnj"
+        },
+        {
+          "_id": "Bch37ASo2F9QIOgU",
+          "folder": "ho3JBm3k7uO0wudi",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Troll",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "CNGg9rummPJikziW",
+          "folder": "F78R95p1pR9soE2Z",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Harpie",
+          "sort": 500000,
+          "type": "pnj"
+        },
+        {
+          "_id": "GWD8KMob5ErDTOFn",
+          "folder": "hnhdMGHyDbT6s5Na",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Dragon vert",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "HB9Agwc7ND4Wa626",
+          "folder": "j9Ifjnnoikdu1HKh",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Ours",
+          "sort": 112500,
+          "type": "pnj"
+        },
+        {
+          "_id": "JsYAtItr1I2faY2N",
+          "folder": "F4jaJMjp5lYWuGIV",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Basilic",
+          "sort": 100000,
+          "type": "pnj"
+        },
+        {
+          "_id": "LWLblbYQj0G0Q2Za",
+          "folder": "j9Ifjnnoikdu1HKh",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Loup",
+          "sort": 150000,
+          "type": "pnj"
+        },
+        {
+          "_id": "LcSuogHu739mPUBf",
+          "folder": "2whJcjha6hOOiMIf",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Abomination",
+          "sort": 100000,
+          "type": "pnj"
+        },
+        {
+          "_id": "NlY16Wsi3fFImNzD",
+          "folder": "2whJcjha6hOOiMIf",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Démon mineur, diablotin",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "PVjLFf7ul2KuwxZp",
+          "folder": "hnhdMGHyDbT6s5Na",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Dragon blanc",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "QFehy9TLzc2LMMkf",
+          "folder": "ho3JBm3k7uO0wudi",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Gobelin",
+          "sort": 100000,
+          "type": "pnj"
+        },
+        {
+          "_id": "QJEmD8abmtVoOTxN",
+          "folder": "2whJcjha6hOOiMIf",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Chevalier-démon",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "QVb72VXrqILmVYRi",
+          "folder": "F4jaJMjp5lYWuGIV",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Guivre, vouivre",
+          "sort": 150000,
+          "type": "pnj"
+        },
+        {
+          "_id": "S1hokXVL34uW82Nk",
+          "folder": "hnhdMGHyDbT6s5Na",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Dragon bleu",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "S4ptr9kJo7ffqoEf",
+          "folder": "aCvkVo2TujlyjKNK",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Zombie",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "ThwacF2ar9v3or0t",
+          "folder": "2whJcjha6hOOiMIf",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Incube/Succube",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "TkYAceaOWLcqhkJZ",
+          "folder": "F78R95p1pR9soE2Z",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Skavvi, homme-rat",
+          "sort": 800000,
+          "type": "pnj"
+        },
+        {
+          "_id": "V2DKr0Bkdu63wUWs",
+          "folder": "F78R95p1pR9soE2Z",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Centaure",
+          "sort": 400000,
+          "type": "pnj"
+        },
+        {
+          "_id": "Wfo1fuZCox1JQGcU",
+          "folder": "hnhdMGHyDbT6s5Na",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Dragon noir",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "WgtjfsClxWwpwSmz",
+          "folder": "F78R95p1pR9soE2Z",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Akokraa",
+          "sort": 200000,
+          "type": "pnj"
+        },
+        {
+          "_id": "YEqusraev3jpecVy",
+          "folder": "ho3JBm3k7uO0wudi",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Ogre",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "ZHrriNbjK2JOWV42",
+          "folder": "F78R95p1pR9soE2Z",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Minotaure",
+          "sort": 700000,
+          "type": "pnj"
+        },
+        {
+          "_id": "ZJCWtAv6iZMLXhlq",
+          "folder": "aCvkVo2TujlyjKNK",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Goule",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "bjSaHls8hPICHufB",
+          "folder": "aCvkVo2TujlyjKNK",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Liche",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "eC6Cm0KlVyn7NmmR",
+          "folder": "2whJcjha6hOOiMIf",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Glouton, démon dévoreur",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "erjq9tYEqhozj8Jr",
+          "folder": "j9Ifjnnoikdu1HKh",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Nuées",
+          "sort": 125000,
+          "type": "pnj"
+        },
+        {
+          "_id": "gOiidCxgpum5q1VT",
+          "folder": "F4jaJMjp5lYWuGIV",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Licorne",
+          "sort": 125000,
+          "type": "pnj"
+        },
+        {
+          "_id": "ghm8dX3Iuoij7tUf",
+          "folder": "F78R95p1pR9soE2Z",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Gnolh",
+          "sort": 100000,
+          "type": "pnj"
+        },
+        {
+          "_id": "iRiV0a3HnF519pzP",
+          "folder": "aCvkVo2TujlyjKNK",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Squelette",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "rhd0xwoxGwtImzSH",
+          "folder": "F78R95p1pR9soE2Z",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Broho",
+          "sort": 300000,
+          "type": "pnj"
+        },
+        {
+          "_id": "t1ldiNqfhidwDe1i",
+          "folder": "2whJcjha6hOOiMIf",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Pestilent",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "tU1NijhSOzoE7x9u",
+          "folder": "2whJcjha6hOOiMIf",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Molosse infernal",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "uus3D7t3ldSz3LMJ",
+          "folder": "F4jaJMjp5lYWuGIV",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Griffon",
+          "sort": 200000,
+          "type": "pnj"
+        },
+        {
+          "_id": "vV0o2IdBBWasvRQi",
+          "folder": "j9Ifjnnoikdu1HKh",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Araignée géante",
+          "sort": 100000,
+          "type": "pnj"
+        },
+        {
+          "_id": "vaocOoh1w5QQuXV3",
+          "folder": "j9Ifjnnoikdu1HKh",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Rat géant",
+          "sort": 106250,
+          "type": "pnj"
+        },
+        {
+          "_id": "vlBkzfg7ep7whThA",
+          "folder": "hnhdMGHyDbT6s5Na",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Dragon rouge",
+          "sort": 0,
+          "type": "pnj"
+        },
+        {
+          "_id": "wzGPN4jKsIkehHOq",
+          "folder": "F78R95p1pR9soE2Z",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Triton, sirène",
+          "sort": 900000,
+          "type": "pnj"
+        },
+        {
+          "_id": "y39fjMKqWSHpvEaE",
+          "folder": "F4jaJMjp5lYWuGIV",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Oiseau-Roc",
+          "sort": 112500,
+          "type": "pnj"
+        },
+        {
+          "_id": "yoUi2drnVRhJqOAh",
+          "folder": "j9Ifjnnoikdu1HKh",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Chien de garde",
+          "sort": 200000,
+          "type": "pnj"
+        },
+        {
+          "_id": "ziHaRxgQBiUfTr32",
+          "folder": "aCvkVo2TujlyjKNK",
+          "img": "icons/svg/mystery-man.svg",
+          "name": "Fantôme, Spectre",
+          "sort": 0,
+          "type": "pnj"
+        }
+      ],
+      "label": "Bestiaire",
+      "name": "bestiaire",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
+      },
+      "package": "world",
+      "packageName": "test-brigandyne",
+      "packageType": "world",
+      "path": "packs/bestiaire",
+      "system": "brigandyne",
+      "type": "Actor"
+    },
+    {
+      "flags": {},
+      "label": "Archetype",
+      "name": "archetype",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
+      },
+      "package": "world",
+      "path": "packs/archetype",
+      "system": "brigandyne",
+      "type": "Item"
+    },
+    {
+      "flags": {},
+      "label": "Carrières",
+      "name": "carrieres",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
+      },
+      "package": "world",
+      "path": "packs/carrieres",
+      "system": "brigandyne",
+      "type": "Item"
+    },
+    {
+      "flags": {},
+      "label": "Sorts",
+      "name": "sorts",
+      "ownership": {
+        "ASSISTANT": "OWNER",
+        "PLAYER": "OBSERVER"
+      },
+      "package": "world",
+      "path": "packs/sorts",
+      "system": "brigandyne",
+      "type": "Item"
     }
   ],
   "scripts": [
@@ -628,11 +630,9 @@
     "module/sheets/actorSheet.mjs",
     "module/utils/actor.mjs"
   ],
-  "esmodules": [
-    "module/brigandyne.js"
-  ],
   "styles": [
     "css/brigandyne.css"
   ],
-  "background": "systems/brigandyne/assets/img/templar_diviners.jpg"
+  "title": "Brigandyne",
+  "version": "1.0.0"
 }
