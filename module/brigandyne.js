@@ -21,7 +21,6 @@ Hooks.once('init', () => {
     BrigandyneItem,
   };
 
-
   // Add custom constants for configuration.
   CONFIG.BRIGANDYNE = brigandyne
 
@@ -58,16 +57,16 @@ Hooks.once('init', () => {
 
   Handlebars.registerHelper('lookupProp', function (obj, key) {
     return obj ? obj[key] : '';
- });
+  });
 
   Handlebars.registerHelper('check-carriere-competence-value', function (competences, competenceName, value) {
     if (!competences) return
     return competences[competenceName] == value;
- });
+  });
 
   Handlebars.registerHelper('check-progression', function (competences, value) {
     return competences.progression >= value;
- });
+  });
 
   return preloadHandlebarsTemplates()
 })
