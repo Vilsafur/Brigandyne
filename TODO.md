@@ -8,3 +8,18 @@
   - ajout de modificateur
 - [ ] Macro de lancé de dés
 - [ ] Ajout du bestiaire complet
+
+## Data Models
+- [ ] CommonItemData
+- [ ] CharacterData
+- [ ] NpcData
+- [ ] ObjectData
+- [ ] ArmorData
+- [ ] SpellData
+- [ ] IngredientData
+- [ ] PotionData
+- [ ] MeleeWeaponData
+- [ ] RangedWeaponData
+- [ ] PeopleData
+- [ ] ArchetypeData
+- [ ] CareerData
