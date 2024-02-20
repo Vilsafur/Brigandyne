@@ -33,7 +33,7 @@ export class CommonActorData extends foundry.abstract.TypeDataModel {
         shooting: new fields.SchemaField(skillField()),
         willingness: new fields.SchemaField(skillField())
       }),
-      description: new fields.HtmlField({
+      description: new fields.HTMLField({
         initial: ""
       }),
       vitality: new fields.NumberField({

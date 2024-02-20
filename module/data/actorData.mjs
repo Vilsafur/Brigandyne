@@ -1,8 +1,8 @@
 export class ActorData extends foundry.abstract.TypeDataModel {
   static defineSchema() {
-    const Fields = foundry.data.fields
+    const Fields = foundry.data.fields;
 
-    console.debug(`Brigandyne | ActorData`)
+    console.debug(`Brigandyne | ActorData`);
 
     return {
       vitalite: new Fields.NumberField({
@@ -11,9 +11,9 @@ export class ActorData extends foundry.abstract.TypeDataModel {
         min: 0,
         max: 30,
         integer: true,
-        positive: true
+        positive: true,
       }),
       biography: new Fields.HTMLField(),
-    }
+    };
   }
 }
