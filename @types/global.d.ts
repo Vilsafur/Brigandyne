@@ -1,18 +1,267 @@
 declare var foundry: {
-  CONST: any,
+  /**
+   * @description
+   * Définitions constantes utilisées dans le cadre du Foundry Virtual Tabletop.
+   */
+  CONST: {
+    /** @description Le nom abrégé du logiciel */
+    readonly vtt: string
+    /** @description Le nom complet du logiciel */
+    readonly VTT: string
+    /** @description L'URL du site web du logiciel */
+    readonly WEBSITE_URL: string
+    /** @description L'URL de l'API serverless */
+    readonly WEBSITE_API_URL: string
+    /** @description Un message d'accueil ASCII affiché au client */
+    readonly ASCII: string
+    /** @description Défini le nom de la chaîne utilisée pour le type de document de base lorsque des sous-types spécifiques ne sont pas définis par le système. */
+    readonly BASE_DOCUMENT_TYPE: string
+    /** @description Défini l'ensemble des langues qui ont un support intégré dans le logiciel de base */
+    readonly CORE_SUPPORTED_LANGUAGES: string[]
+    /** @description L'illustration par défaut utilisée pour les images de jetons si aucune n'est fournie. */
+    readonly DEFAULT_TOKEN: string
+    /** @description Défini les types de classes de documents autorisés. */
+    readonly DOCUMENT_TYPES: string[]
+    /** @description Les types de documents autorisés qui peuvent exister dans un pack Compendium. */
+    readonly COMPENDIUM_DOCUMENT_TYPES: string[]
+    /** @description Défini les types de documents autorisés qui peuvent être liés dynamiquement dans le chat */
+    readonly DOCUMENT_LINK_TYPES: string[]
+    /** @description Défini les types de documents autorisés que les dossiers peuvent contenir */
+    readonly FOLDER_DOCUMENT_TYPES: string[]
+    /** @description Niveau de profondeur maximal autorisé pour l'imbrication des dossiers */
+    readonly FOLDER_MAX_DEPTH: number
+    /** @description Une liste de noms d'URL de jeux autorisés */
+    readonly GAME_VIEWS: string[]
+    /** @description La taille minimale de la grille prise en charge par le logiciel. */
+    readonly GRID_MIN_SIZE: number
+    /** @description Liste des noms d'URL de configuration pris en charge */
+    readonly SETUP_VIEWS: string[]
+    /** @description Un tableau de valeurs valides pour le champ d'application de la MacroAction */
+    readonly MACRO_SCOPES: string[]
+    /** @description Les modes de recherche disponibles dans une DirectoryCollection */
+    readonly DIRECTORY_SEARCH_MODES: {
+      FULL: string
+      NAME: string
+    }
+    /** @description Les types de paquets autorisés */
+    readonly PACKAGE_TYPES: string[]
+    /** @description Une chaîne de mots de passe sûre qui peut être affichée */
+    readonly PASSWORD_SAFE_STRING: string
+    /** @description La densité de tri par défaut pour ordonner manuellement les objets enfants à l'intérieur d'un parent */
+    readonly SORT_INTEGER_DENSITY: number
+    /** @description Alias de l'ancienne définition des modes d'occlusion des tuiles */
+    readonly TILE_OCCLUSION_MODES: {
+      /** @description Désactive l'occlusion, de sorte que la tuile ne s'efface jamais lorsque des jetons se trouvent en dessous. */
+      NONE: number,
+      /** @description Fait en sorte que la tuile entière s'estompe lorsqu'un jeton acteur se déplace en dessous d'elle. */
+      FADE: number
+      /** @description La tuile révèle l'arrière-plan à proximité d'un jeton acteur situé en dessous. Le rayon est déterminé par la taille du jeton. */
+      RADIAL: number
+      /** 
+       * @description Causes the tile to be partially revealed based on the vision of the actor, which does not need to be under the tile to see what's beneath it. \
+       * Ceci est utile pour les toits des bâtiments où les joueurs peuvent voir à travers une fenêtre ou une porte, en ne voyant qu'une partie de ce qui est obscurci par le toit lui-même.
+       */
+      VISION: number
+    }
+    /** @description Défini les capacités reconnues de l'utilisateur que les utilisateurs individuels ou les niveaux de rôle peuvent être autorisés à exécuter. */
+    readonly USER_PERMISSIONS: any
+    /** @description Les différentes façons d'interagir avec une porte */
+    readonly WALL_DOOR_INTERACTIONS: string[]
+    /** @description Les propriétés du mur qui limitent la façon dont l'interaction se produit avec un mur spécifique. */
+    readonly WALL_RESTRICTION_TYPES: string[]
+    /** @description L'ensemble des extensions de modèles HTML autorisées. */
+    readonly HTML_FILE_EXTENSIONS: string[]
+    /** @description Les extensions de fichiers prises en charge pour les fichiers de type image, et les types de mime correspondants. */
+    readonly IMAGE_FILE_EXTENSIONS: object
+    /** @description Les extensions de fichiers prises en charge pour les fichiers de type vidéo, et les types de mime correspondants. */
+    readonly VIDEO_FILE_EXTENSIONS: object
+    /** @description Les extensions de fichiers prises en charge pour les fichiers de type audio, et les types de mime correspondants. */
+    readonly AUDIO_FILE_EXTENSIONS: object
+    /** @description Les extensions de fichiers prises en charge pour les fichiers texte, et les types de mime correspondants. */
+    readonly TEXT_FILE_EXTENSIONS: object
+    /** @description Extensions de fichiers prises en charge pour les fichiers de polices, et leurs types de mime correspondants. */
+    readonly FONT_FILE_EXTENSIONS: object
+    /** @description Extensions de fichiers supportées pour les fichiers 3D, et leurs types de mime correspondants. */
+    readonly GRAPHICS_FILE_EXTENSIONS: object
+    /** @description Une cartographie consolidée de toutes les extensions autorisées pour le téléchargement. */
+    readonly UPLOADABLE_FILE_EXTENSIONS: object
+    /** @description Liste des types MIME qui sont traités comme des "médias" téléchargés et qui sont autorisés à remplacer des fichiers existants. Tout type MIME non multimédia n'est pas autorisé à remplacer un fichier existant. */
+    readonly MEDIA_MIME_TYPES: string[]
+    /** @description Une énumération de catégories de types de fichiers qui peuvent être sélectionnées */
+    readonly FILE_CATEGORIES: {
+      HTML: string[]
+      IMAGE: object
+      VIDEO: object
+      AUDIO: object
+      TEXT: object
+      FONT: object
+      GRAPHICS: object
+      MEDIA: string[]
+    }
+    /** @description Un sous-ensemble de types du Compendium qui nécessitent un système spécifique pour être désignés. */
+    readonly SYSTEM_SPECIFIC_COMPENDIUM_TYPES: string[]
+    /** @description Les options configurées du convertisseur bidirectionnel HTML <-> Markdown. */
+    readonly SHOWDOWN_OPTIONS: any
+    /** @description La liste des attributs autorisés dans les éléments HTML. */
+    readonly ALLOWED_HTML_ATTRIBUTES: { [x: string]: string[] }
+    /** @description La liste des domaines de confiance pour les iframes. */
+    readonly TRUSTED_IFRAME_DOMAINS: string[]
+    /** @description Page de configuration du protocole de progression des paquets. */
+    readonly SETUP_PACKAGE_PROGRESS: {
+      ACTIONS: any
+      STEPS: any
+    }
+    /** @description Les annonces de combat. */
+    readonly COMBAT_ANNOUNCEMENTS: string[]
+    /**
+     * @description 
+     * Défini les modes d'application autorisés de l'ActiveEffect.\
+     * D'autres numéros de mode arbitraires peuvent être utilisés par les systèmes et les modules pour identifier des comportements particuliers et sont ignorés.
+     */
+    readonly ACTIVE_EFFECT_MODES: {
+      /** @description Utilisé pour indiquer que la gestion de l'effet est programmée par un système ou un module. */
+      readonly CUSTOM: number
+      /**
+       * @description Multiplie une valeur de base numérique par la valeur d'effet numérique
+       * @example
+       * 2 (base) * 3 (effet) = 6 (derivé)
+       */
+      readonly MULTIPLY: number
+      /**
+       * @description Ajoute une valeur de base numérique à une valeur d'effet numérique, ou concatène des chaînes de caractères.
+       * @example
+       * 2 (base) + 3 (effet) = 5 (dérivé)
+       * @example
+       * "Hello" (base) + " World" (effet) = "Hello World" (dérivé)
+       */
+      readonly ADD: number
+      /**
+       * @description Conserve la valeur la plus basse entre la valeur de base et la valeur de l'effet
+       * @example
+       * 2 (base), 0 (effet) = 0 (dérivé)
+       * @example
+       * 2 (base), 3 (effet) = 2 (dérivé)
+       */
+      readonly DOWNGRADE: number
+      /**
+       * @description Conserve la plus grande valeur de la valeur de base et de la valeur de l'effet
+       * @example
+       * 2 (base), 4 (effet) = 4 (dérivé)
+       * @example
+       * 2 (base), 1 (effet) = 2 (dérivé)
+       */
+      readonly UPGRADE: number
+      /**
+       * @description Remplace directement la valeur de base par la valeur de l'effet
+       * @example
+       * 2 (base), 4 (effet) = 4 (dérivé)
+       */
+      readonly OVERRIDE: number
+    }
+    /**
+     * @description
+     * Défini les méthodes par lesquelles une carte peut être tirée d'une pile de cartes
+     */
+    readonly CARD_DRAW_MODES: {
+      /** 
+       * @description Tirer la première carte de la pile
+       * @alias CARD_DRAW_MODES.TOP
+       */
+      readonly FIRST: number
+      /** 
+       * @description Tirer la première carte de la pile
+       * @alias CARD_DRAW_MODES.FIRST
+       */
+      readonly TOP: number
+      /** 
+       * @description Tirer la dernière carte de la pile
+       * @alias CARD_DRAW_MODES.BOTTOM
+       */
+      readonly LAST: number
+      /** 
+       * @description Tirer la dernière carte de la pile
+       * @alias CARD_DRAW_MODES.LAST
+       */
+      readonly BOTTOM: number
+      /** 
+       * @description Tirez une carte au hasard dans la pile
+       */
+      readonly RANDOM: number
+    }
+    /** @description Types de messages de tchat valides  */
+    readonly CHAT_MESSAGE_TYPES: {
+      /** @description Un message de chat non catégorisé */
+      readonly OTHER: number
+      /** @description Le message est prononcé en dehors du personnage (OOC). Les messages OOC seront soulignés par la couleur du joueur afin de les rendre plus facilement reconnaissables. */
+      readonly OOC: number
+      /** @description Le message est prononcé par un personnage associé. */
+      readonly IC: number
+      /** @description Le message est une emote exécutée par le personnage sélectionné. En entrant "/emote agite sa main" tout en contrôlant un personnage nommé Simon, vous enverrez le message suivant : "Simon agite sa main". */
+      readonly EMOTE: number
+      /** @description Un message chuchoté à la cible. Si l'utilisateur qui envoie le message n'a pas la permission "Messages privés", les maîtres de jeu pourront voir le contenu du message même s'ils n'en sont pas les destinataires. Si la cible du chuchotement est un personnage, le chuchotement sera envoyé à la personne qui contrôle le jeton. */
+      readonly WHISPER: number
+      /** @description Un message qui est un lancé de dés. */
+      readonly ROLL: number
+    }
+    /** @description Les modes de visibilité des jets de dés pris en charge */
+    readonly DICE_ROLL_MODES: {
+      /** @description Ce jet est visible par tous les joueurs. */
+      readonly PUBLIC: string
+      /** @description Les jets de ce type ne sont visibles que par le joueur qui les a effectués et par les utilisateurs du maître de jeu. */
+      readonly PRIVATE: string
+      /** @description Un jet de dés privé visible uniquement par les utilisateurs du maître de jeu. Le joueur qui lance le dé ne verra pas le résultat de son propre jet. */
+      readonly BLIND: string
+      /** @description Un jet de dés privé qui n'est visible que par l'utilisateur qui l'a lancé. */
+      readonly SELF: string
+    }
+    /** @description Définir les niveaux d'autorisation de l'utilisateur. Chaque niveau se voit attribuer une valeur par ordre croissant. Les niveaux supérieurs accordent davantage de permissions. */
+    readonly USER_ROLES: {
+      /** @description L'utilisateur est empêché d'effectuer des actions dans Foundry Virtual Tabletop. Vous pouvez utiliser ce rôle pour interdire temporairement ou définitivement à un utilisateur de rejoindre le jeu. */
+      readonly NONE: number
+      /** @description L'utilisateur peut participer au jeu avec les autorisations dont dispose un joueur standard. Il ne peut pas effectuer certaines actions plus avancées qui nécessitent des autorisations de confiance, mais il dispose des fonctionnalités de base nécessaires pour opérer sur le plateau de jeu virtuel. */
+      readonly PLAYER: number
+      /** @description Similaire au rôle {@link USER_ROLES.PLAYER}, sauf qu'un utilisateur de confiance a la possibilité d'effectuer des actions plus avancées comme créer des dessins, des modèles mesurés, ou même de télécharger (facultativement) des fichiers multimédias sur le serveur. */
+      readonly TRUSTED: number
+      /** @description Un utilisateur spécial qui dispose d'un grand nombre des mêmes commandes dans le jeu qu'un utilisateur maître du jeu, mais qui n'a pas la possibilité d'effectuer des actions administratives telles que le changement de rôle des utilisateurs ou la modification des paramètres au niveau du monde. */
+      readonly ASSISTANT: number
+      /** @description Un utilisateur spécial qui a le contrôle administratif de ce monde spécifique. Les maîtres de jeu ont un comportement très différent de celui des joueurs, car ils ont la possibilité de voir tous les documents et objets du monde, ainsi que de configurer les paramètres du monde. */
+      readonly GAMEMASTER: number
+    }
+    /** @description Inverse le mappage de {@link USER_ROLES} pour récupérer les noms de rôle à partir d'un entier de rôle  */
+    readonly USER_ROLE_NAMES: {
+      [x: number]: string
+    }
+  },
 
+  /**
+   * @description
+   * Définitions de classes abstraites pour les concepts fondamentaux utilisés dans l'ensemble du cadre Foundry Virtual Tabletop.
+   */
   abstract: {
     DataModel: DataModelConstructor
     TypeDataModel: TypeDataModelConstructor
     Document: DocumentConstructor
   }
 
+  /**
+   * @description
+   * Options de configuration de l'application
+   */
   config: any
 
+  /**
+   * @description
+   * Définitions de schémas de données pour les modèles de données.
+   */
   data: {
+    /**
+     * @description
+     * Ce module contient des classes de champs de données qui sont utilisées pour définir un schéma de données. Un champ de données est responsable du nettoyage, de la validation et de l'initialisation de la valeur qui lui est attribuée. Chaque champ de données étend la classe DataField pour mettre en œuvre la logique propre au type de données qu'il contient.
+     */
     fields: {
       DataField: DataFieldConstructor
       NumberField: NumberFieldConstructor
+      AlphaField: AlphaFieldConstructor
       StringField: StringFieldConstructor
       HTMLField: HTMLFieldConstructor
       SchemaField: SchemaFieldConstructor
@@ -25,10 +274,22 @@ declare var foundry: {
     validators: any
   }
 
+  /**
+   * @description
+   * Définitions des documents utilisés dans le cadre du Foundry Virtual Tabletop.
+   */
   documents: any
 
+  /**
+   * @description
+   * Définitions, validations et schémas des données du paquet.
+   */
   packages: any
 
+  /**
+   * @description
+   * Fonctions utilitaires offrant des fonctionnalités utiles.
+   */
   utils: any
 
   types: any
@@ -39,7 +300,6 @@ interface DataModel {
    * @type {any}
    * @description
    * L'objet de données source pour cette instance de DataModel. Une fois construit, l'objet source est scellé de manière à ce qu'aucune clé ne puisse être ajoutée ou supprimée.
-   * @public
    */
   _source: any
 
@@ -160,10 +420,10 @@ interface DataModel {
 /**
  * @abstract @class
  * @description
- * Classe de base abstraite qui définit le schéma de données contenu dans un document.
+ * Classe de base abstraite qui définit le schéma de données contenu dans un Document.
  */
 interface DataModelConstructor {
-  new (
+  new(
     data?: {},
     __namedParameters?: {
       parent: any
@@ -171,10 +431,12 @@ interface DataModelConstructor {
     }
   ): DataModel
 
+  readonly prototype: DataModel
+
   /**
    * @type {SchemaField}
    * @description
-   * The Data Schema for all instances of this DataModel.
+   * Le schéma de données pour toutes les instances de ce modèle de données.
    */
   readonly schema: SchemaField
 
@@ -280,6 +542,11 @@ interface TypeDataModel extends DataModel {
   prepareDerivedData: () => void
 }
 
+/**
+ * @abstract @class
+ * @description
+ * Sous-classe spécialisée de DataModel, destinée à représenter les données spécifiques à un type de document. Les systèmes ou modules qui fournissent des implémentations de DataModel pour des sous-types de documents (tels que les acteurs ou les éléments) doivent sous-classer cette classe au lieu de la classe de base DataModel.
+ */
 interface TypeDataModelConstructor
   extends Pick<
     DataModelConstructor,
@@ -294,10 +561,11 @@ interface TypeDataModelConstructor
     | `shimData`
     | `validateJoint`
   > {
-  new (data?: {}): TypeDataModel
+  new(data?: {}): TypeDataModel
+  readonly prototype: TypeDataModel
 }
 
-interface _Document extends DataModel {}
+interface _Document extends DataModel { }
 interface DocumentConstructor
   extends Pick<
     DataModelConstructor,
@@ -312,15 +580,15 @@ interface DocumentConstructor
     | `shimData`
     | `validateJoint`
   > {
-  new (): _Document
+  new(): _Document
 }
 
-interface DataField {
+interface DataField<T = any> {
   /**
    * @description
    * Les options initialement fournies qui configurent le champ de données
    */
-  options: DataFieldOptions
+  options: DataFieldOptions<T>
 
   /**
    * @description
@@ -396,11 +664,17 @@ interface DataField {
   toObject: (value: any) => any
 }
 
+/**
+ * @abstract @class
+ * @description
+ * Classe abstraite qui définit le modèle de base d'un champ de données dans un schéma de données.
+ */
 interface DataFieldConstructor {
   /**
-   * @param {DataFieldOptions} [options = {}] Options qui configurent le comportement du champ
+   * @template T
+   * @param {DataFieldOptions<T>} [options = {}] Options qui configurent le comportement du champ
    */
-  new (options?: DataFieldOptions): DataField
+  new <T>(options?: DataFieldOptions<T>): DataField
 
   /**
    * @description
@@ -415,17 +689,17 @@ interface DataFieldConstructor {
   recursive: boolean
 }
 
-interface NumberField extends DataField {
+interface NumberField extends DataField<number> {
   nullable: boolean
   options: NumberFieldOptions
 }
 
 interface NumberFieldConstructor
   extends Pick<DataFieldConstructor, `hierarchical` | `recursive`> {
-  new (options?: NumberFieldOptions): NumberField
+  new(options?: NumberFieldOptions): NumberField
 }
 
-interface StringField extends DataField {
+interface StringField extends DataField<string> {
   nullable: boolean
   blank: boolean
   initial: string
@@ -434,7 +708,39 @@ interface StringField extends DataField {
 
 interface StringFieldConstructor
   extends Pick<DataFieldConstructor, `hierarchical` | `recursive`> {
-  new (options?: StringFieldOptions): StringField
+  new(options?: StringFieldOptions): StringField
+}
+
+interface BooleanField extends DataField<boolean> { }
+
+/**
+ * @abstract @class
+ * @description
+ * Une sous-classe de DataField qui traite les données de type booléen.
+ */
+interface BooleanFieldConstructor
+  extends Pick<DataFieldConstructor, `hierarchical` | `recursive`> {
+  new(options?: DataFieldOptions<boolean>): BooleanField
+}
+
+interface AlphaField extends NumberField { }
+
+interface AlphaFieldConstructor extends Pick<NumberFieldConstructor, `hierarchical` | `recursive`> {
+  new(options?: DataFieldOptions<0 | 1>): AlphaField
+}
+
+interface ArrayField<T = any> extends DataField<T[]> {
+  /** @description Le type de données de chaque élément de ce tableau */
+  element: DataField<T>
+}
+
+/**
+ * @abstract @class
+ * @description
+ * Une sous-classe de DataField qui traite les données de type tableau.
+ */
+interface ArrayFieldConstructor extends Pick<DataFieldConstructor, `hierarchical` | `recursive`> {
+  new <T>(element: DataField<T>, options?: DataFieldOptions<T>): ArrayField<T>
 }
 
 interface HTMLField extends DataField {
@@ -446,23 +752,56 @@ interface HTMLField extends DataField {
 
 interface HTMLFieldConstructor
   extends Pick<DataFieldConstructor, `hierarchical` | `recursive`> {
-  new (options?: StringFieldOptions): HTMLField
+  new(options?: StringFieldOptions): HTMLField
 }
 
-interface SchemaField extends DataField {}
+interface SchemaField extends DataField { }
 
 interface SchemaFieldConstructor
   extends Pick<DataFieldConstructor, `hierarchical` | `recursive`> {
-  new (fields: DataSchema, options?: DataFieldOptions): SchemaField
+  new(fields: DataSchema, options?: DataFieldOptions): SchemaField
 }
 
-interface DataFieldOptions {
+interface DocumentIdField extends StringField { }
+
+/**
+ * @abstract @class
+ * @description
+ * Une sous-classe de StringField qui fournit l'identifiant primaire d'un document. Le champ peut être initialement nul, mais il doit être non nul lorsqu'il est enregistré dans la base de données.
+ */
+interface DocumentIdFieldConstructor extends Pick<StringFieldConstructor, `hierarchical` | `recursive`> {
+  new(options?: DataFieldOptions<string> & { blank?: any }): DocumentIdField
+  prototype: DocumentIdField
+}
+
+interface ForeignDocumentField<T extends DataModel> extends DocumentIdField {
+  model: T
+}
+
+/**
+ * @abstract @class
+ * @description
+ * Classe spéciale de champ StringField qui fait référence à un autre DataModel par son identifiant. Ce champ peut également être nul pour indiquer qu'aucun modèle étranger n'est lié.
+ */
+interface ForeignDocumentFieldConstructor extends Pick<DocumentIdFieldConstructor, `hierarchical` | `recursive`> {
+  new <T extends DataModel>(
+    /**
+     * @description
+     * La définition de la classe du modèle de données étranger à laquelle ce champ doit être lié.
+     */
+    model: T,
+    options?: DataFieldOptions<string> & { blank?: any }
+  ): ForeignDocumentField<T>
+  prototype: ForeignDocumentField
+}
+
+interface DataFieldOptions<T> {
   /** @description Ce champ doit-il être renseigné ? */
   required?: boolean
   /** @description Ce champ peut-il avoir des valeurs nulles ? */
   nullable?: boolean
   /** @description La valeur initiale d'un champ, ou une fonction qui attribue cette valeur initiale. */
-  initial?: any
+  initial?: T
   /** @description Une fonction de validation des données qui accepte un argument avec la valeur actuelle. */
   validate?: Function
   /** @description Une étiquette localisable affichée sur les formulaires qui affichent ce champ. */
@@ -473,7 +812,7 @@ interface DataFieldOptions {
   validationError?: string
 }
 
-interface NumberFieldOptions extends DataFieldOptions {
+interface NumberFieldOptions extends DataFieldOptions<number> {
   /** @description Une valeur minimale autorisée */
   min?: number
   /** @description Une valeur maximale autorisée */
@@ -488,7 +827,7 @@ interface NumberFieldOptions extends DataFieldOptions {
   choices?: number[] | object | Function
 }
 
-interface StringFieldOptions extends DataFieldOptions {
+interface StringFieldOptions extends DataFieldOptions<string> {
   /** @description La chaîne peut-elle être vide ? */
   blank?: boolean
   /** @description Faut-il couper les ficelles fournies dans le cadre du nettoyage ? */
@@ -501,7 +840,7 @@ interface DataSchema {
   [field: string]: DataField
 }
 
-interface DataModelValidationFailure {}
+interface DataModelValidationFailure { }
 interface DataModelValidationFailureConstructor {
-  new (__namedParameters?: any): DataModelValidationFailure
+  new(__namedParameters?: any): DataModelValidationFailure
 }

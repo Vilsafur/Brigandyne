@@ -1,68 +1,86 @@
-const fields = foundry.data.fields;
+import { CommonData } from "./CommonData.mjs"
+
+const Fields = foundry.data.fields
 
 const skillField = () => ({
-  battle: new fields.SchemaField({
-    base: new fields.NumberField({
+  battle: new Fields.SchemaField({
+    base: new Fields.NumberField({
       initial: 0,
-      min: 0
+      min: 0,
     }),
-    progress: new fields.NumberField({
+    progress: new Fields.NumberField({
       initial: 0,
       min: 0,
       max: 0,
-      step: 5
-    })
-  })
+      step: 5,
+    }),
+  }),
 })
 
-export class CommonActorData extends foundry.abstract.TypeDataModel {
+export class CommonActorData extends CommonData {
   static defineSchema() {
+    const commonSchema = super.defineSchema()
+
     return {
-      skills: new fields.SchemaField({
-        battle: new fields.SchemaField(skillField()),
-        knowledge: new fields.SchemaField(skillField()),
-        discretion: new fields.SchemaField(skillField()),
-        endurance: new fields.SchemaField(skillField()),
-        strength: new fields.SchemaField(skillField()),
-        ability: new fields.SchemaField(skillField()),
-        magic: new fields.SchemaField(skillField()),
-        movement: new fields.SchemaField(skillField()),
-        perception: new fields.SchemaField(skillField()),
-        sociability: new fields.SchemaField(skillField()),
-        survival: new fields.SchemaField(skillField()),
-        shooting: new fields.SchemaField(skillField()),
-        willingness: new fields.SchemaField(skillField())
+      ...commonSchema,
+      skills: new Fields.SchemaField({
+        battle: new Fields.SchemaField(skillField()),
+        knowledge: new Fields.SchemaField(skillField()),
+        discretion: new Fields.SchemaField(skillField()),
+        endurance: new Fields.SchemaField(skillField()),
+        strength: new Fields.SchemaField(skillField()),
+        ability: new Fields.SchemaField(skillField()),
+        magic: new Fields.SchemaField(skillField()),
+        movement: new Fields.SchemaField(skillField()),
+        perception: new Fields.SchemaField(skillField()),
+        sociability: new Fields.SchemaField(skillField()),
+        survival: new Fields.SchemaField(skillField()),
+        shooting: new Fields.SchemaField(skillField()),
+        willingness: new Fields.SchemaField(skillField()),
       }),
-      description: new fields.HTMLField({
-        initial: ""
-      }),
-      vitality: new fields.NumberField({
+      vitality: new Fields.NumberField({
         min: 0,
-        initial: 0
+        max: 0,
+        initial: 0,
+        integer: true,
       }),
-      size: new fields.NumberField({
+      fortune: new Fields.NumberField({
         min: 0,
-        initial: 0
+        max: 0,
+        initial: 0,
+        integer: true,
       }),
-      weight: new fields.NumberField({
-        min: 0,
-        initial: 0
+      size: new Fields.NumberField({
+        min: 1,
+        initial: 1,
+        positive: true,
       }),
-      coins: new fields.SchemaField({
-        gold: new fields.NumberField({
-          initial: 0,
-          min: 0
-        }),
-        silver: new fields.NumberField({
+      weight: new Fields.NumberField({
+        min: 1,
+        initial: 1,
+        positive: true,
+      }),
+      coins: new Fields.SchemaField({
+        gold: new Fields.NumberField({
           initial: 0,
           min: 0,
-          max: 99
         }),
-        copper: new fields.NumberField({
+        silver: new Fields.NumberField({
           initial: 0,
           min: 0,
-          max: 99
+          max: 99,
         }),
+        copper: new Fields.NumberField({
+          initial: 0,
+          min: 0,
+          max: 99,
+        }),
+      }),
+      age: new Fields.NumberField({
+        min: 1,
+        initial: 1,
+        positive: true,
+        integer: true,
       }),
     }
   }
