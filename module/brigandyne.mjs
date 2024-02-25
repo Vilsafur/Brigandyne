@@ -8,7 +8,7 @@ import { preloadHandlebarsTemplates } from './helpers/templates.mjs'
 import { BrigandyneActorSheet } from './sheets/actorSheet.mjs'
 import { BrigandyneItemSheet } from './sheets/itemSheet.mjs'
 
-import { ActorData } from './data/actorData.mjs'
+import { CharacterData } from './data/characterData.mjs'
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -16,7 +16,7 @@ import { ActorData } from './data/actorData.mjs'
 Hooks.once('init', () => {
 	console.log('Brigandyne | Initialisation du système Brigandyne')
 
-	CONFIG.Actor.dataModels.actor = ActorData
+	CONFIG.Actor.dataModels.character = CharacterData
 
 	// Add utility classes to the global game object so that they're more easily
 	// accessible in global contexts.

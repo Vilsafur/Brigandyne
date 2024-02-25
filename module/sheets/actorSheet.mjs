@@ -35,8 +35,6 @@ export class BrigandyneActorSheet extends ActorSheet {
     //   this.actor.allApplicableEffects()
     // );
 
-    debugger
-
     console.log('Brigandyne | actorSheet | getData', context)
     return context 
   }
@@ -103,7 +101,7 @@ export class BrigandyneActorSheet extends ActorSheet {
   /**
    * Organize and classify Items for Character sheets.
    *
-   * @param {Object} actorData The actor to prepare.
+   * @param {Object} CommonActorData The actor to prepare.
    *
    * @return {undefined}
    */
