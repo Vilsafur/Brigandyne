@@ -38,7 +38,7 @@ export class CommonActorData extends CommonData {
         shooting: new Fields.SchemaField(skillField()),
         willingness: new Fields.SchemaField(skillField()),
       }),
-      vitality: new Fields.NumberField({
+      maxVitality: new Fields.NumberField({
         min: 0,
         max: 0,
         initial: 0,
@@ -81,6 +81,12 @@ export class CommonActorData extends CommonData {
         initial: 1,
         positive: true,
         integer: true,
+      }),
+      sexe: new Fields.StringField({
+        initial: ''
+      }),
+      eyes: new Fields.StringField({
+        initial: ''
       }),
     }
   }
